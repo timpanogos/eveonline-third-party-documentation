@@ -1,6 +1,9 @@
 site_name: EVE Online Third-Party Developer Documentation
 pages:
 - ['index.md', 'Home']
+- ['reference/license.md', 'Guidelines and Reference', 'Developer License']
+- ['reference/guidelines.md', 'Guidelines and Reference', 'Guidelines']
+- ['reference/reference.md', 'Guidelines and Reference', 'Quick Reference']
 - ['sso/intro.md', 'Single Sign-On (SS0)', 'Introduction']
 - ['sso/authentication.md', 'Single Sign-On (SS0)', 'Authentication Flow']
 - ['sso/refreshtokens.md', 'Single Sign-On (SS0)', 'Refresh Tokens']
