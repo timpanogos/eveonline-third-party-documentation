@@ -2,6 +2,7 @@
 
 # eveonline-third-party-documentation
 Documentation for EVE Online third-party developers. This covers things like the XML API, CREST, the Static Data Export (SDE), and SSO. You can read the latest version of the documentation [here](http://eveonline-third-party-documentation.readthedocs.org/en/latest/).
+Read the instructions below if you'd like to contribute.
 
 # Developing
 ## Setup
@@ -19,3 +20,16 @@ You will need to have python, pip and virtualenv installed (install virtualenv u
 
 ## Running
     mkdocs serve
+
+# Contributing
+Please organize your submissions by API "section" and submit a separate pull
+request for each change.  We suggest you create a separate branch for each
+pull request.  This will make it easier to work on multiple changes
+simultaneously.
+
+For example, to contribute a change to the XML API docs for MarketOrders:
+
+1. Create a branch (say, "marketorders") on your fork of [ccpgames/eveonline-third-party-documentation](https://github.com/ccpgames/eveonline-third-party-documentation)
+2. In your branch, make your changes to docs/xmlapi/endpoints.md in the MarketOrders section
+3. Submit a pull request from yourfork:marketorders to ccpgames:master
+
