@@ -19,24 +19,3 @@ You will need to have python, pip and virtualenv installed (install virtualenv u
 
 ## Running
     mkdocs serve
-
-## Running on Cloud 9
-If you're developing on [Cloud 9](https://c9.io/) you'll need to create a custom runner for mkdocs as follows:
-
-1. Go to Run->Run With->New Runner
-2. Replace the default runner text with the following:
-
-    {
-        "cmd" : [
-            "bash",
-            "--login",
-            "-c",
-            "cd $project_path ; mkdocs serve --dev-addr=$ip:$port"],
-        "info" : "Started mkdocs server"
-    }
-        
-3. Save the new runner
-4. Start the runner as follows:
-    a. Go to Run->Run With->(your new runner)
-    b. After your runner starts, click Preview->Preview Running Application (above the editor)
-
