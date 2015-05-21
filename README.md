@@ -25,7 +25,7 @@ If you're developing on [Cloud 9](https://c9.io/) you'll need to create a custom
 
 1. Go to Run->Run With->New Runner
 2. Replace the default runner text with the following:
-```
+
     {
         "cmd" : [
             "bash",
@@ -34,9 +34,9 @@ If you're developing on [Cloud 9](https://c9.io/) you'll need to create a custom
             "cd $project_path ; mkdocs serve --dev-addr=$ip:$port"],
         "info" : "Started mkdocs server"
     }
-```        
+        
 3. Save the new runner
 4. Start the runner as follows:
-  1. Go to Run->Run With->(your new runner)
-  2. After your runner starts, click Preview->Preview Running Application (above the editor)
+    a. Go to Run->Run With->(your new runner)
+    b. After your runner starts, click Preview->Preview Running Application (above the editor)
 
