@@ -197,53 +197,169 @@ rowCount:int
 * __Path:__ ``/char/MarketOrders.xml.aspx``
 * __Access mask:__ 4096
 * __Parameters:__
-    * __orderID:__ Optional order ID of order to retrieve.  If omitted, retrieves an order batch (see notes).
+    * __orderID (long):__ Optional order ID of order to retrieve.  If omitted, retrieves an order batch (see notes).
 * __Cache timer:__ 1 hour
 
 ### Result Data
 
-|        |              |              |                                                                                                                                    |
-|--------|--------------|--------------|------------------------------------------------------------------------------------------------------------------------------------|
-| orders | __rowset__   |              | Rowset containing 1 row per market order.                                                                                          |
-|        | orderID      | __long__     | Unique order ID.                                                                                                                   |
-|        | charID       | __long__     | Character ID of the character which placed this order.                                                                             |
-|        | stationID    | __int__      | Station ID where order was placed.                                                                                                 |
-|        | volEntered   | __int__      | Quantity of items required or offered at time order was placed.                                                                    |
-|        | volRemaining | __int__      | Quantity of items still required or offered.                                                                                       |
-|        | minVolume    | __int__      | For bids (buy orders), the minimum quantity that will be accepted in a matching offer (sell order).                                |
-|        | orderState   | __int__      | Current order state (see notes and table below).                                                                                   |
-|        | typeID       | __int__      | The type ID of the item transacted in this order.                                                                                  |
-|        | range        | __int__      | Valid order range (see table below).                                                                                               |
-|        | accountKey   | __int__      | Wallet division for the buyer or seller of this order.  Always 1000 for characters.  Currently 1000 through 1006 for corporations. |
-|        | duration     | __int__      | Numer of days for which order is valid (starting from the issued date).  An order expires at time issued + duration.               |
-|        | escrow       | __decimal__  | For buy orders, the amount of ISK in escrow.                                                                                       |
-|        | price        | __decimal__  | Cost per unit for this order.                                                                                                      |
-|        | bid          | __bool__     | True (1) for a bid (buy) order.  False (0) for an offer (sell) order.                                                              |
-|        | issued       | __datetime__ | Date and time when this order was issued.                                                                                          |
-
-### Value Definitions
-
-| Column     | Value | Meaning                                                          |
-|:-----------|:-----:|:-----------------------------------------------------------------|
-| orderState | 0     | Open or Active                                                   |
-|            | 1     | Closed order                                                     |
-|            | 2     | Expired or Fulfilled                                             |
-|            | 3     | Cancelled                                                        |
-|            | 4     | Pending                                                          |
-|            | 5     | Character Deleted                                                |
-|            |       |                                                                  |
-| range      | 32767 | Region (buy order).  Default value for all sell orders           |
-|            | -1    | Station (buy order)                                              |
-|            | 0     | Solar System (buy order)                                         |
-|            | 5, 10, 20, or 40 | Jumps from station where order was placed (buy order) |
-
-
-### SDE Cross References
-
-| Column    | SDE Table Cross Reference(s)                                                                                                                |
-|:----------|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| stationID | invNames.itemID, invItems.itemID, invPositions.itemID, invUniqueNames.itemID                                                                |
-| typeID    | invItems.typeID, invMetaTypes.typeID, invTraits.typeID, invTypeMaterials.typeID, invTypeReactions.typeID, invTypes.typeID, invVolumes.typeID|
+<table border="1">
+    <tbody>
+        <tr>
+            <td>orders</td>
+            <td><strong>rowset</strong></td>
+            <td></td>
+            <td>Rowset containing 1 row per mark order.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>orderID</td>
+            <td><strong>long</strong></td>
+            <td>Unique order ID.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>charID</td>
+            <td><strong>long</strong></td>
+            <td>Character ID of the character which placed this order.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>stationID</td>
+            <td><strong>int</strong></td>
+            <td>Station ID where order was placed.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>volEntered</td>
+            <td><strong>int</strong></td>
+            <td>Quantity of items required or offered at time order was placed.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>volRemaining</td>
+            <td><strong>int</strong></td>
+            <td>Quantity of items still required or offered.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>minVolume</td>
+            <td><strong>int</strong></td>
+            <td>For bids (buy orders), the minimum quantity that will be accepted in a matching offer (sell order).</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>orderState</td>
+            <td><strong>int</strong></td>
+            <td>Current order state:
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Value</th>
+                            <th>Meaning</th>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>Open or Active</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Closed</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Expired or Fulfilled</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Cancelled</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Pending</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Character Deleted</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>typeID</td>
+            <td><strong>int</strong></td>
+            <td>The type ID of the item transacted in this order.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>range</td>
+            <td><strong>int</strong></td>
+            <td>Valid order range:
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Value</th>
+                            <th>Meaning</th>
+                        </tr>
+                        <tr>
+                            <td>32767</td>
+                            <td>Region (buy order).  Default value for all sell orders.</td>
+                        </tr>
+                        <tr>
+                            <td>-1</td>
+                            <td>Station (buy order)</td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>Solar System (buy order)</td>
+                        </tr>
+                        <tr>
+                            <td>5, 10, 20, or 40</td>
+                            <td>Jumps from station where order was placed (buy order)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>accountKey</td>
+            <td><strong>int</strong></td>
+            <td>Wallet division for the buyer or seller of this order.  Always 1000 for characters.  Currently 1000 through 1006 for corporations.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>duration</td>
+            <td><strong>int</strong></td>
+            <td>Numer of days for which order is valid (starting from the issued date).  An order expires at time issued + duration.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>escrow</td>
+            <td><strong>decimal</strong></td>
+            <td>For buy orders, the amount of ISK in escrow.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>price</td>
+            <td><strong>decimal</strong></td>
+            <td>Cost per unit for this order.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>bid</td>
+            <td><strong>bool</strong></td>
+            <td>True (1) for a bid (buy) order.  False (0) for an offer (sell) order.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>issued</td>
+            <td><strong>datetime</strong></td>
+            <td>Date and time when this order was issued.</td>
+        </tr>
+    </tbody>
+</table>
 
 ### Sample Response
 
@@ -257,6 +373,25 @@ rowCount:int
     </rowset>
 </result>
 ```
+
+### SDE Cross References
+
+<table border="1">
+    <tbody>
+        <tr>
+            <th>Column</th>
+            <th>SDE Table Cross Reference(s)</th>
+        </tr>
+        <tr>
+            <td>stationID</td>
+            <td>invNames.itemID, invItems.itemID, invPositions.itemID, invUniqueNames.itemID</td>
+        </tr>
+        <tr>
+            <td>typeID</td>
+            <td>invItems.typeID, invMetaTypes.typeID, invTraits.typeID, invTypeMaterials.typeID, invTypeReactions.typeID, invTypes.typeID, invVolumes.typeID</td>
+        </tr>
+    </tbody>
+</table>
 
 ### Notes
 
