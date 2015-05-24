@@ -33,3 +33,4 @@ For example, to contribute a change to the XML API docs for MarketOrders:
 2. In your branch, make your changes to docs/xmlapi/endpoints.md in the MarketOrders section
 3. Submit a pull request from yourfork:marketorders to ccpgames:master
 
+Please also add your name to the CONTRIBUTORS file (sorted by first name please!).
