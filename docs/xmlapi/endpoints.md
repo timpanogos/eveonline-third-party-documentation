@@ -196,9 +196,35 @@ rowCount:int
 
 * __Path:__ ``/char/MarketOrders.xml.aspx``
 * __Access mask:__ 4096
-* __Parameters:__
-    * __orderID (long):__ Optional order ID of order to retrieve.  If omitted, retrieves an order batch (see notes).
 * __Cache timer:__ 1 hour
+* __Parameters:__
+    <table border="1">
+        <tbody>
+            <tr>
+                <th>Argument</th>
+                <th>Type</th>
+                <th>Meaning</th>
+            </tr>
+            <tr>
+                <td>orderID</td>
+                <td><strong>long</strong></td>
+                <td>Optional order ID of order to retrieve.  If omitted, retrieves an order batch (see notes).</td>
+            <tr>
+        </tbody>
+    </table>
+
+### Sample Response
+
+```xml
+<result>
+    <rowset name="orders" key="orderID" columns="orderID,charID,stationID,volEntered,volRemaining,minVolume,orderState,typeID,range,accountKey,duration,escrow,price,bid,issued">
+        <row orderID="4053334100" charID="1801683792" stationID="60005686" volEntered="340000" volRemaining="245705" minVolume="1" orderState="0" typeID="24488" range="32767" accountKey="1000" duration="90" escrow="0.00" price="92.00" bid="0" issued="2015-05-19 03:16:16"/>
+        <row orderID="4097983513" charID="1801683792" stationID="60005686" volEntered="390" volRemaining="336" minVolume="1" orderState="0" typeID="3568" range="32767" accountKey="1000" duration="14" escrow="0.00" price="480000.00" bid="0" issued="2015-05-20 03:40:06"/>
+        <row orderID="4111136138" charID="1801683792" stationID="60005701" volEntered="27" volRemaining="0" minVolume="1" orderState="2" typeID="20417" range="-1" accountKey="1000" duration="0" escrow="0.00" price="122000.00" bid="1" issued="2015-05-16 04:16:28"/>
+        <row orderID="4111136288" charID="1801683792" stationID="60007294" volEntered="79" volRemaining="0" minVolume="1" orderState="2" typeID="20417" range="-1" accountKey="1000" duration="0" escrow="0.00" price="130000.00" bid="1" issued="2015-05-16 04:16:37"/>
+    </rowset>
+</result>
+```
 
 ### Result Data
 
@@ -225,7 +251,13 @@ rowCount:int
         <tr>
             <td></td>
             <td>stationID</td>
-            <td><strong>int</strong></td>
+            <td nowrap>
+                <strong>int</strong><br>
+                [c.f. <a href="/sde/tableref/#inventory-names">invNames.itemID</a>]<br>
+                [c.f. <a href="/sde/tableref/#inventory-items">invItems.itemID</a>]<br>
+                [c.f. <a href="/sde/tableref/#inventory-positions">invPositions.itemID</a>]<br>
+                [c.f. <a href="/sde/tableref/#inventory-unique-names">invUniqueNames.itemID</a>]
+            </td>
             <td>Station ID where order was placed.</td>
         </tr>
         <tr>
@@ -249,78 +281,35 @@ rowCount:int
         <tr>
             <td></td>
             <td>orderState</td>
-            <td><strong>int</strong></td>
-            <td>Current order state:
-                <table>
-                    <tbody>
-                        <tr>
-                            <th>Value</th>
-                            <th>Meaning</th>
-                        </tr>
-                        <tr>
-                            <td>0</td>
-                            <td>Open or Active</td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Closed</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Expired or Fulfilled</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Cancelled</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Pending</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Character Deleted</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <td nowrap>
+                <strong>int</strong><br>
+                [c.f. <a href="/xmlapi/enumerations/#order-state">Order State</a>]
             </td>
+            <td>Current order state.</td>
         </tr>
         <tr>
             <td></td>
             <td>typeID</td>
-            <td><strong>int</strong></td>
+            <td nowrap>
+                <strong>int</strong><br>
+                [c.f. <a href="/sde/tableref/#inventory-items">invItems.typeID</a>]<br>
+                [c.f. <a href="/sde/tableref/#inventory-meta-types">invMetaTypes.typeID</a>]<br>
+                [c.f. <a href="/sde/tableref/#inventory-traits">invTraits.typeID</a>]<br>
+                [c.f. <a href="/sde/tableref/#inventory-type-materials">invTypeMaterials.typeID</a>]<br>
+                [c.f. <a href="/sde/tableref/#inventory-type-reactions">invTypeReactions.typeID</a>]<br>
+                [c.f. <a href="/sde/tableref/#inventory-types">invTypes.typeID</a>]<br>
+                [c.f. <a href="/sde/tableref/#inventory-volumes">invVolumes.typeID</a>]<br>
+            </td>
             <td>The type ID of the item transacted in this order.</td>
         </tr>
         <tr>
             <td></td>
             <td>range</td>
-            <td><strong>int</strong></td>
-            <td>Valid order range:
-                <table>
-                    <tbody>
-                        <tr>
-                            <th>Value</th>
-                            <th>Meaning</th>
-                        </tr>
-                        <tr>
-                            <td>32767</td>
-                            <td>Region (buy order).  Default value for all sell orders.</td>
-                        </tr>
-                        <tr>
-                            <td>-1</td>
-                            <td>Station (buy order)</td>
-                        </tr>
-                        <tr>
-                            <td>0</td>
-                            <td>Solar System (buy order)</td>
-                        </tr>
-                        <tr>
-                            <td>5, 10, 20, or 40</td>
-                            <td>Jumps from station where order was placed (buy order)</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <td nowrap>
+                <strong>int</strong><br>
+                [c.f. <a href="/xmlapi/enumerations/#order-range">Order Range</a>]
             </td>
+            <td>Valid order range.</td>
         </tr>
         <tr>
             <td></td>
@@ -357,38 +346,6 @@ rowCount:int
             <td>issued</td>
             <td><strong>datetime</strong></td>
             <td>Date and time when this order was issued.</td>
-        </tr>
-    </tbody>
-</table>
-
-### Sample Response
-
-```xml
-<result>
-    <rowset name="orders" key="orderID" columns="orderID,charID,stationID,volEntered,volRemaining,minVolume,orderState,typeID,range,accountKey,duration,escrow,price,bid,issued">
-        <row orderID="4053334100" charID="1801683792" stationID="60005686" volEntered="340000" volRemaining="245705" minVolume="1" orderState="0" typeID="24488" range="32767" accountKey="1000" duration="90" escrow="0.00" price="92.00" bid="0" issued="2015-05-19 03:16:16"/>
-        <row orderID="4097983513" charID="1801683792" stationID="60005686" volEntered="390" volRemaining="336" minVolume="1" orderState="0" typeID="3568" range="32767" accountKey="1000" duration="14" escrow="0.00" price="480000.00" bid="0" issued="2015-05-20 03:40:06"/>
-        <row orderID="4111136138" charID="1801683792" stationID="60005701" volEntered="27" volRemaining="0" minVolume="1" orderState="2" typeID="20417" range="-1" accountKey="1000" duration="0" escrow="0.00" price="122000.00" bid="1" issued="2015-05-16 04:16:28"/>
-        <row orderID="4111136288" charID="1801683792" stationID="60007294" volEntered="79" volRemaining="0" minVolume="1" orderState="2" typeID="20417" range="-1" accountKey="1000" duration="0" escrow="0.00" price="130000.00" bid="1" issued="2015-05-16 04:16:37"/>
-    </rowset>
-</result>
-```
-
-### SDE Cross References
-
-<table border="1">
-    <tbody>
-        <tr>
-            <th>Column</th>
-            <th>SDE Table Cross Reference(s)</th>
-        </tr>
-        <tr>
-            <td>stationID</td>
-            <td>invNames.itemID, invItems.itemID, invPositions.itemID, invUniqueNames.itemID</td>
-        </tr>
-        <tr>
-            <td>typeID</td>
-            <td>invItems.typeID, invMetaTypes.typeID, invTraits.typeID, invTypeMaterials.typeID, invTypeReactions.typeID, invTypes.typeID, invVolumes.typeID</td>
         </tr>
     </tbody>
 </table>
