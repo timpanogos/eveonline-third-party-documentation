@@ -198,7 +198,7 @@ rowCount:int
 * __Access mask:__ 4096
 * __Cache timer:__ 1 hour
 * __Parameters:__
-    <table border="1">
+    <table>
         <tbody>
             <tr>
                 <th>Argument</th>
@@ -228,7 +228,7 @@ rowCount:int
 
 ### Result Data
 
-<table border="1">
+<table>
     <tbody>
         <tr>
             <td>orders</td>
@@ -252,11 +252,13 @@ rowCount:int
             <td></td>
             <td>stationID</td>
             <td nowrap>
-                <strong>int</strong><br>
-                [c.f. <a href="/sde/tableref/#inventory-names">invNames.itemID</a>]<br>
-                [c.f. <a href="/sde/tableref/#inventory-items">invItems.itemID</a>]<br>
-                [c.f. <a href="/sde/tableref/#inventory-positions">invPositions.itemID</a>]<br>
-                [c.f. <a href="/sde/tableref/#inventory-unique-names">invUniqueNames.itemID</a>]
+                <strong>int</strong>
+                <sup>
+                <a href="/sde/tableref/#inventory-names">[1]</a>,
+                <a href="/sde/tableref/#inventory-items">[2]</a>,
+                <a href="/sde/tableref/#inventory-positions">[3]</a>,
+                <a href="/sde/tableref/#inventory-unique-names">[4]</a>
+                </sup>
             </td>
             <td>Station ID where order was placed.</td>
         </tr>
@@ -282,8 +284,10 @@ rowCount:int
             <td></td>
             <td>orderState</td>
             <td nowrap>
-                <strong>int</strong><br>
-                [c.f. <a href="/xmlapi/enumerations/#order-state">Order State</a>]
+                <strong>int</strong>
+                <sup>
+                <a href="/xmlapi/enumerations/#order-state">[1]</a>
+                </sup>
             </td>
             <td>Current order state.</td>
         </tr>
@@ -291,14 +295,16 @@ rowCount:int
             <td></td>
             <td>typeID</td>
             <td nowrap>
-                <strong>int</strong><br>
-                [c.f. <a href="/sde/tableref/#inventory-items">invItems.typeID</a>]<br>
-                [c.f. <a href="/sde/tableref/#inventory-meta-types">invMetaTypes.typeID</a>]<br>
-                [c.f. <a href="/sde/tableref/#inventory-traits">invTraits.typeID</a>]<br>
-                [c.f. <a href="/sde/tableref/#inventory-type-materials">invTypeMaterials.typeID</a>]<br>
-                [c.f. <a href="/sde/tableref/#inventory-type-reactions">invTypeReactions.typeID</a>]<br>
-                [c.f. <a href="/sde/tableref/#inventory-types">invTypes.typeID</a>]<br>
-                [c.f. <a href="/sde/tableref/#inventory-volumes">invVolumes.typeID</a>]<br>
+                <strong>int</strong>
+                <sup>
+                <a href="/sde/tableref/#inventory-items">[1]</a>,
+                <a href="/sde/tableref/#inventory-meta-types">[2]</a>,
+                <a href="/sde/tableref/#inventory-traits">[3]</a>,
+                <a href="/sde/tableref/#inventory-type-materials">[4]</a>,
+                <a href="/sde/tableref/#inventory-type-reactions">[5]</a>,
+                <a href="/sde/tableref/#inventory-types">[6]</a>,
+                <a href="/sde/tableref/#inventory-volumes">[7]</a>
+                </sup>
             </td>
             <td>The type ID of the item transacted in this order.</td>
         </tr>
@@ -306,8 +312,10 @@ rowCount:int
             <td></td>
             <td>range</td>
             <td nowrap>
-                <strong>int</strong><br>
-                [c.f. <a href="/xmlapi/enumerations/#order-range">Order Range</a>]
+                <strong>int</strong>
+                <sup>
+                <a href="/xmlapi/enumerations/#order-range">[1]</a>
+                </sup>
             </td>
             <td>Valid order range.</td>
         </tr>
