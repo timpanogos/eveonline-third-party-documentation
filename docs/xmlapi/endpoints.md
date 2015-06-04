@@ -21,7 +21,7 @@ accessMask = 33554432
 ``/char/AssetList.xml.aspx``
 
 * __Access mask:__ 2
-* __Paramaters:__
+* __Parameters:__
     * __flat:__ bool (0/1)
 
 ## Blueprints
@@ -108,7 +108,7 @@ Data:
 |            | materialEfficiency | __int__  | The ME level of the blueprint.                              |
 |            | runs               | __int__  | The number of remaining runs for the blueprint. -1 for BPO. |
 
-Eample response: (this is test data, need to have a think about inlcuding cachedUntil for example data)
+Example response: (this is test data, need to have a think about inlcuding cachedUntil for example data)
 ```xml
 <result>
     <rowset name="blueprints" key="itemID" columns="itemID,locationID,typeID,typeName,flagID,quantity,timeEfficiency,materialEfficiency,runs">
@@ -122,7 +122,7 @@ Eample response: (this is test data, need to have a think about inlcuding cached
 ``/char/CalendarEventAttendees.xml.aspx``
 
 * __Access mask:__ 4
-* __Paramaters:__
+* __Parameters:__
     * __eventIDs:__ comma seperated list of event IDs
     * __ids:__ comma seperated list of event IDs
 
@@ -146,12 +146,12 @@ accessMask = 67108864
 
 ## ContractItems
 accessMask = 67108864
-### Paramaters
+### Parameters
 contractID:int
 
 ## Contracts
 accessMask = 67108864
-### Paramaters
+### Parameters
 contractID:int
 
 ## FacWarStats
@@ -165,30 +165,30 @@ accessMask = 128
 
 ## KillLog
 accessMask = 256
-### Paramaters
+### Parameters
 beforeKillID:int
 
 ## KillMails
 accessMask = 256
-### Paramaters
+### Parameters
 fromID:int, beforeKillID:int, rowCount:int
 
 ## Locations
 accessMask = 134217728
-### Paramaters
-ids:"," serperated list
+### Parameters
+ids:"," separated list
 
 ## MailBodies
 accessMask = 512
-### Paramaters
-ids:"," serperated list
+### Parameters
+ids:"," separated list
 
 ## MailingLists
 accessMask = 1024
 
 ## MailMesages
 accessMask = 2048
-### Paramaters
+### Parameters
 fromID:int
 rowCount:int
 
@@ -368,30 +368,30 @@ rowCount:int
 ## Medals
 accessMask = 8192
 
-## Norifications
+## Notifications
 accessMask = 16384
 
 ## NotificationTexts
 accessMask = 32768
-### Paramaters
-ids:"," serperated list
+### Parameters
+ids:"," separated list
 
 ## PlanetaryColonies
 accessMask = 2
 
 ## PlanetaryLinks
 accessMask = 2
-### Paramaters
+### Parameters
 planetID:int
 
 ## PlanetaryPins
 accessMask = 2
-### Paramaters
+### Parameters
 planetID:int
 
 ## PlanetaryRoutes
 accessMask = 2
-### Paramaters
+### Parameters
 planetID:int
 
 ## Research
@@ -411,14 +411,14 @@ accessMask = 1048576
 
 ## WalletJournal
 accessMask = 2097152
-### Paramaters
+### Parameters
 fromID
 beforeRefID
 rowCount
 
 ## WalletTransactions
 accessMask = 4194304
-### Paramaters
+### Parameters
 beforeTransID
 fromID
 rowCount
