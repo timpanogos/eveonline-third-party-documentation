@@ -18,6 +18,7 @@ pages:
 - ['xmlapi/authentication.md', 'XML API', 'Authentication']
 - ['xmlapi/caching.md', 'XML API', 'Caching']
 - ['xmlapi/endpoints.md', 'XML API', 'Endpoints']
+- ['xmlapi/enumerations.md', 'XML API', 'Constants']
 - ['sde/intro.md', 'Static Data Export', 'Introduction']
 - ['sde/included.md', 'Static Data Export', 'Whats Included']
 - ['sde/tableref.md', 'Static Data Export', 'Table Reference']
