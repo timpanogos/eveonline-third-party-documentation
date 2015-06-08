@@ -377,10 +377,10 @@ rowCount:int
             <td nowrap>
                 <strong>int</strong>
                 <sup>
-                <a href="/sde/tableref/#inventory-names">[1]</a>,
-                <a href="/sde/tableref/#inventory-items">[2]</a>,
-                <a href="/sde/tableref/#inventory-positions">[3]</a>,
-                <a href="/sde/tableref/#inventory-unique-names">[4]</a>
+                <a href="../../sde/tableref/#inventory-names">[1]</a>,
+                <a href="../../sde/tableref/#inventory-items">[2]</a>,
+                <a href="../../sde/tableref/#inventory-positions">[3]</a>,
+                <a href="../../sde/tableref/#inventory-unique-names">[4]</a>
                 </sup>
             </td>
             <td>Station ID where order was placed.</td>
@@ -409,7 +409,7 @@ rowCount:int
             <td nowrap>
                 <strong>int</strong>
                 <sup>
-                <a href="/xmlapi/enumerations/#order-state">[1]</a>
+                <a href="../../xmlapi/enumerations/#order-state">[1]</a>
                 </sup>
             </td>
             <td>Current order state.</td>
@@ -420,13 +420,13 @@ rowCount:int
             <td nowrap>
                 <strong>int</strong>
                 <sup>
-                <a href="/sde/tableref/#inventory-items">[1]</a>,
-                <a href="/sde/tableref/#inventory-meta-types">[2]</a>,
-                <a href="/sde/tableref/#inventory-traits">[3]</a>,
-                <a href="/sde/tableref/#inventory-type-materials">[4]</a>,
-                <a href="/sde/tableref/#inventory-type-reactions">[5]</a>,
-                <a href="/sde/tableref/#inventory-types">[6]</a>,
-                <a href="/sde/tableref/#inventory-volumes">[7]</a>
+                <a href="../../sde/tableref/#inventory-items">[1]</a>,
+                <a href="../../sde/tableref/#inventory-meta-types">[2]</a>,
+                <a href="../../sde/tableref/#inventory-traits">[3]</a>,
+                <a href="../../sde/tableref/#inventory-type-materials">[4]</a>,
+                <a href="../../sde/tableref/#inventory-type-reactions">[5]</a>,
+                <a href="../../sde/tableref/#inventory-types">[6]</a>,
+                <a href="../../sde/tableref/#inventory-volumes">[7]</a>
                 </sup>
             </td>
             <td>The type ID of the item transacted in this order.</td>
@@ -437,7 +437,7 @@ rowCount:int
             <td nowrap>
                 <strong>int</strong>
                 <sup>
-                <a href="/xmlapi/enumerations/#order-range">[1]</a>
+                <a href="../../xmlapi/enumerations/#order-range">[1]</a>
                 </sup>
             </td>
             <td>Valid order range.</td>
