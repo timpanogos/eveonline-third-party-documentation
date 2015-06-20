@@ -41,50 +41,7 @@
 </eveapi>
 ```
 
-### Result Data _(variant 1)_
-
-<table>
-    <tbody>
-        <tr>
-            <td></td>
-            <td>paidUntil</td>
-            <td><strong>datetime</strong></td>
-            <td>The date until which the account is currently subscribed.</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>createDate</td>
-            <td><strong>datetime</strong></td>
-            <td>The date the account was created.</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>logonCount</td>
-            <td><strong>int</strong></td>
-            <td>The number of times you logged into CCP's services.</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>logonMinutes</td>
-            <td><strong>int</strong></td>
-            <td>The amount of time you actually spent logged on in the game.</td>
-        </tr>
-        <tr>
-            <td>multiCharacterTraining</td>
-            <td><strong>rowset</strong></td>
-            <td></td>
-            <td>Rowset containing 1 row per mark order.</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>trainingEnd</td>
-            <td><strong>datetime</strong></td>
-            <td>n/a</td>
-        </tr>
-    </tbody>
-</table>
-
-### Result Data _(variant 2)_
+### Result Data
 
 <table>
     <tbody>
@@ -119,7 +76,7 @@
 
 ### Notes
 
-* logonCount includes not only the game logons but also forum logons, likely also EVEGate logons.
+* logonCount includes not only the game logons, but also forum logons, likely also EVEGate logons.
 
 ### References
 
