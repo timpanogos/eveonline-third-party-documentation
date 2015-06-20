@@ -208,16 +208,75 @@
 ******
 
 ## AccountBalance
-``/char/AccountBalance.xml.aspx``  
 
+* __Path:__ ``/char/AccountBalance.xml.aspx``
 * __Access mask:__ 1
+* __Cache timer:__ 15 minutes
+* __Parameters:__ 
+    <table>
+        <tbody>
+            <tr>
+                <th>Argument</th>
+                <th>Type</th>
+                <th>Meaning</th>
+            </tr>
+            <tr>
+                <td>keyID</td>
+                <td><strong>int</strong></td>
+                <td>The ID of the Customizable API Key (CAK) for authentication.</td>
+            <tr>
+            <tr>
+                <td>vCode</td>
+                <td><strong>char(64)</strong></td>
+                <td>The user defined or CCP generated <em>Verification Code</em> for the CAK.</td>
+            <tr>
+            <tr>
+                <td>characterID</td>
+                <td><strong>bigint</strong></td>
+                <td>Identifies the character for which to retrieve the account balance.</td>
+            <tr>
+        </tbody>
+    </table>
 
-## AssetList
-``/char/AssetList.xml.aspx``
+### Sample Response
 
-* __Access mask:__ 2
-* __Parameters:__
-    * __flat:__ bool (0/1)
+```xml
+    <result>
+        <rowset name="accounts" key="accountID" columns="accountID,accountKey,balance">
+            <row accountID="12636870" accountKey="1000" balance="1234567.89" />
+        </rowset>
+    </result>
+```
+
+### Result Data
+
+<table>
+    <tbody>
+        <tr>
+            <td></td>
+            <td>accountID</td>
+            <td><strong>int</strong></td>
+            <td>ID of the account.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>accountKey</td>
+            <td><strong>int</strong></td>
+            <td>Wallet division holding this row's ISK amount.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>balance</td>
+            <td><strong>decimal</strong></td>
+            <td>Amount of ISK in this wallet division.</td>
+        </tr>
+    </tbody>
+</table>
+
+### Notes
+
+* accountKey is always 1000 for a character's account balance as opposed to a corporation, where accountKey ranges from 1000 to 1006 representing the seven corporate wallet divisions.
+
 
 ## Blueprints
 ``/char/Blueprints.xml.aspx``
