@@ -1,8 +1,148 @@
 # Static Data Export Database Tables
 
+## Agents
+
+## Corporation NPC Corporation Trades
+
+## Dogma Type Attributes
+
+## Dogma Type Effects
+
+## Inventory Flags
+
 ## Inventory Names
 
+* __Table Name:__ ``invnames``
+* __Description:__ Names of all in-game items.
+
+### Schema (SQL:2008)
+
+```sql
+CREATE TABLE invnames (
+   itemID BIGINT NOT NULL,
+   itemName VARCHAR(200) NOT NULL,
+   PRIMARY KEY (itemID)
+)
+```
+### Columns
+
+<table>
+    <tbody>
+        <tr>
+            <th>Column</th>
+            <th>Type</th>
+            <th>Xrefs</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>itemID</td>
+            <td><strong>BIGINT</strong></td>
+            <td>
+                <a href="#inventory-items">invitems.itemID</a><br>
+                <a href="#inventory-positions">invpositions.itemID</a><br>
+                <a href="#inventory-unique-names">invuniquenames.itemID</a><br>
+                <a href="#map-denormalize">mapdenormalize.itemID</a>
+            </td>
+            <td>In-game item ID.</td>
+        </tr>
+        <tr>
+            <td>itemName</td>
+            <td><strong>VARCHAR(200)</strong></td>
+            <td></td>
+            <td>Name of in-game item.</td>
+        </tr>
+    </tbody>
+</table>
+
 ## Inventory Items
+
+* __Table Name:__ ``invitems``
+* __Description:__ Table of all in-game items.
+
+### Schema (SQL:2008)
+
+```sql
+CREATE TABLE invitems (
+   itemID BIGINT NOT NULL,
+   typeID INTEGER NOT NULL,
+   ownerID INTEGER NOT NULL,
+   locationID BIGINT NOT NULL,
+   flagID SMALLINT NOT NULL,
+   quantity INTEGER NOT NULL,
+   PRIMARY KEY (itemID)
+)
+```
+### Columns
+
+<table>
+    <tbody>
+        <tr>
+            <th>Column</th>
+            <th>Type</th>
+            <th>Xrefs</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>itemID</td>
+            <td><strong>BIGINT</strong></td>
+            <td>
+                <a href="#inventory-names">invnames.itemID</a><br>
+                <a href="#inventory-positions">invpositions.itemID</a><br>
+                <a href="#inventory-unique-names">invuniquenames.itemID</a><br>
+                <a href="#map-denormalize">mapdenormalize.itemID</a>
+            </td>
+            <td>In-game item ID.</td>
+        </tr>
+        <tr>
+            <td>typeID</td>
+            <td><strong>INTEGER</strong></td>
+            <td>
+                <a href="#corporation-npc-corporation-trades">crpnpccorporationtrades.typeID</a><br>
+                <a href="#dogma-type-attributes">dgmtypeattributes.typeID</a><br>
+                <a href="#dogma-type-effects">dgmtypeeffects.typeID</a><br>
+                <a href="#inventory-type-materials">invtypematerials.typeID</a><br>
+                <a href="#inventory-type-reactions">invtypereactions.typeID</a><br>
+                <a href="#inventory-types">invtypes.typeID</a><br>
+                <a href="#map-denormalize">mapdenormalize.typeID</a>
+            </td>
+            <td>Type of in-game item.</td>
+        </tr>
+        <tr>
+            <td>ownerID</td>
+            <td><strong>INTEGER</strong></td>
+            <td>
+                <a href="#ram-assembly-line-stations">ramassemblylinestations.ownerID</a>
+            </td>
+            <td>Item owner ID.</td>
+        </tr>
+        <tr>
+            <td>locationID</td>
+            <td><strong>BIGINT</strong></td>
+            <td>
+                <a href="#agents">agtagents.locationID</a><br>
+                <a href="#map-landmarks">maplandmarks.locationID</a><br>
+                <a href="#map-location-scenes">maplocationscenes.locationID</a><br>
+                <a href="#map-location-wormhole-classes">maplocationwormholeclasses.locationID</a><br>
+            </td>
+            <td>Item location ID.</td>
+        </tr>
+        <tr>
+            <td>flagID</td>
+            <td><strong>SMALLINT</strong></td>
+            <td>
+                <a href="#inventory-flags">invflags.flagID</a>
+            </td>
+            <td>Item flags.</td>
+        </tr>
+        <tr>
+            <td>quantity</td>
+            <td><strong>INTEGER</strong></td>
+            <td></td>
+            <td>Item quantity.</td>
+        </tr>
+    </tbody>
+</table>
+
 
 ## Inventory Positions
 
@@ -20,3 +160,12 @@
 
 ## Inventory Volumes
 
+## Map Denormalize
+
+## Map Landmarks
+
+## Map Lcoation Scenes
+
+## Map Location Wormhole Classes
+
+## RAM Assembly Line Stations
