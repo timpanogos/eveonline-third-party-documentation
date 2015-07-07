@@ -18,7 +18,7 @@
             <tr>
             <tr>
                 <td>vCode</td>
-                <td><strong>char</strong></td>
+                <td><strong>char(64)</strong></td>
                 <td>API verification code</td>
             <tr>
         </tbody>
@@ -51,22 +51,22 @@
         </tr>
         <tr>
             <td>paidUntil</td>
-            <td>datetime</td>
+            <td><strong>datetime</strong></td>
             <td>The date until which the account is currently subscribed</td>
         </tr>
         <tr>
             <td>createDate</td>
-            <td>datetime</td>
+            <td><strong>datetime</strong></td>
             <td>The date the account was created</td>
         </tr>
         <tr>
             <td>logonCount</td>
-            <td>int</td>
+            <td><strong>long</strong></td>
             <td>The number of times you logged into CCP's services</td>
         </tr>
         <tr>
             <td>logonMinutes</td>
-            <td>int</td>
+            <td><strong>long</strong></td>
             <td>The amount of time you actually spent logged on in the game</td>
         </tr>
     </tbody>
