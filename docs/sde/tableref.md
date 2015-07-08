@@ -15,15 +15,6 @@
 * __Table Name:__ ``invnames``
 * __Description:__ Names of all in-game items.
 
-### Schema (SQL:2008)
-
-```sql
-CREATE TABLE invnames (
-   itemID BIGINT NOT NULL,
-   itemName VARCHAR(200) NOT NULL,
-   PRIMARY KEY (itemID)
-)
-```
 ### Columns
 
 <table>
@@ -31,12 +22,20 @@ CREATE TABLE invnames (
         <tr>
             <th>Column</th>
             <th>Type</th>
+            <th title="Belongs to primary key">PK</th>
+            <th title="Not Null">NN</th>
+            <th title="Unsigned">UN</th>
+            <th>Default</th>
             <th>Xrefs</th>
             <th>Description</th>
         </tr>
         <tr>
             <td>itemID</td>
             <td><strong>BIGINT</strong></td>
+            <td><input type="checkbox" checked readonly></td>
+            <td><input type="checkbox" checked readonly></td>
+            <td><input type="checkbox" readonly></td>
+            <td></td>
             <td>
                 <a href="#inventory-items">invitems.itemID</a><br>
                 <a href="#inventory-positions">invpositions.itemID</a><br>
@@ -48,6 +47,10 @@ CREATE TABLE invnames (
         <tr>
             <td>itemName</td>
             <td><strong>VARCHAR(200)</strong></td>
+            <td><input type="checkbox" readonly></td>
+            <td><input type="checkbox" checked readonly></td>
+            <td><input type="checkbox" readonly></td>
+            <td></td>
             <td></td>
             <td>Name of in-game item.</td>
         </tr>
@@ -59,19 +62,6 @@ CREATE TABLE invnames (
 * __Table Name:__ ``invitems``
 * __Description:__ Table of all in-game items.
 
-### Schema (SQL:2008)
-
-```sql
-CREATE TABLE invitems (
-   itemID BIGINT NOT NULL,
-   typeID INTEGER NOT NULL,
-   ownerID INTEGER NOT NULL,
-   locationID BIGINT NOT NULL,
-   flagID SMALLINT NOT NULL,
-   quantity INTEGER NOT NULL,
-   PRIMARY KEY (itemID)
-)
-```
 ### Columns
 
 <table>
@@ -79,12 +69,20 @@ CREATE TABLE invitems (
         <tr>
             <th>Column</th>
             <th>Type</th>
+            <th title="Belongs to primary key">PK</th>
+            <th title="Not Null">NN</th>
+            <th title="Unsigned">UN</th>
+            <th>Default</th>
             <th>Xrefs</th>
             <th>Description</th>
         </tr>
         <tr>
             <td>itemID</td>
             <td><strong>BIGINT</strong></td>
+            <td><input type="checkbox" checked readonly></td>
+            <td><input type="checkbox" checked readonly></td>
+            <td><input type="checkbox" readonly></td>
+            <td></td>
             <td>
                 <a href="#inventory-names">invnames.itemID</a><br>
                 <a href="#inventory-positions">invpositions.itemID</a><br>
@@ -96,6 +94,10 @@ CREATE TABLE invitems (
         <tr>
             <td>typeID</td>
             <td><strong>INTEGER</strong></td>
+            <td><input type="checkbox" readonly></td>
+            <td><input type="checkbox" checked readonly></td>
+            <td><input type="checkbox" readonly></td>
+            <td></td>
             <td>
                 <a href="#corporation-npc-corporation-trades">crpnpccorporationtrades.typeID</a><br>
                 <a href="#dogma-type-attributes">dgmtypeattributes.typeID</a><br>
@@ -110,6 +112,10 @@ CREATE TABLE invitems (
         <tr>
             <td>ownerID</td>
             <td><strong>INTEGER</strong></td>
+            <td><input type="checkbox" readonly></td>
+            <td><input type="checkbox" checked readonly></td>
+            <td><input type="checkbox" readonly></td>
+            <td></td>
             <td>
                 <a href="#ram-assembly-line-stations">ramassemblylinestations.ownerID</a>
             </td>
@@ -118,6 +124,10 @@ CREATE TABLE invitems (
         <tr>
             <td>locationID</td>
             <td><strong>BIGINT</strong></td>
+            <td><input type="checkbox" readonly></td>
+            <td><input type="checkbox" checked readonly></td>
+            <td><input type="checkbox" readonly></td>
+            <td></td>
             <td>
                 <a href="#agents">agtagents.locationID</a><br>
                 <a href="#map-landmarks">maplandmarks.locationID</a><br>
@@ -129,6 +139,10 @@ CREATE TABLE invitems (
         <tr>
             <td>flagID</td>
             <td><strong>SMALLINT</strong></td>
+            <td><input type="checkbox" readonly></td>
+            <td><input type="checkbox" checked readonly></td>
+            <td><input type="checkbox" readonly></td>
+            <td></td>
             <td>
                 <a href="#inventory-flags">invflags.flagID</a>
             </td>
@@ -137,6 +151,10 @@ CREATE TABLE invitems (
         <tr>
             <td>quantity</td>
             <td><strong>INTEGER</strong></td>
+            <td><input type="checkbox" readonly></td>
+            <td><input type="checkbox" checked readonly></td>
+            <td><input type="checkbox" readonly></td>
+            <td></td>
             <td></td>
             <td>Item quantity.</td>
         </tr>
