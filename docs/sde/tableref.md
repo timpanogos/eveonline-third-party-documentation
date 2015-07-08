@@ -22,19 +22,19 @@
         <tr>
             <th>Column</th>
             <th>Type</th>
-            <th title="Belongs to primary key">PK</th>
-            <th title="Not Null">NN</th>
-            <th title="Unsigned">UN</th>
             <th>Default</th>
             <th>Xrefs</th>
             <th>Description</th>
         </tr>
         <tr>
-            <td>itemID</td>
-            <td><strong>BIGINT</strong></td>
-            <td><input type="checkbox" checked readonly></td>
-            <td><input type="checkbox" checked readonly></td>
-            <td><input type="checkbox" readonly></td>
+            <td nowrap>
+                itemID
+                <code title="Belongs to primary key">PK</code>
+                <code title="Not Null">NN</code>
+            </td>
+            <td>
+                <strong>BIGINT</strong>
+            </td>
             <td></td>
             <td>
                 <a href="#inventory-items">invitems.itemID</a><br>
@@ -45,11 +45,13 @@
             <td>In-game item ID.</td>
         </tr>
         <tr>
-            <td>itemName</td>
-            <td><strong>VARCHAR(200)</strong></td>
-            <td><input type="checkbox" readonly></td>
-            <td><input type="checkbox" checked readonly></td>
-            <td><input type="checkbox" readonly></td>
+            <td nowrap>
+                itemName
+                <code title="Not Null">NN</code>
+            </td>
+            <td>
+                <strong>VARCHAR(200)</strong>
+            </td>
             <td></td>
             <td></td>
             <td>Name of in-game item.</td>
@@ -69,19 +71,19 @@
         <tr>
             <th>Column</th>
             <th>Type</th>
-            <th title="Belongs to primary key">PK</th>
-            <th title="Not Null">NN</th>
-            <th title="Unsigned">UN</th>
             <th>Default</th>
             <th>Xrefs</th>
             <th>Description</th>
         </tr>
         <tr>
-            <td>itemID</td>
-            <td><strong>BIGINT</strong></td>
-            <td><input type="checkbox" checked readonly></td>
-            <td><input type="checkbox" checked readonly></td>
-            <td><input type="checkbox" readonly></td>
+            <td nowrap>
+                itemID
+                <code title="Belongs to primary key">PK</code>
+                <code title="Not Null">NN</code>
+            </td>
+            <td>
+                <strong>BIGINT</strong>
+            </td>
             <td></td>
             <td>
                 <a href="#inventory-names">invnames.itemID</a><br>
@@ -92,11 +94,13 @@
             <td>In-game item ID.</td>
         </tr>
         <tr>
-            <td>typeID</td>
-            <td><strong>INTEGER</strong></td>
-            <td><input type="checkbox" readonly></td>
-            <td><input type="checkbox" checked readonly></td>
-            <td><input type="checkbox" readonly></td>
+            <td nowrap>
+                typeID
+                <code title="Not Null">NN</code>
+            </td>
+            <td>
+                <strong>INTEGER</strong>
+            </td>
             <td></td>
             <td>
                 <a href="#corporation-npc-corporation-trades">crpnpccorporationtrades.typeID</a><br>
@@ -110,11 +114,13 @@
             <td>Type of in-game item.</td>
         </tr>
         <tr>
-            <td>ownerID</td>
-            <td><strong>INTEGER</strong></td>
-            <td><input type="checkbox" readonly></td>
-            <td><input type="checkbox" checked readonly></td>
-            <td><input type="checkbox" readonly></td>
+            <td nowrap>
+                ownerID
+                <code title="Not Null">NN</code>
+            </td>
+            <td>
+                <strong>INTEGER</strong>
+            </td>
             <td></td>
             <td>
                 <a href="#ram-assembly-line-stations">ramassemblylinestations.ownerID</a>
@@ -122,11 +128,13 @@
             <td>Item owner ID.</td>
         </tr>
         <tr>
-            <td>locationID</td>
-            <td><strong>BIGINT</strong></td>
-            <td><input type="checkbox" readonly></td>
-            <td><input type="checkbox" checked readonly></td>
-            <td><input type="checkbox" readonly></td>
+            <td nowrap>
+                locationID
+                <code title="Not Null">NN</code>
+            </td>
+            <td>
+                <strong>BIGINT</strong>
+            </td>
             <td></td>
             <td>
                 <a href="#agents">agtagents.locationID</a><br>
@@ -137,11 +145,13 @@
             <td>Item location ID.</td>
         </tr>
         <tr>
-            <td>flagID</td>
-            <td><strong>SMALLINT</strong></td>
-            <td><input type="checkbox" readonly></td>
-            <td><input type="checkbox" checked readonly></td>
-            <td><input type="checkbox" readonly></td>
+            <td nowrap>
+                flagID
+                <code title="Not Null">NN</code>
+            </td>
+            <td>
+                <strong>SMALLINT</strong>
+            </td>
             <td></td>
             <td>
                 <a href="#inventory-flags">invflags.flagID</a>
@@ -149,11 +159,13 @@
             <td>Item flags.</td>
         </tr>
         <tr>
-            <td>quantity</td>
-            <td><strong>INTEGER</strong></td>
-            <td><input type="checkbox" readonly></td>
-            <td><input type="checkbox" checked readonly></td>
-            <td><input type="checkbox" readonly></td>
+            <td nowrap>
+                quantity
+                <code title="Not Null">NN</code>
+            </td>
+            <td>
+                <strong>INTEGER</strong>
+            </td>
             <td></td>
             <td></td>
             <td>Item quantity.</td>
