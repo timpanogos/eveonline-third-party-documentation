@@ -13,7 +13,7 @@
             </tr>
             <tr>
                 <td>keyID</td>
-                <td><strong>int</strong></td>
+                <td><strong>long</strong></td>
                 <td>The ID of the Customizable API Key (CAK) for authentication.</td>
             <tr>
             <tr>
