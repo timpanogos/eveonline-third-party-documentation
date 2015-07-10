@@ -6,6 +6,9 @@ Information about a player's EVE account like creation time, minutes spent in ga
 * [APIKeyInfo](account_apikeyinfo.md)  
 Specifies the access rights of an API key.  
 
+* [Characters](account_characters.md)  
+Lists all characters included in this API key.  
+
 ## API
 * [CallList](api_calllist.md)  
   List of all selectable API endpoints/groups to which an API grants access to.
