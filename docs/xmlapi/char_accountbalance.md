@@ -4,7 +4,7 @@
 * __Path:__ ``/char/AccountBalance.xml.aspx``
 * __Access mask:__ 1
 * __Cache timer:__ 15 minutes  
-* __Paramaters:__
+* __Parameters:__
     <table>
         <tbody>
             <tr>
