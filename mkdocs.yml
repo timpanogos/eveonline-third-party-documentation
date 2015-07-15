@@ -20,6 +20,7 @@ pages:
 - ['xmlapi/endpoints.md', 'XML API', 'Endpoints Overview']
 - ['xmlapi/account_accountstatus.md', 'XML API', 'Account - AccountStatus']
 - ['xmlapi/account_apikeyinfo.md', 'XML API', 'Account - APIKeyInfo']
+- ['xmlapi/account_characters.md', 'XML API', 'Account - Characters']
 - ['xmlapi/api_calllist.md', 'XML API', 'API - CallList']
 - ['xmlapi/char_accountbalance.md', 'XML API', 'Char - AccountBalance']
 - ['xmlapi/enumerations.md', 'XML API', 'Constants']
