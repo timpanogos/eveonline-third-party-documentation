@@ -28,17 +28,17 @@
 
 ```xml
 <result>
-    <rowset name="folders" key="folderID" columns="folderName,creatorID">
-        <row folderID="0" folderName="" creatorID="0">
+    <rowset name="folders" key="folderID" columns="folderName">
+        <row folderID="0" folderName="">
             <rowset name="bookmarks" key="bookmarkID" columns="creatorID,created,itemID,typeID,locationID,x,y,z,memo,note">
                 <row bookmarkID="12" creatorID="90000001" created="2015-07-08 21:34:14" itemID="60014689" typeID="57" locationID="30004971" x="0" y="0" z="0" memo="Home Station" note="Our base of residence" />
                 <row bookmarkID="13" creatorID="90000001" created="2015-07-08 21:35:07" itemID="40314792" typeID="8" locationID="30004971" x="0" y="0" z="0" memo="Sun" note="" />
             </rowset>
         </row>
-        <row folderID="1" folderName="A lovely empty folder" creatorID="90000001">
+        <row folderID="1" folderName="A lovely empty folder">
             <rowset name="bookmarks" key="bookmarkID" columns="creatorID,created,itemID,typeID,locationID,x,y,z,memo,note" />
         </row>
-        <row folderID="3" folderName="Sites" creatorID="90000001">
+        <row folderID="3" folderName="Sites">
             <rowset name="bookmarks" key="bookmarkID" columns="creatorID,created,itemID,typeID,locationID,x,y,z,memo,note">
                 <row bookmarkID="16" creatorID="90000001" created="2015-07-08 21:37:12" itemID="40314827" typeID="15" locationID="30004971" x="0" y="0" z="0" memo="Duripant VII - Asteroid Belt 2 ( Asteroid Belt )" note="" />
                 <row bookmarkID="17" creatorID="90000001" created="2015-07-08 21:37:22" itemID="40314829" typeID="15" locationID="30004971" x="0" y="0" z="0" memo="Duripant VII - Asteroid Belt 3 ( Asteroid Belt )" note="" />
@@ -46,7 +46,7 @@
                 <row bookmarkID="19" creatorID="90000001" created="2015-07-08 21:37:39" itemID="40314811" typeID="15" locationID="30004971" x="0" y="0" z="0" memo="Duripant VII - Asteroid Belt 1 ( Asteroid Belt )" note="" />
             </rowset>
         </row>
-        <row folderID="4" folderName="Random crap" creatorID="90000001">
+        <row folderID="4" folderName="Random crap">
             <rowset name="bookmarks" key="bookmarkID" columns="creatorID,created,itemID,typeID,locationID,x,y,z,memo,note">
                 <row bookmarkID="14" creatorID="90000001" created="2015-07-08 21:36:08" itemID="0" typeID="5" locationID="30004971" x="-373405654941.733" y="42718621667.0746" z="-1415023302173.46" memo="spot in Duripant solar system" note="" />
                 <row bookmarkID="15" creatorID="90000001" created="2015-07-08 21:36:46" itemID="0" typeID="5" locationID="30004971" x="-373405652840.03" y="42718623812.4957" z="-1415023308332.07" memo="spot in Duripant solar system" note="" />
@@ -79,13 +79,6 @@
             <td>folderName</td>
             <td><strong>string</strong></td>
             <td>Folder name.</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>creatorID</td>
-            <td><strong>long</strong></td>
-            <td>Folder creator ID.  Can be character or corporation ID.</td>
             <td></td>
         </tr>
         <tr>
@@ -157,21 +150,21 @@
             <td></td>
             <td>x</td>
             <td nowrap><strong>double</strong></td>
-            <td>X location of bookmark if this bookmark does not refer to an item.</td>
+            <td>X location of bookmark (relative to system sun) if this bookmark does not refer to an item.</td>
         </tr>
         <tr>
             <td></td>
             <td></td>
             <td>y</td>
             <td nowrap><strong>double</strong></td>
-            <td>Y location of bookmark if this bookmark does not refer to an item.</td>
+            <td>Y location of bookmark (relative to system sun) if this bookmark does not refer to an item.</td>
         </tr>
         <tr>
             <td></td>
             <td></td>
             <td>z</td>
             <td nowrap><strong>double</strong></td>
-            <td>Z location of bookmark if this bookmark does not refer to an item.</td>
+            <td>Z location of bookmark (relative to system sun) if this bookmark does not refer to an item.</td>
         </tr>
         <tr>
             <td></td>
