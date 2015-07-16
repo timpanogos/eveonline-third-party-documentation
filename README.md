@@ -27,10 +27,10 @@ request for each change.  We suggest you create a separate branch for each
 pull request.  This will make it easier to work on multiple changes
 simultaneously.
 
-For example, to contribute a change to the XML API docs for MarketOrders:
+For example, to contribute a change to the XML API docs for character  MarketOrders:
 
 1. Create a branch (say, "marketorders") on your fork of [ccpgames/eveonline-third-party-documentation](https://github.com/ccpgames/eveonline-third-party-documentation)
-2. In your branch, make your changes to docs/xmlapi/endpoints.md in the MarketOrders section
+2. In your branch, make your changes to docs/xmlapi/char_marketorders.md.  Be sure to follow the standards for each section of the documentation.
 3. Submit a pull request from yourfork:marketorders to ccpgames:master
 
 Please also add your name to the CONTRIBUTORS file (sorted by first name please!).

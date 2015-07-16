@@ -23,6 +23,7 @@ pages:
 - ['xmlapi/account_characters.md', 'XML API', 'Account - Characters']
 - ['xmlapi/api_calllist.md', 'XML API', 'API - CallList']
 - ['xmlapi/char_accountbalance.md', 'XML API', 'Char - AccountBalance']
+- ['xmlapi/char_marketorders.md', 'XML API', 'Char - MarketOrders']
 - ['xmlapi/enumerations.md', 'XML API', 'Constants']
 - ['sde/intro.md', 'Static Data Export', 'Introduction']
 - ['sde/included.md', 'Static Data Export', 'Whats Included']

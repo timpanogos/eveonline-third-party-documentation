@@ -33,6 +33,8 @@ Lists all characters included in this API key.
 * [MailingLists](char_mailinglists.md)
 * [MailMessages](char_mailmessages.md)
 * [MarketOrders](char_marketorders.md)
+  Retrieve character Market Orders.
+
 * [Medals](char_medals.md)
 * [Notifications](char_notifications.md)
 * [NotificationTexts](char_notificationtexts.md)
