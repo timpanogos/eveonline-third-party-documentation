@@ -1,16 +1,16 @@
 # Table Of Contents
 ## Account
-* [AccountStatus](account_accountstatus.md)  
-Information about a player's EVE account like creation time, minutes spent in game etc.  
+* [AccountStatus](account_accountstatus.md)<br>
+  Information about a player's EVE account like creation time, minutes spent in game etc.  
 
-* [APIKeyInfo](account_apikeyinfo.md)  
-Specifies the access rights of an API key.  
+* [APIKeyInfo](account_apikeyinfo.md)<br>
+  Specifies the access rights of an API key.  
 
-* [Characters](account_characters.md)  
-Lists all characters included in this API key.  
+* [Characters](account_characters.md)<br>
+  Lists all characters included in this API key.  
 
 ## API
-* [CallList](api_calllist.md)  
+* [CallList](api_calllist.md)<br>
   List of all selectable API endpoints/groups to which an API grants access to.
 
 ## Char
@@ -32,9 +32,8 @@ Lists all characters included in this API key.
 * [MailBodies](char_mailbodies.md)
 * [MailingLists](char_mailinglists.md)
 * [MailMessages](char_mailmessages.md)
-* [MarketOrders](char_marketorders.md)
+* [MarketOrders](char_marketorders.md)<br>
   Retrieve character Market Orders.
-
 * [Medals](char_medals.md)
 * [Notifications](char_notifications.md)
 * [NotificationTexts](char_notificationtexts.md)
