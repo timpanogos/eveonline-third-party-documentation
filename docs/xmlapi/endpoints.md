@@ -16,6 +16,8 @@
 ## Char
 * [AccountBalance](char_accountbalance.md)
 * [BluePrints](char_blueprints.md)
+* [Bookmarks](char_bookmarks.md)<br>
+  Retrieve character Bookmarks.
 * [CalendarEventAttendees](char_calendareventattendees.md)
 * [CharacterSheet](char_charactersheet.md)
 * [ContactList](char_contactlist.md)
