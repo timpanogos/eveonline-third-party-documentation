@@ -50,3 +50,6 @@
 * [UpcomingCalendarEvents](char_upcomingcalendarevents.md)
 * [WalletJournal](char_walletjournal.md)
 * [WalletTransactions](char_wallettransactions.md)
+
+## Server
+* [ServerStatus](serv_serversstatus.md)
