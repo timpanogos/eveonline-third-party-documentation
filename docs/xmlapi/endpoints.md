@@ -51,5 +51,8 @@
 * [WalletJournal](char_walletjournal.md)
 * [WalletTransactions](char_wallettransactions.md)
 
+## Map
+* [Sovereignty](map_sovereignty.md)
+
 ## Server
 * [ServerStatus](serv_serversstatus.md)
