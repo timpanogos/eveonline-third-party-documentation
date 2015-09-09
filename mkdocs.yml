@@ -23,6 +23,7 @@ pages:
 - ['xmlapi/account_characters.md', 'XML API', 'Account - Characters']
 - ['xmlapi/api_calllist.md', 'XML API', 'API - CallList']
 - ['xmlapi/char_accountbalance.md', 'XML API', 'Char - AccountBalance']
+- ['xmlapi/char_assetlist.md', 'XML API', 'Char - AssetList']
 - ['xmlapi/char_bookmarks.md', 'XML API', 'Char - Bookmarks']
 - ['xmlapi/char_marketorders.md', 'XML API', 'Char - MarketOrders']
 - ['xmlapi/enumerations.md', 'XML API', 'Constants']

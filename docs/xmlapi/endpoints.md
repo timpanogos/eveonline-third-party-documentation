@@ -15,8 +15,10 @@
 
 ## Char
 * [AccountBalance](char_accountbalance.md)
+* [AssetList](char_assetlist.md)<br />
+  Lists everything a character owns.
 * [BluePrints](char_blueprints.md)
-* [Bookmarks](char_bookmarks.md)<br>
+* [Bookmarks](char_bookmarks.md)<br />
   Retrieve character Bookmarks.
 * [CalendarEventAttendees](char_calendareventattendees.md)
 * [CharacterSheet](char_charactersheet.md)
