@@ -23,7 +23,7 @@
 * [CalendarEventAttendees](char_calendareventattendees.md)
 * [CharacterSheet](char_charactersheet.md)
 * [ContactList](char_contactlist.md)<br />
-  Lists the character's personal, corporation and alliance contacts.
+  Lists the character's personal, corporation, and alliance contacts.
 * [ContactNotifications](char_contactnotifications.md)
 * [ContractBids](char_contractbids.md)
 * [ContractItems](char_contractitems.md)
