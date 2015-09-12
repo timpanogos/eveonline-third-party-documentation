@@ -1,4 +1,4 @@
-# Microsoft SQLServer Dump File
+# Microsoft SQLServer Tables
 The SDE includes a Microsoft SQLServer dump file which contains the following tables:
 
 ## Inventory Tables

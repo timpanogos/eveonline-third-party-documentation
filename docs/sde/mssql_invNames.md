@@ -25,10 +25,10 @@
             </td>
             <td></td>
             <td>
-                <a href="mssql_invItems">invItems.itemID</a><br>
-                <a href="mssql_invPositions">invPositions.itemID</a><br>
-                <a href="mssql_invUniqueNames">invUniqueNames.itemID</a><br>
-                <a href="mssql_mapDenomralize">mapDenormalize.itemID</a>
+                <a href="../mssql_invItems/">invItems.itemID</a><br>
+                <a href="../mssql_invPositions/">invPositions.itemID</a><br>
+                <a href="../mssql_invUniqueNames/">invUniqueNames.itemID</a><br>
+                <a href="../mssql_mapDenomralize/">mapDenormalize.itemID</a>
             </td>
             <td>In-game item ID.</td>
         </tr>

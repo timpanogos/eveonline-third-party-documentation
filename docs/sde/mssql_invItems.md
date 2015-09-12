@@ -25,10 +25,10 @@
             </td>
             <td></td>
             <td>
-                <a href="mssql_invNames">invNames.itemID</a><br>
-                <a href="mssql_invPositions">invPositions.itemID</a><br>
-                <a href="mssql_invUniqueNames">invUniqueNames.itemID</a><br>
-                <a href="sqlite_mapDenormalize">mapDenormalize.itemID</a>
+                <a href="../mssql_invNames/">invNames.itemID</a><br>
+                <a href="../mssql_invPositions/">invPositions.itemID</a><br>
+                <a href="../mssql_invUniqueNames/">invUniqueNames.itemID</a><br>
+                <a href="../sqlite_mapDenormalize/">mapDenormalize.itemID</a>
             </td>
             <td>In-game item ID.</td>
         </tr>
@@ -42,13 +42,13 @@
             </td>
             <td></td>
             <td>
-                <a href="mssql_crpNPCCorporationTrades">crpNPCCorporationTrades.typeID</a><br>
-                <a href="mssql_dgmTypeAttributes">dgmTypeAttributes.typeID</a><br>
-                <a href="mssql_dgmTypeEffects">dgmTypeEffects.typeID</a><br>
-                <a href="mssql_invTypeMaterials">invTypeMaterials.typeID</a><br>
-                <a href="mssql_invTypeReactions">invTypeReactions.typeID</a><br>
-                <a href="yaml_typeIDs">typeIDs</a><br>
-                <a href="sqlite_mapDenormalize">mapDenormalize.typeID</a>
+                <a href="../mssql_crpNPCCorporationTrades/">crpNPCCorporationTrades.typeID</a><br>
+                <a href="../mssql_dgmTypeAttributes/">dgmTypeAttributes.typeID</a><br>
+                <a href="../mssql_dgmTypeEffects/">dgmTypeEffects.typeID</a><br>
+                <a href="../mssql_invTypeMaterials/">invTypeMaterials.typeID</a><br>
+                <a href="../mssql_invTypeReactions/">invTypeReactions.typeID</a><br>
+                <a href="../yaml_typeIDs/">typeIDs</a><br>
+                <a href="../sqlite_mapDenormalize/">mapDenormalize.typeID</a>
             </td>
             <td>Type of in-game item.</td>
         </tr>
@@ -62,7 +62,7 @@
             </td>
             <td></td>
             <td>
-                <a href="mssql_ramAssemblyLineStations">ramAssemblyLineStations.ownerID</a>
+                <a href="../mssql_ramAssemblyLineStations/">ramAssemblyLineStations.ownerID</a>
             </td>
             <td>Item owner ID.</td>
         </tr>
@@ -76,10 +76,10 @@
             </td>
             <td></td>
             <td>
-                <a href="mssql_agtAgents">agtAgents.locationID</a><br>
-                <a href="sqlite_mapLandmarks">mapLandmarks.locationID</a><br>
-                <a href="sqlite_mapLocationScenes">mapLocationScenes.locationID</a><br>
-                <a href="sqlite_mapLocationWormholeClasses">mapLocationWormholeClasses.locationID</a><br>
+                <a href="../mssql_agtAgents/">agtAgents.locationID</a><br>
+                <a href="../sqlite_mapLandmarks/">mapLandmarks.locationID</a><br>
+                <a href="../sqlite_mapLocationScenes/">mapLocationScenes.locationID</a><br>
+                <a href="../sqlite_mapLocationWormholeClasses/">mapLocationWormholeClasses.locationID</a><br>
             </td>
             <td>Item location ID.</td>
         </tr>
@@ -93,7 +93,7 @@
             </td>
             <td></td>
             <td>
-                <a href="mssql_invFlags">invFlags.flagID</a>
+                <a href="../mssql_invFlags/">invFlags.flagID</a>
             </td>
             <td>Item flags.</td>
         </tr>
