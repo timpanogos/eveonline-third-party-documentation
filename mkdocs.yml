@@ -26,6 +26,7 @@ pages:
 - ['xmlapi/char_assetlist.md', 'XML API', 'Char - AssetList']
 - ['xmlapi/char_bookmarks.md', 'XML API', 'Char - Bookmarks']
 - ['xmlapi/char_contactlist.md', 'XML API', 'Char - ContactList']
+- ['xmlapi/char_contactnotifications.md', 'XML API', 'Char - ContactNotifications']
 - ['xmlapi/char_marketorders.md', 'XML API', 'Char - MarketOrders']
 - ['xmlapi/enumerations.md', 'XML API', 'Constants']
 - ['xmlapi/map_sovereignty.md', 'XML API', 'Map - Sovereignty']

@@ -24,7 +24,8 @@
 * [CharacterSheet](char_charactersheet.md)
 * [ContactList](char_contactlist.md)<br />
   Lists the character's personal, corporation, and alliance contacts.
-* [ContactNotifications](char_contactnotifications.md)
+* [ContactNotifications](char_contactnotifications.md)<br />
+  Lists the notifications received about having been added to someone's contact list.
 * [ContractBids](char_contractbids.md)
 * [ContractItems](char_contractitems.md)
 * [Contracts](char_contracts.md)
