@@ -1,4 +1,8 @@
 site_name: EVE Online Third-Party Developer Documentation
+extra_javascript:
+- http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+markdown_extensions:
+- mdx_math
 pages:
 - ['index.md', 'Home']
 - ['reference/license.md', 'Guidelines and References', 'Developer License']
