@@ -8,6 +8,7 @@ pages:
 - ['reference/license.md', 'Guidelines and References', 'Developer License']
 - ['reference/guidelines.md', 'Guidelines and References', 'Guidelines']
 - ['reference/reference.md', 'Guidelines and References', 'Quick Reference']
+- ['formulas/warpinpoints.md', 'Formulas', 'Warp-in Points']
 - ['sso/intro.md', 'Single Sign-On (SS0)', 'Introduction']
 - ['sso/authentication.md', 'Single Sign-On (SS0)', 'Authentication Flow']
 - ['sso/refreshtokens.md', 'Single Sign-On (SS0)', 'Refresh Tokens']
