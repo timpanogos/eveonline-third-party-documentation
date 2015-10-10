@@ -22,6 +22,8 @@
   Retrieve character Bookmarks.
 * [CalendarEventAttendees](char_calendareventattendees.md)
 * [CharacterSheet](char_charactersheet.md)
+* [ChatChannels](char_chatchannels.md)<br />
+  Retrieve character Chat Channels.
 * [ContactList](char_contactlist.md)<br />
   Lists the character's personal, corporation, and alliance contacts.
 * [ContactNotifications](char_contactnotifications.md)<br />

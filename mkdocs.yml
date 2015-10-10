@@ -30,6 +30,7 @@ pages:
 - ['xmlapi/char_accountbalance.md', 'XML API', 'Char - AccountBalance']
 - ['xmlapi/char_assetlist.md', 'XML API', 'Char - AssetList']
 - ['xmlapi/char_bookmarks.md', 'XML API', 'Char - Bookmarks']
+- ['xmlapi/char_chatchannels.md', 'XML API', 'Char - ChatChannels']
 - ['xmlapi/char_contactlist.md', 'XML API', 'Char - ContactList']
 - ['xmlapi/char_contactnotifications.md', 'XML API', 'Char - ContactNotifications']
 - ['xmlapi/char_marketorders.md', 'XML API', 'Char - MarketOrders']
