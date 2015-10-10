@@ -116,7 +116,7 @@
             <td nowrap>
                 <strong>long</strong>
                 <sup>
-                <a href="../../sde/tableref/#inventory-items">[1]</a>
+                <a href="../../sde/mssql_invItems/">[1]</a>
                 </sup>
             </td>
             <td>Item ID of the item to which the bookmark refers, or 0 if the bookmark refers to a location.</td>
