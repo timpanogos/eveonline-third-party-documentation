@@ -29,4 +29,4 @@ An authenticated call that lists all regions would look like this (note that the
     Accept: application/vnd.ccp.eve.RegionCollection-v1+json
     Host: crest-tq.eveonline.com
     
-For information on the Accept header used here, see the [Versioning](crest/versioning) section.
+For information on the Accept header used here, see the [Versioning](versioning) section.
