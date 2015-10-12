@@ -58,4 +58,4 @@ A successful verification request will yield a response in [JSON](http://www.jso
         refresh_token: null
     }
 
-The access token returned is valid for 300 seconds, or 5 minutes.
+The access token returned is valid for 1200 seconds, or 20 minutes.
