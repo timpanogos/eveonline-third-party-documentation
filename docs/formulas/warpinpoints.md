@@ -41,5 +41,19 @@ $$ \theta = j - \sin^{-1}\left(\frac{x}{|x|} \cdot \frac{z}{\sqrt{x^2 + z^2}}\ri
 
 $$ s|_{0.5 \leq s \leq 10.5} = 20\left(\frac{1}{40}\left(10\log_{10}\left(\frac{r}{10^6}\right) - 39\right)\right)^{20} + \frac{1}{2} $$
 
-Now, \(j\) is a special case. Its value is the Python equivalent of
+Now, \(j\) is a special snowflake. Its value is the Python equivalent of
 `(random.Random(planetID).random() - 1.0) / 3.0`.
+
+### Example Implementation
+
+    import math
+    import random
+
+    def warpin(id, x, y, z, r):
+        j = (random.Random(id).random() - 1.0) / 3.0
+        t = j - math.asin(x/abs(x) * (z/math.sqrt(x**2 + z**2)))
+        s = 20.0 * (1.0/40.0 * (10 * math.log10(r/10**6) - 39))**20.0 + 1.0/2.0
+        s = max(0.5, min(s, 10.5))
+        d = r*(s + 1) + 1000000
+
+        return (d * math.sin(t), 1.0/2.0 * r * math.sin(j), d * math.cos(t))
