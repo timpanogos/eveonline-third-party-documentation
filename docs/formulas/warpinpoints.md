@@ -30,14 +30,14 @@ The warp-in point of a planet is determined by the planet's ID, its location, an
 Let \(x\), \(y\), and \(z\) represent the planet's coordinates. Let \(r\) be the planet's radius.
 
 The planet's warp-in point is the vector
-\(\left(d \sin{\theta},
-  \frac{1}{2} r \sin{j},
-  d \cos{\theta}\right)\)
+\(\left(x + d \sin{\theta},
+  y + \frac{1}{2} r \sin{j},
+  z - d \cos{\theta}\right)\)
 where:
 
 $$ d = r(s + 1) + 1000000 $$
 
-$$ \theta = j - \sin^{-1}\left(\frac{x}{|x|} \cdot \frac{z}{\sqrt{x^2 + z^2}}\right) $$
+$$ \theta = \sin^{-1}\left(\frac{x}{|x|} \cdot \frac{z}{\sqrt{x^2 + z^2}}\right) + j $$
 
 $$ s|_{0.5 \leq s \leq 10.5} = 20\left(\frac{1}{40}\left(10\log_{10}\left(\frac{r}{10^6}\right) - 39\right)\right)^{20} + \frac{1}{2} $$
 
@@ -52,10 +52,10 @@ import random
 
 def warpin(id, x, y, z, r):
     j = (random.Random(id).random() - 1.0) / 3.0
-    t = j - math.asin(x/abs(x) * (z/math.sqrt(x**2 + z**2)))
+    t = math.asin(x/abs(x) * (z/math.sqrt(x**2 + z**2))) + j
     s = 20.0 * (1.0/40.0 * (10 * math.log10(r/10**6) - 39))**20.0 + 1.0/2.0
     s = max(0.5, min(s, 10.5))
     d = r*(s + 1) + 1000000
 
-    return (d * math.sin(t), 1.0/2.0 * r * math.sin(j), d * math.cos(t))
+    return (x + d * math.sin(t), y + 1.0/2.0 * r * math.sin(j), z - d * math.cos(t))
 ```
