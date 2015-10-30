@@ -13,9 +13,6 @@ Currently most data is available from public crest, so does not require authenti
 ### publicData
 The first scope released. It allows access to live market orders data for any region. CCP FoxFour has said that this data will probably moved to Public CREST soon, so this scope may well become deprecated.
 
-### characterStatisticsRead - SISI
-Currently only available on SISI. Allows access to historical character statistics, broken down by year. This was announced in the EVE Keynote at FanFest 2015.
-
 ### characterFittingsRead
 Allows an application to read all of the saved fits for a character.
 
