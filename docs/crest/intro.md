@@ -17,3 +17,10 @@ CREST is designed to be a properly RESTful API with good support for versioning 
 To get the list of endpoints, you simply need to make an HTTP GET request to the appropriate root (SISI or TQ).
 
 For more details on walking through endpoints, see the appropriate section of these docs.
+
+# Other Information
+## Rate Limits
+### Public CREST
+- General Rate Limit: 150 requests per second
+- Burst Size: 400
+- Concurrent Connections: 20
