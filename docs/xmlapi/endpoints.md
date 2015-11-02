@@ -14,7 +14,8 @@
   List of all selectable API endpoints/groups to which an API grants access to.
 
 ## Char
-* [AccountBalance](char_accountbalance.md)
+* [AccountBalance](char_accountbalance.md)<br />
+  Retrieve character account balance.
 * [AssetList](char_assetlist.md)<br />
   Lists everything a character owns.
 * [BluePrints](char_blueprints.md)
@@ -56,6 +57,41 @@
 * [UpcomingCalendarEvents](char_upcomingcalendarevents.md)
 * [WalletJournal](char_walletjournal.md)
 * [WalletTransactions](char_wallettransactions.md)
+
+## Corp
+* [AccountBalance](corp_accountbalance.md)<br />
+  Retrieve corporation account balances.
+* [AssetList](corp_assetlist.md)
+* [BluePrints](corp_blueprints.md)
+* [Bookmarks](corp_bookmarks.md)
+* [ContactList](corp_contactlist.md)
+* [ContainerLog](corp_containerlog.md)
+* [ContractBids](corp_contractbids.md)
+* [ContractItems](corp_contractitems.md)
+* [Contracts](corp_contracts.md)
+* [CorporationSheet](corp_corporationsheet.md)
+* [CustomsOffices](corp_customsoffices.md)
+* [Facilities](corp_facilities.md)
+* [FacWarStats](corp_facwarstats.md)
+* [IndustryJobs](corp_industryjobs.md)
+* [IndustryJobsHistory](corp_industryjobshistory.md)
+* [KillMails](corp_killmails.md)
+* [Locations](corp_locations.md)
+* [MarketOrders](corp_marketorders.md)
+* [Medals](corp_medals.md)
+* [MemberMedals](corp_membermedals.md)
+* [MemberSecurity](corp_membersecurity.md)
+* [MemberSecurityLog](corp_membersecuritylog.md)
+* [MemberTracking](corp_membertracking.md)
+* [OutpostList](corp_outpostlist.md)
+* [OutpostServiceDetail](corp_outpostservicedetail.md)
+* [Shareholders](corp_shareholders.md)
+* [Standings](corp_standings.md)
+* [StarbaseDetail](corp_starbasedetail.md)
+* [StarbaseList](corp_starbaselist.md)
+* [Titles](corp_titles.md)
+* [WalletJournal](corp_walletjournal.md)
+* [WalletTransactions](corp_wallettransactions.md)
 
 ## Map
 * [Sovereignty](map_sovereignty.md)
