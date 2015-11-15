@@ -63,7 +63,8 @@
   Retrieve corporation account balances.
 * [AssetList](corp_assetlist.md)
 * [BluePrints](corp_blueprints.md)
-* [Bookmarks](corp_bookmarks.md)
+* [Bookmarks](corp_bookmarks.md)<br />
+  Retrieve corporation Bookmarks.
 * [ContactList](corp_contactlist.md)
 * [ContainerLog](corp_containerlog.md)
 * [ContractBids](corp_contractbids.md)
