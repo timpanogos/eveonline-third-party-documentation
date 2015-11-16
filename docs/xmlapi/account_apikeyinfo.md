@@ -15,12 +15,12 @@
                 <td>keyID</td>
                 <td><strong>long</strong></td>
                 <td>The ID of the Customizable API Key (CAK) for authentication.</td>
-            <tr>
+            </tr>
             <tr>
                 <td>vCode</td>
                 <td><strong>char(64)</strong></td>
                 <td>The user defined or CCP generated <em>Verification Code</em> for the CAK.</td>
-            <tr>
+            </tr>
         </tbody>
     </table>
 

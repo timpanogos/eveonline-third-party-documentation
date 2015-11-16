@@ -4,7 +4,7 @@
 * __Path:__ ``/char/AssetList.xml.aspx``
 * __Access mask:__ 2
 * __Cache timer:__ ca. 2 hours (XML cache), 6 hours (data cache)  
-* __Paramaters:__
+* __Parameters:__
     <table>
         <tbody>
             <tr>
@@ -16,17 +16,17 @@
                 <td>keyID</td>
                 <td><strong>long</strong></td>
                 <td>API key ID</td>
-            <tr>
+            </tr>
             <tr>
                 <td>vCode</td>
                 <td><strong>char</strong></td>
                 <td>API verification code</td>
-            <tr>
+            </tr>
             <tr>
                 <td>characterID</td>
                 <td><strong>long</strong></td>
                 <td>ID of character</td>
-            <tr>
+            </tr>
             <tr>
                 <td>flat</td>
                 <td><strong>bool</strong></td>
@@ -34,7 +34,7 @@
                     0 _(False, default)_ - return a nested assets list<br />
                     1 _(True)_ - return flat assets list
                 </td>
-            <tr>
+            </tr>
         </tbody>
     </table>
 
@@ -132,7 +132,7 @@
             <td>
                 Indicates something about this item's storage location. The flag is used to differentiate 
                 between hangar divisions, drone bay, fitting location, and similar. Please see the 
-                <a href="add_proper_link">Inventory Flags</a> documentation.
+                <a href="../enumerations/#inventory-flags">Inventory Flags</a> documentation.
             </td>
         </tr>
         <tr>
