@@ -19,20 +19,25 @@
 * [AssetList](char_assetlist.md)<br />
   Lists everything a character owns.
 * [Blueprints](char_blueprints.md)<br />
-  Retrieve character Blueprints.
+  Lists blueprints in characters inventory
 * [Bookmarks](char_bookmarks.md)<br />
   Retrieve character Bookmarks.
-* [CalendarEventAttendees](char_calendareventattendees.md)
-* [CharacterSheet](char_charactersheet.md)
+* [CalendarEventAttendees](char_calendareventattendees.md)<br />
+  Returns a list of all invited attendees for a given event.
+* [CharacterSheet](char_charactersheet.md)<br />
+  Character, Skills and roles infortmation
 * [ChatChannels](char_chatchannels.md)<br />
   Retrieve character Chat Channels.
 * [ContactList](char_contactlist.md)<br />
   Lists the character's personal, corporation, and alliance contacts.
 * [ContactNotifications](char_contactnotifications.md)<br />
   Lists the notifications received about having been added to someone's contact list.
-* [ContractBids](char_contractbids.md)
-* [ContractItems](char_contractitems.md)
-* [Contracts](char_contracts.md)
+* [ContractBids](char_contractbids.md)<br />
+  Retrieve bids that have been placed on the characters auctions.
+* [ContractItems](char_contractitems.md)<br />
+  Lists Items and details of a particular contract.
+* [Contracts](char_contracts.md)<br />
+  Returns available contracts to character.
 * [FacWarStats](char_facwarstats.md)
 * [IndustryJobs](char_industryjobs.md)
 * [IndustryJobsHistory](char_industryjobshistory.md)

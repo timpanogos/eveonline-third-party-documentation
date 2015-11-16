@@ -99,3 +99,15 @@ Constant values are used in certain response data columns to represent enumerate
 * [Corp - AssetList](corp_assetlist.md)
 * [Char - ContractItems](char_contractitems.md)
 * [Corp - ContractItems](corp_contractitems.md)
+
+## Inventory Flags
+
+These are the flags used by the inventory system. This data is available in the EVE SDE invFlags table.
+They define hangars or slots where an item may reside. It should be noted that ingame items may have multiple flags, but the API will only show a single flag.
+
+
+### Applies to
+* [Char - AssetList](char_assetlist.md)
+* [Char - Blueprints](char_blueprints.md)
+* [Corp - AssetList](corp_assetlist.md)
+* [Char - Blueprints](corp_blueprints.md)

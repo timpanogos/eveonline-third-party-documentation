@@ -15,17 +15,17 @@
                 <td>keyID</td>
                 <td><strong>long</strong></td>
                 <td>API key ID</td>
-            <tr>
+            </tr>
             <tr>
                 <td>vCode</td>
                 <td><strong>char</strong></td>
                 <td>API verification code</td>
-            <tr>
+            </tr>
             <tr>
                 <td>orderID</td>
                 <td><strong>long</strong></td>
                 <td>Optional order ID of order to retrieve.  If omitted, retrieves an order batch (see notes).</td>
-            <tr>
+            </tr>
         </tbody>
     </table>
 

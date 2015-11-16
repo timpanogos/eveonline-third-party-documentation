@@ -16,17 +16,17 @@
                 <td>keyID</td>
                 <td><strong>long</strong></td>
                 <td>API key ID</td>
-            <tr>
+            </tr>
             <tr>
                 <td>vCode</td>
                 <td><strong>char</strong></td>
                 <td>API verification code</td>
-            <tr>
+            </tr>
             <tr>
                 <td>characterID</td>
                 <td><strong>long</strong></td>
                 <td>ID of character</td>
-            <tr>
+            </tr>
         </tbody>
     </table>
 

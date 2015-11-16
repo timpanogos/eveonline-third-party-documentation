@@ -15,7 +15,7 @@
                 <td>keyID</td>
                 <td><strong>long</strong></td>
                 <td>API key ID</td>
-            <tr>
+            </tr>
             <tr>
                 <td>vCode</td>
                 <td><strong>char</strong></td>
@@ -133,7 +133,7 @@
             <td nowrap>
                 <strong>int</strong>
                 <sup>
-                <a href="../../sde/tableref/#inventory-types">[1]</a>
+                <a href="../../sde/yaml_typeIDs/">[1]</a>
                 </sup>
             </td>
             <td>Type ID of the item to which the bookmark refers (even if the bookmark refers to a location instead of an item).</td>
