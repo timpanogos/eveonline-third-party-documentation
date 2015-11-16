@@ -233,7 +233,7 @@
             <td></td>
             <td>portionSize</td>
             <td><strong>int</strong></td>
-            <td>Type portion size (units?)</td>
+            <td>Type batch size (e.g. production units per industry job run)</td>
             <td></td>
             <td></td>
             <td></td>
@@ -499,9 +499,14 @@
             <td></td>
             <td></td>
             <td></td>
-            <td>unitID</td>
+            <td norap>
+                unitID
+                <sup>
+                <a href="../mssql_eveUnits/" title="EVE Units table">[1]</a>
+                </sup>
+            </td>
             <td><strong>int</strong></td>
-            <td>?</td>
+            <td>Bonus modification unit</td>
             <td></td>
         </tr>
     </tbody>
