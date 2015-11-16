@@ -18,7 +18,8 @@
   Retrieve character account balance.
 * [AssetList](char_assetlist.md)<br />
   Lists everything a character owns.
-* [BluePrints](char_blueprints.md)
+* [Blueprints](char_blueprints.md)<br />
+  Retrieve character Blueprints.
 * [Bookmarks](char_bookmarks.md)<br />
   Retrieve character Bookmarks.
 * [CalendarEventAttendees](char_calendareventattendees.md)
@@ -41,7 +42,7 @@
 * [MailBodies](char_mailbodies.md)
 * [MailingLists](char_mailinglists.md)
 * [MailMessages](char_mailmessages.md)
-* [MarketOrders](char_marketorders.md)<br>
+* [MarketOrders](char_marketorders.md)<br />
   Retrieve character Market Orders.
 * [Medals](char_medals.md)
 * [Notifications](char_notifications.md)
@@ -62,7 +63,7 @@
 * [AccountBalance](corp_accountbalance.md)<br />
   Retrieve corporation account balances.
 * [AssetList](corp_assetlist.md)
-* [BluePrints](corp_blueprints.md)
+* [Blueprints](corp_blueprints.md)
 * [Bookmarks](corp_bookmarks.md)<br />
   Retrieve corporation Bookmarks.
 * [ContactList](corp_contactlist.md)
