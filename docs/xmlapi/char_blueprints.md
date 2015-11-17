@@ -1,6 +1,5 @@
 ## Blueprints
 
-
 * __Path:__ ``/char/Blueprints.xml.aspx``
 * __Access mask:__ 2
 * __Cache timer:__ 720 minutes  
@@ -33,17 +32,13 @@
 ### Sample Response
 
 ```xml
-<eveapi version="2">
-    <currentTime>2015-10-29 12:40:37</currentTime>
-    <result>
-        <rowset columns="itemID,locationID,typeID,typeName,flagID,quantity,timeEfficiency,materialEfficiency,runs" key="itemID" name="blueprints">
-            <row runs="1" materialEfficiency="0" timeEfficiency="0" quantity="-2" flagID="4" typeName="Rattlesnake Victory Edition Blueprint" typeID="34153" locationID="60003466" itemID="1014573377908"/>
-            <row runs="10" materialEfficiency="0" timeEfficiency="0" quantity="-2" flagID="4" typeName="Council Diplomatic Shuttle Blueprint" typeID="34497" locationID="60003466" itemID="1012538208557"/>
-            <row runs="1" materialEfficiency="0" timeEfficiency="0" quantity="-2" flagID="4" typeName="Victorieux Luxury Yacht Blueprint" typeID="34591" locationID="60003466" itemID="1017147043703"/>
-        </rowset>
-    </result>
-    <cachedUntil>2015-10-30 00:10:37</cachedUntil>
-</eveapi>
+<result>
+    <rowset columns="itemID,locationID,typeID,typeName,flagID,quantity,timeEfficiency,materialEfficiency,runs" key="itemID" name="blueprints">
+        <row runs="1" materialEfficiency="0" timeEfficiency="0" quantity="-2" flagID="4" typeName="Rattlesnake Victory Edition Blueprint" typeID="34153" locationID="60003466" itemID="1014573377908"/>
+        <row runs="10" materialEfficiency="0" timeEfficiency="0" quantity="-2" flagID="4" typeName="Council Diplomatic Shuttle Blueprint" typeID="34497" locationID="60003466" itemID="1012538208557"/>
+        <row runs="1" materialEfficiency="0" timeEfficiency="0" quantity="-2" flagID="4" typeName="Victorieux Luxury Yacht Blueprint" typeID="34591" locationID="60003466" itemID="1017147043703"/>
+    </rowset>
+</result>
 ```  
 
 ### Result Data
@@ -75,7 +70,12 @@
         </tr>
         <tr>
             <td>typeID</td>
-            <td>decimal</td>
+            <td nowrap>
+                decimal
+                <sup>
+                <a href="../../sde/yaml_typeIDs/" title="Inventory Types file">[1]</a>
+                </sup>
+            </td>
             <td>The type of this item. References the invTypes table/YAML file.</td>
         </tr>
         <tr>
@@ -90,7 +90,12 @@
         </tr>
         <tr>
             <td>flagID</td>
-            <td>long</td>
+            <td nowrap>
+                long
+                <sup>
+                <a href="../../sde/mssql_invFlags/" title="Inventory Flags table">[1]</a>
+                </sup>
+            </td>
             <td>
                 Indicates something about this item's storage location. The flag is used to differentiate 
                 between hangar divisions, drone bay, fitting location, and similar. Please see the 
