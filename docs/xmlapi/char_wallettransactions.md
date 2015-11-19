@@ -24,7 +24,7 @@
             <tr>
                 <td>characterID</td>
                 <td><strong>long</strong></td>
-                <td>Character ID for which bookmarks will be requested</td>
+                <td>Character ID for which transactions will be requested</td>
             <tr>
             <tr>
                 <td>accountKey</td>
