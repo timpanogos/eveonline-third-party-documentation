@@ -50,6 +50,7 @@ pages:
 - ['sde/mssql.md', 'Static Data Export', 'Microsoft SQLServer Tables']
 - ['sde/sqlite.md', 'Static Data Export', 'SQLite Tables']
 - ['sde/yaml.md', 'Static Data Export', 'YAML Files']
+- ['sde/mssql_crpNPCCorporations.md', 'Static Data Export', 'NPC Corporations Table (MSSQL)']
 - ['sde/mssql_eveUnits.md', 'Static Data Export', 'EVE Units Table (MSSQL)']
 - ['sde/mssql_invFlags.md', 'Static Data Export', 'Inventory Flags Table (MSSQL)']
 - ['sde/mssql_invItems.md', 'Static Data Export', 'Inventory Items Table (MSSQL)']

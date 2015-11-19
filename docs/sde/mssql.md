@@ -1,5 +1,14 @@
 # Microsoft SQLServer Tables
-The SDE includes a Microsoft SQLServer dump file which contains the following tables:
+The SDE includes a Microsoft SQLServer dump file with several reference tables.
+Originally, almost all reference data was included in the SQLServer dump.
+The [EVE Development Network](http://wiki.eve-id.net/Category:CCP_DB_Tables) documents
+much of the original contents of the dump file.
+
+The current SQLServer dump contains the following tables:
+
+## Corporations Tables
+* [NPC Corporations](mssql_crpNPCCorporations.md)<br/>
+  Table of all NPC Corporations.
 
 ## EVE Tables
 * [EVE Units](mssql_eveUnits.md)<br/>
