@@ -22,3 +22,6 @@ The current SQLServer dump contains the following tables:
 * [Inventory Items](mssql_invItems.md)<br/>
   Table of all in-game items.
 
+## Stations Tables
+* [Stations](mssql_staStations.md)<br/>
+  Table of all stations.

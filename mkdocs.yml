@@ -55,6 +55,7 @@ pages:
 - ['sde/mssql_invFlags.md', 'Static Data Export', 'Inventory Flags Table (MSSQL)']
 - ['sde/mssql_invItems.md', 'Static Data Export', 'Inventory Items Table (MSSQL)']
 - ['sde/mssql_invNames.md', 'Static Data Export', 'Inventory Name Table (MSSQL)']
+- ['sde/mssql_staStations.md', 'Static Data Export', 'Stations Table (MSSQL)']
 - ['sde/yaml_typeIDs.md', 'Static Data Export', 'Inventory Types File (YAML)']
 - ['sde/conversions.md', 'Static Data Export', 'Conversions']
 - ['sde/tips.md', 'Static Data Export', 'Tips']
