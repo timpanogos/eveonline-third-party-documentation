@@ -61,7 +61,8 @@
 * [SkillQueue](char_skillqueue.md)
 * [Standings](char_standings.md)
 * [UpcomingCalendarEvents](char_upcomingcalendarevents.md)
-* [WalletJournal](char_walletjournal.md)
+* [WalletJournal](char_walletjournal.md)<br />
+  Retrieve character wallet journal.
 * [WalletTransactions](char_wallettransactions.md)<br />
   Retrieve character wallet transactions.
 

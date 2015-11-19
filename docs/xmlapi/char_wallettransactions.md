@@ -24,7 +24,7 @@
             <tr>
                 <td>characterID</td>
                 <td><strong>long</strong></td>
-                <td>Character ID for which bookmarks will be requested</td>
+                <td>Character ID for which transactions will be requested</td>
             <tr>
             <tr>
                 <td>accountKey</td>
@@ -129,7 +129,7 @@
                 <a href="../../sde/mssql_crpNPCCorporations/" title="NPC Corporations table when counterparty is an NPC Corporation">[1]</a>
                 </sup>
             </td>
-            <td>Counterparty characer or corporation ID.  For NPC corporations, see the appropriate cross reference.</td>
+            <td>Counterparty character or corporation ID.  For NPC corporations, see the appropriate cross reference.</td>
         </tr>
         <tr>
             <td></td>
