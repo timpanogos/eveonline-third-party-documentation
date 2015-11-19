@@ -44,6 +44,7 @@ pages:
 - ['xmlapi/char_wallettransactions.md', 'XML API', 'Char - WalletTransactions']
 - ['xmlapi/corp_accountbalance.md', 'XML API', 'Corp - AccountBalance']
 - ['xmlapi/corp_bookmarks.md', 'XML API', 'Corp - Bookmarks']
+- ['xmlapi/corp_wallettransactions.md', 'XML API', 'Corp - WalletTransactions']
 - ['xmlapi/enumerations.md', 'XML API', 'Constants']
 - ['xmlapi/map_sovereignty.md', 'XML API', 'Map - Sovereignty']
 - ['xmlapi/serv_serversstatus.md', 'XML API', 'Server - ServerStatus']

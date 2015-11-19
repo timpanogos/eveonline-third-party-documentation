@@ -100,7 +100,8 @@
 * [StarbaseList](corp_starbaselist.md)
 * [Titles](corp_titles.md)
 * [WalletJournal](corp_walletjournal.md)
-* [WalletTransactions](corp_wallettransactions.md)
+* [WalletTransactions](corp_wallettransactions.md)<br />
+  Retrieve corporation wallet transactions.
 
 ## Map
 * [Sovereignty](map_sovereignty.md)
