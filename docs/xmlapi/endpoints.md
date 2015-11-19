@@ -62,7 +62,8 @@
 * [Standings](char_standings.md)
 * [UpcomingCalendarEvents](char_upcomingcalendarevents.md)
 * [WalletJournal](char_walletjournal.md)
-* [WalletTransactions](char_wallettransactions.md)
+* [WalletTransactions](char_wallettransactions.md)<br />
+  Retrieve character wallet transactions.
 
 ## Corp
 * [AccountBalance](corp_accountbalance.md)<br />
