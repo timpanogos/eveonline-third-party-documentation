@@ -99,7 +99,8 @@
 * [StarbaseDetail](corp_starbasedetail.md)
 * [StarbaseList](corp_starbaselist.md)
 * [Titles](corp_titles.md)
-* [WalletJournal](corp_walletjournal.md)
+* [WalletJournal](corp_walletjournal.md)<br />
+  Retrieve corporation wallet journal.
 * [WalletTransactions](corp_wallettransactions.md)<br />
   Retrieve corporation wallet transactions.
 
