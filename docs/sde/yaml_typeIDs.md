@@ -257,7 +257,7 @@
             <td></td>
             <td>basePrice</td>
             <td><strong>float</strong></td>
-            <td>Type base price in market?</td>
+            <td>Seed price of item when first introduced.</td>
             <td></td>
             <td></td>
             <td></td>
@@ -317,7 +317,7 @@
             <td></td>
             <td>sofFactionName</td>
             <td><strong>string</strong></td>
-            <td>?</td>
+            <td>Skin faction name.</td>
             <td></td>
             <td></td>
             <td></td>
@@ -327,9 +327,14 @@
         <tr>
             <td></td>
             <td></td>
-            <td>sofMaterialSetID</td>
+            <td>
+                sofMaterialSetID
+                <sup>
+                <a href="../yaml_skinMaterials/" title="Skin material sets table">[1]</a>
+                </sup>
+            </td>
             <td><strong>int</strong></td>
-            <td>?</td>
+            <td>Skin material set ID.</td>
             <td></td>
             <td></td>
             <td></td>
