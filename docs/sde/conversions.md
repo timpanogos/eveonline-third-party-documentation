@@ -19,7 +19,7 @@ Desmont provides a tool to run on Windows, to merge the other data back into the
 * SQLite
 * CSV
 
-This tool converts to a format close to the original SDE, with blueprint information going into ramTypeRequirements.
+This tool converts to a format close to the SDE as it was before CCP changed how it was produced -splitting it sqlserver, yaml and sqlite files- with blueprint information going into ramTypeRequirements. As such it should be more compatible with some older tools.
 
 ## [Steve Ronuken - Fuzzwork Enterprises](https://www.fuzzwork.co.uk/dump/)
 
