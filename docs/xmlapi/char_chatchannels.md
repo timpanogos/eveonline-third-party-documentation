@@ -21,6 +21,11 @@
                 <td><strong>char</strong></td>
                 <td>API verification code</td>
             </tr>
+            <tr>
+                <td>characterID</td>
+                <td><strong>long</strong></td>
+                <td>ID of character</td>
+            </tr>
         </tbody>
     </table>
 
