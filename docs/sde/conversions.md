@@ -27,7 +27,7 @@ Steve provides conversions of the SDE for download, in the following formats:
 
 * SQL Server
 * Mysql (both [full database](https://www.fuzzwork.co.uk/dump/mysql-latest.tar.bz2) and [single table](https://www.fuzzwork.co.uk/dump/latest/))
-* [Postgress](https://www.fuzzwork.co.uk/dump/postgres-latest.dmp.bz2) (both public schema, and evetools schema)
+* [Postgres](https://www.fuzzwork.co.uk/dump/postgres-latest.dmp.bz2) (both public schema, and evetools schema)
 * [SQLite](https://www.fuzzwork.co.uk/dump/sqlite-latest.sqlite.bz2)
 * [CSV/XLS](https://www.fuzzwork.co.uk/dump/latest/) (depending on row counts)
 
