@@ -106,6 +106,7 @@
   
 ## Eve
 * [AllianceList](eve_alliancelist.md)
+* [CharacterAffiliation](eve_characteraffiliation.md)
   
 ## Map
 * [Sovereignty](map_sovereignty.md)
