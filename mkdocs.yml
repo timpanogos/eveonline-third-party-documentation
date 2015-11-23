@@ -47,6 +47,7 @@ pages:
 - ['xmlapi/corp_walletjournal.md', 'XML API', 'Corp - WalletJournal']
 - ['xmlapi/corp_wallettransactions.md', 'XML API', 'Corp - WalletTransactions']
 - ['xmlapi/enumerations.md', 'XML API', 'Constants']
+- ['xmlapi/eve_alliancelist.md', 'XML API', 'Eve - AllianceList']
 - ['xmlapi/map_sovereignty.md', 'XML API', 'Map - Sovereignty']
 - ['xmlapi/serv_serversstatus.md', 'XML API', 'Server - ServerStatus']
 - ['sde/intro.md', 'Static Data Export', 'Introduction']
