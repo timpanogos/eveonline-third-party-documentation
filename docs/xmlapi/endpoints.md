@@ -108,6 +108,7 @@
 * [AllianceList](eve_alliancelist.md)
 * [CharacterAffiliation](eve_characteraffiliation.md)
 * [CharacterID](eve_characterid.md)
+* [RefTypes](eve_reftypes.md)
   
 ## Map
 * [Sovereignty](map_sovereignty.md)
