@@ -52,6 +52,7 @@ pages:
 - ['xmlapi/eve_characterid.md', 'XML API', 'Eve - CharacterID']
 - ['xmlapi/eve_conquerablestationlist.md', 'XML API', 'Eve - ConquerableStationList']
 - ['xmlapi/eve_reftypes.md', 'XML API', 'Eve - RefTypes']
+- ['xmlapi/map_kills.md', 'XML API', 'Map - Kills']
 - ['xmlapi/map_sovereignty.md', 'XML API', 'Map - Sovereignty']
 - ['xmlapi/serv_serversstatus.md', 'XML API', 'Server - ServerStatus']
 - ['sde/intro.md', 'Static Data Export', 'Introduction']
