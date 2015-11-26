@@ -109,6 +109,7 @@
 * [CharacterAffiliation](eve_characteraffiliation.md)
 * [CharacterID](eve_characterid.md)
 * [ConquerableStationList](eve_conquerablestationlist.md)
+* [ErrorList](eve_errorlist.md)
 * [RefTypes](eve_reftypes.md)
 
 ## Map
