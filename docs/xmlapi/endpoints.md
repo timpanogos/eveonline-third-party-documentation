@@ -112,6 +112,7 @@
 * [RefTypes](eve_reftypes.md)
 
 ## Map
+* [Jumps](map_jumps.md)
 * [Kills](map_kills.md)
 * [Sovereignty](map_sovereignty.md)
 

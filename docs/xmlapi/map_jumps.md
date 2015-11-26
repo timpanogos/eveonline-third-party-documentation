@@ -1,0 +1,54 @@
+## Jumps
+
+* __Path:__ ``/map/Jumps.xml.aspx``
+* __Access mask:__ none
+* __Cache timer:__ 1 hour
+* __Parameters:__ None, this function accepts no arguments.
+
+### Sample Response
+
+```xml
+<eveapi version="2">
+    <currentTime>2015-11-25 01:10:18</currentTime>
+        <result>
+            <rowset name="solarSystems" key="solarSystemID" columns="solarSystemID,shipJumps">
+                <row solarSystemID="30002410" shipJumps="1"/>
+                <row solarSystemID="30001343" shipJumps="1"/>
+                <row solarSystemID="30001675" shipJumps="32"/>
+                <row solarSystemID="30005304" shipJumps="357"/>
+                <row solarSystemID="30000656" shipJumps="45"/>
+                <row solarSystemID="30004832" shipJumps="2"/>
+                <row solarSystemID="30003498" shipJumps="60"/>
+                <row solarSystemID="30004732" shipJumps="20"/>
+                <row solarSystemID="30002293" shipJumps="1"/>
+                <row solarSystemID="30000155" shipJumps="295"/>
+                <row solarSystemID="30002811" shipJumps="46"/>
+                <row solarSystemID="30003329" shipJumps="36"/>
+            </rowset>
+            <dataTime>2015-11-25 01:10:18</dataTime>
+        </result>
+    <cachedUntil>2015-11-25 01:22:38</cachedUntil>
+</eveapi>
+```
+
+### Result Data
+
+<table>
+    <tbody>
+        <tr>
+            <th>Name</th>
+            <th>Data type</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>solarSystemID</td>
+            <td>int</td>
+            <td>The unique identification number of a solar system. You can look up the details of the solar system in the table mapSolarSystems of the SDE</td>
+        </tr>
+        <tr>
+            <td>shipJumps</td>
+            <td>int</td>
+            <td>The number of jumps into the system in the last hour.</td>
+        </tr>
+    </tbody>
+</table>
