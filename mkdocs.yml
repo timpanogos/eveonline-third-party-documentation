@@ -39,6 +39,7 @@ pages:
 - ['xmlapi/char_contractbids.md', 'XML API', 'Char - ContractBids']
 - ['xmlapi/char_contractitems.md', 'XML API', 'Char - ContractItems']
 - ['xmlapi/char_contracts.md', 'XML API', 'Char - Contracts']
+- ['xmlapi/char_mailinglists.md', 'XML API', 'Char - MailingLists']
 - ['xmlapi/char_marketorders.md', 'XML API', 'Char - MarketOrders']
 - ['xmlapi/char_walletjournal.md', 'XML API', 'Char - WalletJournal']
 - ['xmlapi/char_wallettransactions.md', 'XML API', 'Char - WalletTransactions']
