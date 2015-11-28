@@ -38,7 +38,8 @@
   Lists Items and details of a particular contract.
 * [Contracts](char_contracts.md)<br />
   Returns available contracts to character.
-* [FacWarStats](char_facwarstats.md)
+* [FacWarStats](char_facwarstats.md)<br />
+  Returns faction warfare information for characters enrolled in faction warfare.
 * [IndustryJobs](char_industryjobs.md)
 * [IndustryJobsHistory](char_industryjobshistory.md)
 * [KillLog](char_killlog.md)
