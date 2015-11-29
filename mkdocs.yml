@@ -58,6 +58,7 @@ pages:
 - ['xmlapi/eve_conquerablestationlist.md', 'XML API', 'Eve - ConquerableStationList']
 - ['xmlapi/eve_errorlist.md', 'XML API', 'Eve - ErrorList']
 - ['xmlapi/eve_reftypes.md', 'XML API', 'Eve - RefTypes']
+- ['xmlapi/eve_typename.md', 'XML API', 'Eve - TypeName']
 - ['xmlapi/map_facwarsystems.md', 'XML API', 'Map - FacWarSystems']
 - ['xmlapi/map_jumps.md', 'XML API', 'Map - Jumps']
 - ['xmlapi/map_kills.md', 'XML API', 'Map - Kills']
