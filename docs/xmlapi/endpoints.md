@@ -112,6 +112,10 @@
   Returns active Alliances in New Eden and their member Corporations.
 * [CharacterAffiliation](eve_characteraffiliation.md)
 * [CharacterID](eve_characterid.md)
+* [CharacterInfo](eve_characterinfo.md)<br />
+  Returns information about the character. Has three data sets it can return depending on access mask.
+* [CharacterName](eve_charactername.md)<br />
+  Returns the names for a comma-separated list of owner IDs for characters, corporations, alliances, and so on.
 * [ConquerableStationList](eve_conquerablestationlist.md)<br />
   Returns a list of conquerable stations in New Eden.
 * [ErrorList](eve_errorlist.md)<br />
