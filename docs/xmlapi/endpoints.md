@@ -122,6 +122,8 @@
   Returns a list of error codes and text that the API may return.
 * [RefTypes](eve_reftypes.md)<br />
   Returns a list of transaction types used in the [Corp-WalletJournal](corp_walletjournal.md) & [Char-WalletJournal](char_walletjournal.md).
+* [TypeName](eve_typename.md)<br />
+  Returns the names associated with a sequence of typeIDs.
 
 ## Map
 * [FacWarSystems](map_facwarsystems.md)
