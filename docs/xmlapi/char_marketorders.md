@@ -22,6 +22,11 @@
                 <td>API verification code</td>
             </tr>
             <tr>
+                <td>characterID</td>
+                <td><strong>long</strong></td>
+                <td>ID of character</td>
+            </tr>
+            <tr>
                 <td>orderID</td>
                 <td><strong>long</strong></td>
                 <td>Optional order ID of order to retrieve.  If omitted, retrieves an order batch (see notes).</td>
