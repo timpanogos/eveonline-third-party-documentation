@@ -24,7 +24,7 @@
             <tr>
                 <td>characterID</td>
                 <td><strong>long</strong></td>
-                <td>ID of character. Optional if the key is character specific.</td>
+                <td>ID of character. Optional only if the key is character specific, otherwise mandatory.</td>
             </tr>
             <tr>
                 <td>orderID</td>
