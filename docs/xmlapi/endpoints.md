@@ -63,7 +63,8 @@
 * [SkillInTraining](char_skillintraining.md)
 * [SkillQueue](char_skillqueue.md)
 * [Standings](char_standings.md)
-* [UpcomingCalendarEvents](char_upcomingcalendarevents.md)
+* [UpcomingCalendarEvents](char_upcomingcalendarevents.md)<br />
+  Retrieve character upcoming calendar events.
 * [WalletJournal](char_walletjournal.md)<br />
   Retrieve character wallet journal.
 * [WalletTransactions](char_wallettransactions.md)<br />
