@@ -20,12 +20,12 @@
                 <td>vCode</td>
                 <td><strong>char</strong></td>
                 <td>API verification code</td>
-            <tr>
+            </tr>
             <tr>
                 <td>characterID</td>
                 <td><strong>long</strong></td>
                 <td>Character ID for which bookmarks will be requested</td>
-            <tr>
+            </tr>
         </tbody>
     </table>
 

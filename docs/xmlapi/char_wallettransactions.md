@@ -20,12 +20,12 @@
                 <td>vCode</td>
                 <td><strong>string</strong></td>
                 <td>API verification code</td>
-            <tr>
+            </tr>
             <tr>
                 <td>characterID</td>
                 <td><strong>long</strong></td>
                 <td>Character ID for which transactions will be requested</td>
-            <tr>
+            </tr>
             <tr>
                 <td>accountKey</td>
                 <td><strong>int</strong></td>
@@ -34,7 +34,7 @@
                 However, corporations have seven wallets with accountKeys numbered from 1000 through 1006.  The <a href="../corp_accountbalance/">Corp - AccountBalance</a> 
                 call can be used to map corporation wallet to appropriate accountKey.
                 </td>
-            <tr>
+            </tr>
             <tr>
                 <td>fromID</td>
                 <td><strong>long</strong></td>
@@ -42,14 +42,14 @@
                 Optional upper bound for the transaction ID of returned transactions.  This argument is normally used to walk to the transaction log backwards.
                 See <a href="../intro/#journal-walking">Journal Walking</a> for more information.
                 </td>
-            <tr>
+            </tr>
             <tr>
                 <td>rowCount</td>
                 <td><strong>int</strong></td>
                 <td>
                 Optional limit on number of rows to return.  Default is 1000.  Maximum is 2560.
                 </td>
-            <tr>
+            </tr>
         </tbody>
     </table>
 
