@@ -61,7 +61,8 @@
 * [PlanetaryRoutes](char_planetaryroutes.md)
 * [Research](char_research.md)
 * [SkillInTraining](char_skillintraining.md)
-* [SkillQueue](char_skillqueue.md)
+* [SkillQueue](char_skillqueue.md)<br />
+  Retrieve character skill queue.
 * [Standings](char_standings.md)<br />
   Retrieve character standings.
 * [UpcomingCalendarEvents](char_upcomingcalendarevents.md)<br />
