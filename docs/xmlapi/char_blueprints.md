@@ -52,13 +52,11 @@
         </tr>
         <tr>
             <td>itemID</td>
-            <td>bigint</td>
+            <td>long</td>
             <td>
-                Unique ID for this item. This is only guaranteed to be unique within this page load. 
-                IDs are recycled over time and it is possible for this to happen. Also, items are 
-                not guaranteed to maintain the same itemID over time. When they are repackaged, 
-                stacks are split or merged, when they're assembled, and other actions can cause 
-                itemIDs to change.
+                Unique ID for this item.  The ID of an item is stable if that item is not repackaged,
+		stacked, detached from a stack, assembled, or otherwise altered.  If an item is changed
+		in one of these ways, then the ID will also change (see notes below).
             </td>
         </tr>
         <tr>
@@ -71,12 +69,12 @@
         <tr>
             <td>typeID</td>
             <td nowrap>
-                decimal
+                int
                 <sup>
                 <a href="../../sde/yaml_typeIDs/" title="Inventory Types file">[1]</a>
                 </sup>
             </td>
-            <td>The type of this item. References the invTypes table/YAML file.</td>
+            <td>The type of this item.</td>
         </tr>
         <tr>
             <td>typeName</td>
@@ -122,4 +120,5 @@
 
 ### References
 
-[Hyperion API Improvements](http://community.eveonline.com/news/dev-blogs/what-third-party-developers-probably-want-to-know-about-hyperion/)
+* [Hyperion API Improvements](http://community.eveonline.com/news/dev-blogs/what-third-party-developers-probably-want-to-know-about-hyperion/)
+* Uniqueness of itemIDs - [Location Id problem with EVE API -- /char/blueprints.xml.aspx --](https://forums.eveonline.com/default.aspx?g=posts&t=459727)

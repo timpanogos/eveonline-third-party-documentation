@@ -98,11 +98,9 @@
             <td>itemID</td>
             <td>long</td>
             <td>
-                Unique ID for this item. This is only guaranteed to be unique within this page load. 
-                IDs are recycled over time and it is possible for this to happen. Also, items are 
-                not guaranteed to maintain the same itemID over time. When they are repackaged, 
-                stacks are split or merged, when they're assembled, and other actions can cause 
-                itemIDs to change.
+                Unique ID for this item.  The ID of an item is stable if that item is not repackaged,
+		stacked, detached from a stack, assembled, or otherwise altered.  If an item is changed
+		in one of these ways, then the ID will also change (see notes below).
             </td>
         </tr>
         <tr>
@@ -118,8 +116,13 @@
         </tr>
         <tr>
             <td>typeID</td>
-            <td>decimal</td>
-            <td>The type of this item. References the invTypes table/YAML file.</td>
+            <td nowrap>
+	        <strong>int</strong>
+		<sup>
+                <a href="../../sde/yaml_typeIDs/">[1]</a>
+                </sup>
+	    </td>
+            <td>The type of this item.</td>
         </tr>
         <tr>
             <td>quantity</td>
@@ -178,4 +181,5 @@
 ### References
 * General information - [Forum thread _"API: Change Log"_ by CCP Garthagk _(see post #10)_](http://oldforums.eveonline.com/?a=topic&threadID=575626&page=1)
 * locationID - [Forum thread about how to convert the locationID to a "proper" location](http://oldforums.eveonline.com/?a=topic&threadID=667487)    
-* rawQuantity - [Dev blog _"CAKs and Contracts in the API"_](http://community.eveonline.com/news/dev-blogs/caks-and-contracts-in-the-api/)    
+* rawQuantity - [Dev blog _"CAKs and Contracts in the API"_](http://community.eveonline.com/news/dev-blogs/caks-and-contracts-in-the-api/)
+* Uniqueness of itemIDs - [Location Id problem with EVE API -- /char/blueprints.xml.aspx --](https://forums.eveonline.com/default.aspx?g=posts&t=459727)
