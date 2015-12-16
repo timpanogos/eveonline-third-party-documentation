@@ -67,5 +67,5 @@
 
 ### References
 
-* [Post](http://oldforums.eveonline.com/?a=topic&threadID=1472141&page=1#15) on the old EVE-O forums regarding changes done to the API endpoint. Please that it is old and some information is no longer valid (typeIDs where later split to another API endpoint, see below.).
+* [Post](http://oldforums.eveonline.com/?a=topic&threadID=1472141&page=1#15) on the old EVE-O forums regarding changes done to the API endpoint. Please note that it is old and some information is no longer valid (typeIDs where later split to another API endpoint, see below.).
 * [Post](https://forums.eveonline.com/default.aspx?g=posts&m=658822#post658822) on the new EVE-O forums regarding typeID no longer being served from /EVE/CharacterName.
