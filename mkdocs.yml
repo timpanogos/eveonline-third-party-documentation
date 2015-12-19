@@ -43,6 +43,7 @@ pages:
 - ['xmlapi/char_mailinglists.md', 'XML API', 'Char - MailingLists']
 - ['xmlapi/char_mailmessages.md', 'XML API', 'Char - MailMessages']
 - ['xmlapi/char_marketorders.md', 'XML API', 'Char - MarketOrders']
+- ['xmlapi/char_research.md', 'XML API', 'Char - Research']
 - ['xmlapi/char_skillintraining.md', 'XML API', 'Char - SkillInTraining']
 - ['xmlapi/char_skillqueue.md', 'XML API', 'Char - SkillQueue']
 - ['xmlapi/char_standings.md', 'XML API', 'Char - Standings']
