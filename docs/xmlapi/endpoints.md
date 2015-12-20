@@ -59,7 +59,8 @@
 * [PlanetaryLinks](char_planetarylinks.md)
 * [PlanetaryPins](char_planetarypins.md)
 * [PlanetaryRoutes](char_planetaryroutes.md)
-* [Research](char_research.md)
+* [Research](char_research.md)<br />
+  Retrieve character research.
 * [SkillInTraining](char_skillintraining.md)<br />
   Retrieve character skill in training.
 * [SkillQueue](char_skillqueue.md)<br />
