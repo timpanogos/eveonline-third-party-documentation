@@ -55,10 +55,14 @@
 * [Medals](char_medals.md)
 * [Notifications](char_notifications.md)
 * [NotificationTexts](char_notificationtexts.md)
-* [PlanetaryColonies](char_planetarycolonies.md)
-* [PlanetaryLinks](char_planetarylinks.md)
-* [PlanetaryPins](char_planetarypins.md)
-* [PlanetaryRoutes](char_planetaryroutes.md)
+* [PlanetaryColonies](char_planetarycolonies.md)<br />
+  Retrieve planetary colonies owned by character.
+* [PlanetaryLinks](char_planetarylinks.md)<br />
+  Retrieve planetary links for colonies owned by character.
+* [PlanetaryPins](char_planetarypins.md)<br />
+  Retrieve planetary pins for colonies owned by character.
+* [PlanetaryRoutes](char_planetaryroutes.md)<br />
+  Retrieve planetary routes for colonies owned by character.
 * [Research](char_research.md)<br />
   Retrieve character research.
 * [SkillInTraining](char_skillintraining.md)<br />
