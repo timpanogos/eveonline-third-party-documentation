@@ -43,6 +43,8 @@ pages:
 - ['xmlapi/char_mailinglists.md', 'XML API', 'Char - MailingLists']
 - ['xmlapi/char_mailmessages.md', 'XML API', 'Char - MailMessages']
 - ['xmlapi/char_marketorders.md', 'XML API', 'Char - MarketOrders']
+- ['xmlapi/char_notifications.md', 'XML API', 'Char - Notifications']
+- ['xmlapi/char_notificationtexts.md', 'XML API', 'Char - NotificationTexts']
 - ['xmlapi/char_planetarycolonies.md', 'XML API', 'Char - PlanetaryColonies']
 - ['xmlapi/char_planetarylinks.md', 'XML API', 'Char - PlanetaryLinks']
 - ['xmlapi/char_planetarypins.md', 'XML API', 'Char - PlanetaryPins']

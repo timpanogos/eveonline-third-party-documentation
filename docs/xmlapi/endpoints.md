@@ -53,8 +53,10 @@
 * [MarketOrders](char_marketorders.md)<br />
   Retrieve character Market Orders.
 * [Medals](char_medals.md)
-* [Notifications](char_notifications.md)
-* [NotificationTexts](char_notificationtexts.md)
+* [Notifications](char_notifications.md)<br />
+  Retrieve character notification headers.
+* [NotificationTexts](char_notificationtexts.md)<br />
+  Retrieve character notification bodies.
 * [PlanetaryColonies](char_planetarycolonies.md)<br />
   Retrieve planetary colonies owned by character.
 * [PlanetaryLinks](char_planetarylinks.md)<br />
