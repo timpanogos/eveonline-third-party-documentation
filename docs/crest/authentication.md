@@ -13,11 +13,23 @@ Currently most data is available from public crest, so does not require authenti
 ### publicData
 The first scope released. It allows access to live market orders data for any region. CCP FoxFour has said that this data will probably moved to Public CREST soon, so this scope may well become deprecated.
 
+### characterContactsRead
+Allows access to reading your character's contacts.
+
+### characterContactsWrite
+Allows access to create and update your character's contacts.
+
 ### characterFittingsRead
 Allows an application to read all of the saved fits for a character.
 
 ### characterFittingsWrite
 Allows an application to create new saved fits as well as delete existing ones.
+
+### characterLocationRead
+Allows an application to read your character's current location.
+
+### characterNavigationWrite
+Allows an application to set your auto-pilot waypoints on your client.
 
 # Using your access token
 Once you have a valid access token from the SSO, you can make calls to authenticated CREST by adding an Authorization header and using the auth'd crest endpoint.
