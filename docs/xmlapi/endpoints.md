@@ -93,6 +93,7 @@
 * [ContractItems](corp_contractitems.md)
 * [Contracts](corp_contracts.md)
 * [CorporationSheet](corp_corporationsheet.md)
+  Returns details for a specific corporation.
 * [CustomsOffices](corp_customsoffices.md)
 * [Facilities](corp_facilities.md)
 * [FacWarStats](corp_facwarstats.md)
