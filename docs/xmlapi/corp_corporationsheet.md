@@ -2,7 +2,7 @@
 
 * __Path:__ ``/corp/CorporationSheet.xml.aspx``
 * __Access mask:__ 8
-* __Cache timer:__ 1 hour 15 minutes
+* __Cache timer:__ 5 hours 57 minutes
 * __Parameters:__
     <table>
         <tbody>
