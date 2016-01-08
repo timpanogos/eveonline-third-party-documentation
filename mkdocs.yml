@@ -58,6 +58,7 @@ pages:
 - ['xmlapi/char_wallettransactions.md', 'XML API', 'Char - WalletTransactions']
 - ['xmlapi/corp_accountbalance.md', 'XML API', 'Corp - AccountBalance']
 - ['xmlapi/corp_bookmarks.md', 'XML API', 'Corp - Bookmarks']
+- ['xmlapi/corp_corporationsheet.md', 'XML API', 'Corp - CorporationSheet']
 - ['xmlapi/corp_walletjournal.md', 'XML API', 'Corp - WalletJournal']
 - ['xmlapi/corp_wallettransactions.md', 'XML API', 'Corp - WalletTransactions']
 - ['xmlapi/enumerations.md', 'XML API', 'Constants']
