@@ -500,7 +500,7 @@
         </tr>
         <tr>
             <td>roleID</td>
-            <td>int</td>
+            <td>int64</td>
             <td>ID of role.</td>
         </tr>
         <tr>
@@ -540,7 +540,7 @@
         </tr>
         <tr>
             <td>titleID</td>
-            <td>int</td>
+            <td>int32</td>
             <td>ID of title.</td>
         </tr>
         <tr>
