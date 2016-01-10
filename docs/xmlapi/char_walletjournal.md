@@ -53,6 +53,8 @@
         </tbody>
     </table>
 
+### Sample Response
+
 ```xml
 <result>
     <rowset name="transactions" key="refID" columns="date,refID,refTypeID,ownerName1,ownerID1,ownerName2,ownerID2,argName1,argID1,amount,balance,reason,taxReceiverID,taxAmount">
