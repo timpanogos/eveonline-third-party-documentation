@@ -51,15 +51,15 @@
             <row contactID="1488155548" contactName="MD Financial Services" standing="0" contactTypeID="2" labelMask="0" inWatchlist="False" />
             <row contactID="903693898" contactName="Biotronics Inc." standing="10" contactTypeID="2" labelMask="0" inWatchlist="False" />
         </rowset>
-        <rowset name="contactLabels" key="labelID" columns="name" />
+        <rowset name="contactLabels" key="labelID" columns="labelID,name" />
         <rowset name="corporateContactList" key="contactID" columns="contactID,contactName,standing,contactTypeID,labelMask">
             <row contactID="111751354" contactName="Mark Hamill" standing="5" contactTypeID="1374" labelMask="0" />
             <row contactID="903693898" contactName="Biotronics Inc." standing="10" contactTypeID="2" labelMask="0" />
             <row contactID="1900696668" contactName="The Initiative." standing="5" contactTypeID="16159" labelMask="0" />
         </rowset>
-        <rowset name="corporateContactLabels" key="labelID" columns="name" />
+        <rowset name="corporateContactLabels" key="labelID" columns="labelID,name" />
         <rowset name="allianceContactList" key="contactID" columns="contactID,contactName,standing,contactTypeID,labelMask" />
-        <rowset name="allianceContactLabels" key="labelID" columns="name" />
+        <rowset name="allianceContactLabels" key="labelID" columns="labelID,name" />
     </result>
     <cachedUntil>2015-09-10 08:36:45</cachedUntil>
 </eveapi>
