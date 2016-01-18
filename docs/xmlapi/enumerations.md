@@ -266,7 +266,7 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <th>TypeID</th>
             <th>Description</th>
-	    <th>Structured Data</th>
+		    <th>Structured Data</th>
         </tr>
         <tr>
             <td align="right">1</td>
@@ -306,7 +306,12 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">8</td>
             <td>Alliance war invalidated by Concord</td>
-	    <td>TBD</td>
+			<td>againstID: 00000000<br>
+				cost: null<br>
+				declaredByID: 00000001<br>
+				delayHours: null<br>
+				hostileState: null
+			</td>
         </tr>
         <tr>
             <td align="right">9</td>
@@ -316,8 +321,16 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">10</td>
             <td>Bill issued to corporation or alliance</td>
-	    <td>TBD</td>
-        </tr>
+			<td>amount: 20000000<br>
+				billTypeID: 2<br>
+				creditorID: 00000000<br>
+				currentDate: 130764012924912532<br>
+				debtorID: 00000000<br>
+				dueDate: 130789932230000000<br>
+				externalID: 27<br>
+				externalID2: 62300459
+			</td>
+			</tr>
         <tr>
             <td align="right">11</td>
             <td>Bill not paid because there's not enough ISK available</td>
@@ -331,12 +344,16 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">13</td>
             <td>Bill, issued by a corporation or alliance, paid</td>
-	    <td>TBD</td>
+			<td>amount: 25000000<br>
+				dueDate: 130765575000000000
+			</td>
         </tr>
         <tr>
             <td align="right">14</td>
             <td>Bounty claimed</td>
-	    <td>TBD</td>
+		    <td>amount: 8508.5<br>
+				charID: 90610935
+			</td>
         </tr>
         <tr>
             <td align="right">15</td>
@@ -346,7 +363,10 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">16</td>
             <td>New corp member application</td>
-	    <td>TBD</td>
+		    <td>applicationText: 'hey there, let me join!'<br>
+				charID: 90610935<br>
+				corpID: 00000000
+			</td>
         </tr>
         <tr>
             <td align="right">17</td>
@@ -361,7 +381,10 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">19</td>
             <td>Corp tax rate changed</td>
-	    <td>TBD</td>
+			<td>corpID: 00000000<br>
+				newTaxRate: 0.10<br>
+				oldTaxRate: 1.00
+			</td>
         </tr>
         <tr>
             <td align="right">20</td>
@@ -491,7 +514,72 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">45</td>
             <td>Alliance anchoring alert</td>
-	    <td>TBD</td>
+			<td>allianceID: 00000000<br>
+				corpID: 00000000<br>
+				corpsPresent:<br>
+				- allianceID: 00000000<br>
+				&nbsp;&nbsp;corpID: 00000000<br>
+				&nbsp;&nbsp;towers:<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 20062<br>
+				- allianceID: 00000000<br>
+				&nbsp;&nbsp;corpID: 00000000<br>
+				&nbsp;&nbsp;towers:<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				- allianceID: 00000000<br>
+				&nbsp;&nbsp;corpID: 00000000<br>
+				&nbsp;&nbsp;towers:<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16213<br>
+				- allianceID: 00000000<br>
+				&nbsp;&nbsp;corpID: 00000000<br>
+				&nbsp;&nbsp;towers:<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 27532<br>
+				- allianceID: 00000000<br>
+				&nbsp;&nbsp;corpID: 00000000<br>
+				&nbsp;&nbsp;towers:<br>
+				&nbsp;&nbsp;- moonID: 40009081<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;typeID: 16214<br>
+				moonID: 40009081<br>
+				solarSystemID: 30000142<br>
+				typeID: 20064
+			</td>
         </tr>
         <tr>
             <td align="right">46</td>
@@ -526,7 +614,11 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">52</td>
             <td>Corp member clones moved between stations</td>
-	    <td>TBD</td>
+			<td>charsInCorpID: 90610935<br>
+				corpID: 00000000<br>
+				newStationID: 60000004<br>
+				stationID: 60000007
+			</td>
         </tr>
         <tr>
             <td align="right">53</td>
@@ -536,12 +628,23 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">54</td>
             <td>Insurance contract expired</td>
-	    <td>TBD</td>
+		    <td>endDate: 130739439920000000<br>
+				shipID: 1015328647115<br>
+				shipName: Tengu<br>
+				startDate: 130666863920000000
+			</td>
         </tr>
         <tr>
             <td align="right">55</td>
             <td>Insurance contract issued</td>
-	    <td>TBD</td>
+		    <td>endDate: 130837996425414355<br>
+				itemID: 1018232075103<br>
+				level: 99.99999999999999<br>
+				numWeeks: 12<br>
+				shipName: Ishtar<br>
+				startDate: 130765420425414355<br>
+				typeID: 12005
+			</td>
         </tr>
         <tr>
             <td align="right">56</td>
@@ -641,17 +744,40 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">75</td>
             <td>Tower alert</td>
-	    <td>TBD</td>
+			<td>aggressorAllianceID: 00000000<br>
+				aggressorCorpID: 00000000<br>
+				aggressorID: 90610935<br>
+				armorValue: 1.0<br>
+				hullValue: 1.0<br>
+				moonID: 40009081<br>
+				shieldValue: 0.9999482233068171<br>
+				solarSystemID: 30000142<br>
+				typeID: 16213
+			</td>
         </tr>
         <tr>
             <td align="right">76</td>
             <td>Tower resource alert</td>
-	    <td>TBD</td>
+		    <td>allianceID: 00000000<br>
+				corpID: 00000000<br>
+				moonID: 40009081<br>
+				solarSystemID: 30000142<br>
+				typeID: 20063<br>
+				wants:<br>
+				- quantity: 432<br>
+				&nbsp;&nbsp;typeID: 4312<br>
+			</td>
         </tr>
         <tr>
             <td align="right">77</td>
             <td>Station aggression message</td>
-	    <td>TBD</td>
+		    <td>aggressorCorpID: null<br>
+				aggressorID: null<br>
+				shieldValue: 0.9978610653837826<br>
+				solarSystemID: 30000142<br>
+				stationID: 60003757<br>
+				typeID: 28156
+			</td>
         </tr>
         <tr>
             <td align="right">78</td>
@@ -701,12 +827,26 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">87</td>
             <td>Sovereignty Blockade Unit under attack</td>
-	    <td>TBD</td>
+		    <td>aggressorAllianceID: 00000000<br>
+				aggressorCorpID: 00000000<br>
+				aggressorID: 90610935<br>
+				armorValue: 1.0<br>
+				hullValue: 1.0<br>
+				shieldValue: 0.999942577300314<br>
+				solarSystemID: 30000142
+			</td>
         </tr>
         <tr>
             <td align="right">88</td>
             <td>Infrastructure Hub under attack</td>
-	    <td>TBD</td>
+			<td>aggressorAllianceID: 00000000<br>
+				aggressorCorpID: 00000000<br>
+				aggressorID: 90610935<br>
+				armorValue: 1.0<br>
+				hullValue: 1.0<br>
+				shieldValue: 0.9999601081022226<br>
+				solarSystemID: 30000142
+			</td>
         </tr>
         <tr>
             <td align="right">89</td>
@@ -731,7 +871,15 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">93</td>
             <td>Customs office has been attacked</td>
-	    <td>TBD</td>
+		    <td>aggressorAllianceID: 00000000<br>
+				aggressorCorpID: 00000000<br>
+				aggressorID: 90610935<br>
+				planetID: 40009081<br>
+				planetTypeID: 2063<br>
+				shieldLevel: 0.0<br>
+				solarSystemID: 30000142<br>
+				typeID: 2233
+			</td>
         </tr>
         <tr>
             <td align="right">94</td>
@@ -741,7 +889,32 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">95</td>
             <td>Customs office has been transferred</td>
-	    <td>TBD</td>
+		    <td>characterLinkData:<br>
+				- showinfo<br>
+				- 1375<br>
+				- 90610935<br>
+				characterName: CCP Guard<br>
+				fromCorporationLinkData:<br>
+				- showinfo<br>
+				- 2<br>
+				- 00000000<br>
+				fromCorporationName: Foo Bar Corp<br>
+				solarSystemLinkData:<br>
+				- showinfo<br>
+				- 5<br>
+				- 30000142<br>
+				solarSystemName: Jita<br>
+				structureLinkData:<br>
+				- showinfo<br>
+				- 32226<br>
+				- 1008433208457<br>
+				structureName: Some random POCO<br>
+				toCorporationLinkData:<br>
+				- showinfo<br>
+				- 2<br>
+				- 00000001<br>
+				toCorporationName: Bar Foo Corp
+			</td>
         </tr>
         <tr>
             <td align="right">96</td>
@@ -807,6 +980,34 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td align="right">108</td>
             <td>FacWar LP Disqualified Kill</td>
             <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">128</td>
+            <td>FacWar LP Disqualified Kill</td>
+            <td>charID: 90610935<br>
+				corpID: 00000000
+			</td>
+        </tr>
+        <tr>
+            <td align="right">147</td>
+            <td>FacWar LP Disqualified Kill</td>
+            <td>solarSystemID: 30000142<br>
+				structureTypeID: 28159
+			</td>
+        </tr>
+        <tr>
+            <td align="right">148</td>
+            <td>FacWar LP Disqualified Kill</td>
+            <td>solarSystemID: 30000142<br>
+				structureTypeID: 28159
+			</td>
+        </tr>
+        <tr>
+            <td align="right">149</td>
+            <td>FacWar LP Disqualified Kill</td>
+            <td>solarSystemID: 30000142<br>
+				structureTypeID: 28159
+			</td>
         </tr>
     </tbody>
 </table>
