@@ -266,7 +266,7 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <th>TypeID</th>
             <th>Description</th>
-		    <th>Structured Data</th>
+            <th>Structured Data</th>
         </tr>
         <tr>
             <td align="right">1</td>
@@ -291,7 +291,12 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">5</td>
             <td>Alliance war declared</td>
-	    <td>TBD</td>
+            <td>againstID: 00000000<br>
+                cost: 0<br>
+                declaredByID: 00000001<br>
+                delayHours: 24<br>
+                hostileState: 1
+            </td>
         </tr>
         <tr>
             <td align="right">6</td>
@@ -306,12 +311,12 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">8</td>
             <td>Alliance war invalidated by Concord</td>
-			<td>againstID: 00000000<br>
-				cost: null<br>
-				declaredByID: 00000001<br>
-				delayHours: null<br>
-				hostileState: null
-			</td>
+            <td>againstID: 00000000<br>
+                cost: null<br>
+                declaredByID: 00000001<br>
+                delayHours: null<br>
+                hostileState: null
+            </td>
         </tr>
         <tr>
             <td align="right">9</td>
@@ -321,16 +326,16 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">10</td>
             <td>Bill issued to corporation or alliance</td>
-			<td>amount: 20000000<br>
-				billTypeID: 2<br>
-				creditorID: 00000000<br>
-				currentDate: 130764012924912532<br>
-				debtorID: 00000000<br>
-				dueDate: 130789932230000000<br>
-				externalID: 27<br>
-				externalID2: 62300459
-			</td>
-			</tr>
+            <td>amount: 20000000<br>
+                billTypeID: 2<br>
+                creditorID: 00000000<br>
+                currentDate: 130764012924912532<br>
+                debtorID: 00000000<br>
+                dueDate: 130789932230000000<br>
+                externalID: 27<br>
+                externalID2: 62300459
+            </td>
+            </tr>
         <tr>
             <td align="right">11</td>
             <td>Bill not paid because there's not enough ISK available</td>
@@ -344,16 +349,16 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">13</td>
             <td>Bill, issued by a corporation or alliance, paid</td>
-			<td>amount: 25000000<br>
-				dueDate: 130765575000000000
-			</td>
+            <td>amount: 25000000<br>
+                dueDate: 130765575000000000
+            </td>
         </tr>
         <tr>
             <td align="right">14</td>
             <td>Bounty claimed</td>
-		    <td>amount: 8508.5<br>
-				charID: 90610935
-			</td>
+            <td>amount: 8508.5<br>
+                charID: 90610935
+            </td>
         </tr>
         <tr>
             <td align="right">15</td>
@@ -363,10 +368,10 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">16</td>
             <td>New corp member application</td>
-		    <td>applicationText: 'hey there, let me join!'<br>
-				charID: 90610935<br>
-				corpID: 00000000
-			</td>
+            <td>applicationText: 'hey there, let me join!'<br>
+                charID: 90610935<br>
+                corpID: 00000000
+            </td>
         </tr>
         <tr>
             <td align="right">17</td>
@@ -381,10 +386,10 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">19</td>
             <td>Corp tax rate changed</td>
-			<td>corpID: 00000000<br>
-				newTaxRate: 0.10<br>
-				oldTaxRate: 1.00
-			</td>
+            <td>corpID: 00000000<br>
+                newTaxRate: 0.10<br>
+                oldTaxRate: 1.00
+            </td>
         </tr>
         <tr>
             <td align="right">20</td>
@@ -459,12 +464,17 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">34</td>
             <td>First ship insurance</td>
-	    <td>TBD</td>
+	        <td>isHouseWarmingGift: 1<br>
+                shipTypeID: 596
+            </td>
         </tr>
         <tr>
             <td align="right">35</td>
             <td>Ship destroyed, insurance payed</td>
-	    <td>TBD</td>
+    	    <td>amount: 512304.80000000005<br>
+                itemID: 1017375674103<br>
+                payout: 1
+            </td>
         </tr>
         <tr>
             <td align="right">36</td>
@@ -982,29 +992,161 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td>TBD</td>
         </tr>
         <tr>
+            <td align="right">109</td>
+            <td>Alliance Contract Cancelled</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">110</td>
+            <td>War Ally Declined Offer</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">111</td>
+            <td>Your Bounty Was Claimed</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">112</td>
+            <td>Bounty placed (Char)</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">113</td>
+            <td>Bounty Placed (Corp)</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">114</td>
+            <td>Bounty Placed (Alliance)</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">115</td>
+            <td>Kill Right Available</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">116</td>
+            <td>Kill right Available Open</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">117</td>
+            <td>Kill Right Earned</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">118</td>
+            <td>Kill right Used</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">119</td>
+            <td>Kill Right Unavailable</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">120</td>
+            <td>Kill Right Unavailable Open</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">121</td>
+            <td>Declare War</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">122</td>
+            <td>Offered Surrender</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">123</td>
+            <td>Accepted Surrender</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">124</td>
+            <td>Made War Mutual</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">125</td>
+            <td>Retracts War</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">126</td>
+            <td>Offered To Ally</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">127</td>
+            <td>Accepted Ally</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
             <td align="right">128</td>
-            <td>FacWar LP Disqualified Kill</td>
-            <td>charID: 90610935<br>
-				corpID: 00000000
-			</td>
+            <td>Character Application Accept</td>
+            <td>applicationText: Hey, this is my alt.<br>
+                charID: 900000000<br>
+                corpID: 000000001
+            </td>
+        </tr>
+        <tr>
+            <td align="right">129</td>
+            <td>Character Application Reject</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">130</td>
+            <td>Character Application Withdraw</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td align="right">138</td>
+            <td>TBD</td>
+            <td>cloneStationID: 60000000<br>
+                corpStationID: 60000001<br>
+                lastCloned: 130975015800000000<br>
+                podKillerID: 100000000
+            </td>
+        </tr>
+        <tr>
+            <td align="right">140</td>
+            <td>TBD</td>
+            <td>killMailHash: aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d<br>
+                killMailID: 00000000<br>
+                victimShipTypeID: 596
+            </td>
+        </tr>
+        <tr>
+            <td align="right">141</td>
+            <td>TBD</td>
+            <td>killMailHash: a415ab5cc17c8c093c015ccdb7e552aee7911aa4<br>
+                killMailID: 00000000<br>
+                victimID: 000000001<br>
+                victimShipTypeID: 596
+            </td>
         </tr>
         <tr>
             <td align="right">147</td>
-            <td>FacWar LP Disqualified Kill</td>
+            <td>Entosis Link started</td>
             <td>solarSystemID: 30000142<br>
-				structureTypeID: 28159
-			</td>
+                structureTypeID: 28159
+            </td>
         </tr>
         <tr>
             <td align="right">148</td>
-            <td>FacWar LP Disqualified Kill</td>
+            <td>Entosis Link enabled a module</td>
             <td>solarSystemID: 30000142<br>
-				structureTypeID: 28159
-			</td>
+                structureTypeID: 28159
+            </td>
         </tr>
         <tr>
             <td align="right">149</td>
-            <td>FacWar LP Disqualified Kill</td>
+            <td>Entosis Link disabled a module</td>
             <td>solarSystemID: 30000142<br>
 				structureTypeID: 28159
 			</td>
