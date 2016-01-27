@@ -42,9 +42,9 @@
     <currentTime>2016-01-27 22:16:23</currentTime>
     <result>
         <rowset name="messages" key="messageID" columns="messageID">
-            <row messageID="290285276">
+            <row messageID="290285276"><![CDATA[
             	Mail message body.
-            </row>
+            ]]></row>
         </rowset>
     </result>
     <cachedUntil>2026-01-24 22:16:23</cachedUntil>
