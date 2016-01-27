@@ -36,10 +36,10 @@
 <eveapi version="2">
     <currentTime>2009-12-02 00:46:10</currentTime>
     <result>
-        <rowset name="messages" key="messageID" columns="messageID,senderID,sentDate,title,toCorpOrAllianceID,toCharacterIDs,toListID">
-            <row messageID="290285276" senderID="999999999" sentDate="2009-12-01 01:04:00" title="Corp mail" toCorpOrAllianceID="999999999" toCharacterIDs="" toListID="" />
-            <row messageID="290285275" senderID="999999999" sentDate="2009-12-01 01:04:00" title="Personal mail" toCorpOrAllianceID="" toCharacterIDs="999999999" toListID="" />
-            <row messageID="290285274" senderID="999999999" sentDate="2009-12-01 01:04:00" title="Message to mailing list" toCorpOrAllianceID="" toCharacterIDs="" toListID="999999999" />
+        <rowset name="messages" key="messageID" columns="messageID,senderID,senderName,sentDate,title,toCorpOrAllianceID,toCharacterIDs,toListID">
+            <row messageID="290285276" senderID="999999999" senderName="Some guy" sentDate="2009-12-01 01:04:00" title="Corp mail" toCorpOrAllianceID="999999999" toCharacterIDs="" toListID="" />
+            <row messageID="290285275" senderID="999999999" senderName="Some guy" sentDate="2009-12-01 01:04:00" title="Personal mail" toCorpOrAllianceID="" toCharacterIDs="999999999" toListID="" />
+            <row messageID="290285274" senderID="999999999" senderName="Some guy" sentDate="2009-12-01 01:04:00" title="Message to mailing list" toCorpOrAllianceID="" toCharacterIDs="" toListID="999999999" />
         </rowset>
     </result>
     <cachedUntil>2009-12-02 01:16:10</cachedUntil>
@@ -64,6 +64,11 @@
             <td>senderID</td>
             <td>int</td>
             <td>The character ID or Mailing List ID of the message originator.</td>
+        </tr>
+        <tr>
+            <td>senderName</td>
+            <td>string</td>
+            <td>The character name or Mailing List name of the message originator.</td>
         </tr>
 		<tr>
             <td>sentDate</td>
