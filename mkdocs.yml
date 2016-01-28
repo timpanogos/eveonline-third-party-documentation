@@ -60,6 +60,7 @@ pages:
 - ['xmlapi/corp_bookmarks.md', 'XML API', 'Corp - Bookmarks']
 - ['xmlapi/corp_corporationsheet.md', 'XML API', 'Corp - CorporationSheet']
 - ['xmlapi/corp_membertracking.md', 'XML API', 'Corp - MemberTracking']
+- ['xmlapi/corp_starbaselist.md', 'XML API', 'Corp - StarbaseList']
 - ['xmlapi/corp_walletjournal.md', 'XML API', 'Corp - WalletJournal']
 - ['xmlapi/corp_wallettransactions.md', 'XML API', 'Corp - WalletTransactions']
 - ['xmlapi/enumerations.md', 'XML API', 'Constants']
