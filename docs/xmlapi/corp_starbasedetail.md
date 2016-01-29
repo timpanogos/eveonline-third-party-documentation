@@ -206,7 +206,7 @@ if usageFlags == 9 == 0b1001   -->   10    01
 ```
 
 * __Deploy Flags:__
-	access restrictions to who is able to operate this POS are encoded in this 8 bit field.
+access restrictions to who is able to operate this POS are encoded in this 8 bit field.
 ```
 if usageFlags == 68 == 0b01000100  -->   01       00       01      00
                                         anchor  unanchor  online  offline
