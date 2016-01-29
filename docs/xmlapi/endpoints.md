@@ -112,6 +112,7 @@
 * [Shareholders](corp_shareholders.md)
 * [Standings](corp_standings.md)
 * [StarbaseDetail](corp_starbasedetail.md)
+  Returns details for specified starbase.
 * [StarbaseList](corp_starbaselist.md)
   Returns list of corporation starbases.
 * [Titles](corp_titles.md)
