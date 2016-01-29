@@ -188,13 +188,13 @@
 
 ### Flags Description
 * __Access Restrictions:__
-	They store access restrictions to the POS facilities on 2 bits:
-		<ol start="0">
-			<li>'Starbase Config'</li>
-			<li>'Starbase Fuel Tech'</li>
-			<li>'Corporation Members'</li>
-			<li>'Alliance Members'</li>
-		</ol>
+They store access restrictions to the POS facilities on 2 bits:
+	<ol start="0">
+		<li>'Starbase Config'</li>
+		<li>'Starbase Fuel Tech'</li>
+		<li>'Corporation Members'</li>
+		<li>'Alliance Members'</li>
+	</ol>
 
 * __Usage Flags:__
 access restrictions to the POS fuel bay are encoded in this 4 bit field.
