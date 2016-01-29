@@ -41,7 +41,7 @@
 
 ### Result Data
 
-* __Corporation Sheet:__
+* __Starbase List:__
     <table>
         <tbody>
             <tr>
