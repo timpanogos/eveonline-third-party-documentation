@@ -46,6 +46,7 @@
 * [KillMails](char_killmails.md)
 * [Locations](char_locations.md)
 * [MailBodies](char_mailbodies.md)
+  Returns the bodies of eve mail messages sent to the character.
 * [MailingLists](char_mailinglists.md)<br />
   Returns the mailing list the character is a member of.
 * [MailMessages](char_mailmessages.md)<br />
