@@ -1156,3 +1156,42 @@ They define hangars or slots where an item may reside. It should be noted that i
 
 ### Applies to
 * [Char - Notifications](char_notifications.md)
+
+## Known POS States
+<table border="1">
+        <tbody>
+            <tr>
+                <th>State</th>
+                <th>Name</th>
+                <th>Notes</th>
+            </tr>
+            <tr>
+                <td align="right">0</td>
+                <td>Unanchored</td>
+                <td>Also unanchoring? Has valid stateTimestamp. Note that moonID is zero for unanchored Towers, but locationID will still yield the solar system ID.</td>
+            </tr>
+            <tr>
+                <td align="right">1</td>
+                <td>Anchored / Offline</td>
+                <td>No time information stored.</td>
+            </tr>
+            <tr>
+                <td align="right">2</td>
+                <td>Onlining</td>
+                <td>Will be online at time = onlineTimestamp.</td>
+            </tr>
+            <tr>
+                <td align="right">3</td>
+                <td>Reinforced</td>
+                <td>Until time = stateTimestamp.</td>
+            </tr>
+            <tr>
+                <td align="right">4</td>
+                <td>Online</td>
+                <td>Continuously since time = onlineTimestamp.</td>
+            </tr>
+        </tbody>
+    </table>
+### Applies to
+* [Corp - StarbaseList](corp_starbaselist.md)
+* [Corp - StarbaseDetail](corp_starbasedetail.md)
