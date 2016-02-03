@@ -33,8 +33,8 @@
 
 ```xml
 <result>
-  <rowset name="notifications" key="notificationID" columns="notificationID,typeID,senderID,sentDate,read">
-    <row notificationID="399058968" typeID="73" senderID="3017794" sentDate="2012-12-22 23:34:00" read="0" />
+  <rowset name="notifications" key="notificationID" columns="notificationID,typeID,senderID,senderName,sentDate,read">
+    <row notificationID="399058968" typeID="73" senderID="3017794" senderName="Some guy" sentDate="2012-12-22 23:34:00" read="0" />
   </rowset>
 </result>
 ```  
@@ -71,6 +71,12 @@
             <td>senderID</td>
             <td><strong>long</strong></td>
             <td>ID of entity which sent notification.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>senderName</td>
+            <td><strong>string</strong></td>
+            <td>Name of entity which sent notification.</td>
         </tr>
         <tr>
             <td></td>
