@@ -18,6 +18,7 @@ pages:
 - ['crest/intro.md', 'CREST', 'Introduction']
 - ['crest/authentication.md', 'CREST', 'Authentication and Scopes']
 - ['crest/versioning.md', 'CREST', 'Versioning']
+- ['crest/characters_contacts.md', 'CREST', 'Char - Contacts']
 - ['crest/characters_fittings.md', 'CREST', 'Char - Fittings']
 - ['xmlapi/intro.md', 'XML API', 'Introduction']
 - ['xmlapi/authentication.md', 'XML API', 'Authentication']
