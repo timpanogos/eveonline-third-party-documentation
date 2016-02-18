@@ -1,5 +1,5 @@
 ## Kills
-
+* __Description:__ Returns the number of kills in solarsystems within the last hour. Only solar system where kills have been made are listed, so assume zero in case the system is not listed.
 * __Path:__ ``/map/kills.xml.aspx``
 * __Access mask:__ none
 * __Cache timer:__ 1 hour
@@ -70,3 +70,4 @@
         </tr>
     </tbody>
 </table>
+
