@@ -1,5 +1,6 @@
 ## Jumps
 
+* __Description:__ Returns the number of jumps in solarsystems within the last hour. Only solar system where jumps have been made are listed, so assume zero in case the system is not listed.
 * __Path:__ ``/map/Jumps.xml.aspx``
 * __Access mask:__ none
 * __Cache timer:__ 1 hour
@@ -53,5 +54,3 @@
     </tbody>
 </table>
 
-### Note
-* Only systems with jumps are shown, if the system has no jumps, it's not listed
