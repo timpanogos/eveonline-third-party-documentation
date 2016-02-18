@@ -82,7 +82,3 @@
         </tr>
     </tbody>
 </table>
-
-### Notes
-
-* The data is only calculated on TQ once a day during downtime.
