@@ -1115,7 +1115,7 @@ They define hangars or slots where an item may reside. It should be noted that i
         </tr>
         <tr>
             <td align="right">140</td>
-            <td>TBD</td>
+            <td>Kill report available</td>
             <td>killMailHash: aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d<br>
                 killMailID: 00000000<br>
                 victimShipTypeID: 596
