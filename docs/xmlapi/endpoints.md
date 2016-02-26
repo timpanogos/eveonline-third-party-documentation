@@ -40,8 +40,10 @@
   Returns available contracts to character.
 * [FacWarStats](char_facwarstats.md)<br />
   Returns faction warfare information for characters enrolled in faction warfare.
-* [IndustryJobs](char_industryjobs.md)
-* [IndustryJobsHistory](char_industryjobshistory.md)
+* [IndustryJobs](char_industryjobs.md)<br />
+  Retrieve unfinished character industry jobs.
+* [IndustryJobsHistory](char_industryjobshistory.md)<br />
+  Retrieve finished character industry jobs.
 * [KillLog](char_killlog.md)
 * [KillMails](char_killmails.md)
 * [Locations](char_locations.md)
@@ -98,8 +100,10 @@
 * [CustomsOffices](corp_customsoffices.md)
 * [Facilities](corp_facilities.md)
 * [FacWarStats](corp_facwarstats.md)
-* [IndustryJobs](corp_industryjobs.md)
-* [IndustryJobsHistory](corp_industryjobshistory.md)
+* [IndustryJobs](corp_industryjobs.md)<br />
+  Retrieve unfinished corporation industry jobs.
+* [IndustryJobsHistory](corp_industryjobshistory.md)<br />
+  Retrieve finished corporation industry jobs.
 * [KillMails](corp_killmails.md)
 * [Locations](corp_locations.md)
 * [MarketOrders](corp_marketorders.md)
