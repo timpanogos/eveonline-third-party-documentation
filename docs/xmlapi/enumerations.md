@@ -1192,6 +1192,49 @@ They define hangars or slots where an item may reside. It should be noted that i
             </tr>
         </tbody>
     </table>
+
 ### Applies to
 * [Corp - StarbaseList](corp_starbaselist.md)
 * [Corp - StarbaseDetail](corp_starbasedetail.md)
+
+## Industry Job Status
+
+<table border="1">
+    <tbody>
+        <tr>
+            <th>Value</th>
+            <th>Meaning</th>
+        </tr>
+        <tr>
+            <td align="right">1</td>
+            <td>Active</td>
+        </tr>
+        <tr>
+            <td align="right">2</td>
+            <td>Paused (Facility Offline)</td>
+        </tr>
+        <tr>
+            <td align="right">3</td>
+            <td>Ready</td>
+        </tr>
+        <tr>
+            <td align="right">101</td>
+            <td>Delivered</td>
+        </tr>
+        <tr>
+            <td align="right">102</td>
+            <td>Cancelled</td>
+        </tr>
+        <tr>
+            <td align="right">103</td>
+            <td>Reverted</td>
+        </tr>
+    </tbody>
+</table>
+
+### Applies to
+* [Char - IndustryJobs](char_industryjobs.md)
+* [Char - IndustryJobsHistory](char_industryjobshistory.md)
+* [Corp - IndustryJobs](corp_industryjobs.md)
+* [Corp - IndustryJobsHistory](corp_industryjobshistory.md)
+
