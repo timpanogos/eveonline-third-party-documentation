@@ -1106,7 +1106,7 @@ They define hangars or slots where an item may reside. It should be noted that i
         </tr>
         <tr>
             <td align="right">138</td>
-            <td>TBD</td>
+            <td>Clone activated</td>
             <td>cloneStationID: 60000000<br>
                 corpStationID: 60000001<br>
                 lastCloned: 130975015800000000<br>
