@@ -8,7 +8,6 @@ Route: ``/alliances/``
 
 ```
 {
-
     "totalCount_str" : 2989,
     "pageCount" : 12,
     "items" : [

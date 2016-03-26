@@ -5,6 +5,7 @@ Route: ``/characters/<characterID:characterIdType>/contacts/``
 
 ### GET
 * Cache: 5 minutes
+* Scope: `characterContactsRead`
 
 It is important to remember that adding or deleting a contact will not invalidate this cache. It is recommended that so long as you get the proper response code from CREST when you POST a new contact that you update any local cache at least temporarily.
 
@@ -81,6 +82,7 @@ It is important to remember that adding or deleting a contact will not invalidat
 ```
 
 ### POST
+* Scope: `characterContactsWrite`
 
 Returns the Location of the newly created contact in the Location header (also when contact already exists)
 
@@ -99,9 +101,19 @@ Returns the Location of the newly created contact in the Location header (also w
 ```
 
 ## Contact
-Route: ``/characters/<characterID:characterIdType>/contact/<contactID:characterIdType>/``
+
+Route: ``/characters/<characterID:characterIdType>/contact/<contactID:contactIdType>/``
+
+### GET
+* Cache: 5 minutes
+* Scope: `characterContactsRead`
+
+```
+    Not Implemented!
+```
 
 ### PUT
+* Scope: `characterContactsWrite`
 
 Used like adding, just set to the values you want to adjust.
 
