@@ -7,6 +7,7 @@ Route: ``/characters/<characterID:characterIdType>/fittings/``
 
 ### GET
 * Cache: 15 minutes
+* Scope: `characterFittingsRead`
 
 It is important to remember that adding or deleting a fit will not invalidate this cache. It is recommended that so long as you get the proper response code from CREST when you POST a new fit that you update any local cache at least temporarily.
 
@@ -49,6 +50,8 @@ It is important to remember that adding or deleting a fit will not invalidate th
 ```
 
 ### POST
+* Scope: `characterFittingsWrite`
+
 ```
 {
   "name": "Name here...",
@@ -71,10 +74,11 @@ It is important to remember that adding or deleting a fit will not invalidate th
 ```
 
 ## Fitting
-Route: ``/characters/<characterID:characterIdType>/fittings/<fittingID:integerType>/``
+Route: ``/characters/<characterID:characterIdType>/fittings/<fittingID:fittingIdType>/``
 
 ### GET
 * Cache: 15 minutes
+* Scope: `characterFittingsRead`
 
 ```
 {
