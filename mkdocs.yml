@@ -4,114 +4,131 @@ extra_javascript:
 markdown_extensions:
 - mdx_math
 pages:
-- ['index.md', 'Home']
-- ['reference/license.md', 'Guidelines and References', 'Developer License']
-- ['reference/guidelines.md', 'Guidelines and References', 'Guidelines']
-- ['reference/reference.md', 'Guidelines and References', 'Quick Reference']
-- ['formulas/warpinpoints.md', 'Formulas', 'Warp-in Points']
-- ['sso/intro.md', 'Single Sign-On (SS0)', 'Introduction']
-- ['sso/authentication.md', 'Single Sign-On (SS0)', 'Authentication Flow']
-- ['sso/refreshtokens.md', 'Single Sign-On (SS0)', 'Refresh Tokens']
-- ['sso/implicitflow.md', 'Single Sign-On (SS0)', 'SSO For Browser Apps']
-- ['sso/nonbrowserapps.md', 'Single Sign-On (SS0)', 'Non-Browser Apps']
-- ['sso/obtaincharacterid.md', 'Single Sign-On (SS0)', 'Obtain Character ID']
-- ['crest/intro.md', 'CREST', 'Introduction']
-- ['crest/authentication.md', 'CREST', 'Authentication and Scopes']
-- ['crest/versioning.md', 'CREST', 'Versioning']
-- ['crest/char_contacts.md', 'CREST', 'Char - Contacts']
-- ['crest/char_fittings.md', 'CREST', 'Char - Fittings']
-- ['crest/char_waypoints.md', 'CREST', 'Char - Waypoints']
-- ['crest/char_location.md', 'CREST', 'Char - Location']
-- ['crest/map_constellations.md', 'CREST', 'Map - Constellations']
-- ['crest/map_planets.md', 'CREST', 'Map - Planets']
-- ['crest/map_regions.md', 'CREST', 'Map - Regions']
-- ['crest/map_solarsystems.md', 'CREST', 'Map - SolarSystems']
-- ['crest/eve_alliances.md', 'CREST', 'Eve - Alliances']
-- ['crest/eve_types.md', 'CREST', 'Eve - Types']
-- ['crest/eve_dogmaAttributes.md', 'CREST', 'Eve - DogmaAttributes']
-- ['crest/eve_dogmaEffects.md', 'CREST', 'Eve - DogmaEffects']
-- ['crest/eve_wars.md', 'CREST', 'Eve - Wars']
-- ['xmlapi/intro.md', 'XML API', 'Introduction']
-- ['xmlapi/authentication.md', 'XML API', 'Authentication']
-- ['xmlapi/caching.md', 'XML API', 'Caching']
-- ['xmlapi/endpoints.md', 'XML API', 'Endpoints Overview']
-- ['xmlapi/account_accountstatus.md', 'XML API', 'Account - AccountStatus']
-- ['xmlapi/account_apikeyinfo.md', 'XML API', 'Account - APIKeyInfo']
-- ['xmlapi/account_characters.md', 'XML API', 'Account - Characters']
-- ['xmlapi/api_calllist.md', 'XML API', 'API - CallList']
-- ['xmlapi/char_accountbalance.md', 'XML API', 'Char - AccountBalance']
-- ['xmlapi/char_assetlist.md', 'XML API', 'Char - AssetList']
-- ['xmlapi/char_blueprints.md', 'XML API', 'Char - Blueprints']
-- ['xmlapi/char_bookmarks.md', 'XML API', 'Char - Bookmarks']
-- ['xmlapi/char_calendareventattendees.md', 'XML API', 'Char - CalendarEventAttendees']
-- ['xmlapi/char_charactersheet.md', 'XML API', 'Char - CharacterSheet']
-- ['xmlapi/char_chatchannels.md', 'XML API', 'Char - ChatChannels']
-- ['xmlapi/char_contactlist.md', 'XML API', 'Char - ContactList']
-- ['xmlapi/char_contactnotifications.md', 'XML API', 'Char - ContactNotifications']
-- ['xmlapi/char_contractbids.md', 'XML API', 'Char - ContractBids']
-- ['xmlapi/char_contractitems.md', 'XML API', 'Char - ContractItems']
-- ['xmlapi/char_contracts.md', 'XML API', 'Char - Contracts']
-- ['xmlapi/char_facwarstats.md', 'XML API', 'Char - FacWarStats']
-- ['xmlapi/char_industryjobs.md', 'XML API', 'Char - IndustryJobs']
-- ['xmlapi/char_industryjobshistory.md', 'XML API', 'Char - IndustryJobsHistory']
-- ['xmlapi/char_mailbodies.md', 'XML API', 'Char - MailBodies']
-- ['xmlapi/char_mailinglists.md', 'XML API', 'Char - MailingLists']
-- ['xmlapi/char_mailmessages.md', 'XML API', 'Char - MailMessages']
-- ['xmlapi/char_marketorders.md', 'XML API', 'Char - MarketOrders']
-- ['xmlapi/char_notifications.md', 'XML API', 'Char - Notifications']
-- ['xmlapi/char_notificationtexts.md', 'XML API', 'Char - NotificationTexts']
-- ['xmlapi/char_planetarycolonies.md', 'XML API', 'Char - PlanetaryColonies']
-- ['xmlapi/char_planetarylinks.md', 'XML API', 'Char - PlanetaryLinks']
-- ['xmlapi/char_planetarypins.md', 'XML API', 'Char - PlanetaryPins']
-- ['xmlapi/char_planetaryroutes.md', 'XML API', 'Char - PlanetaryRoutes']
-- ['xmlapi/char_research.md', 'XML API', 'Char - Research']
-- ['xmlapi/char_skillintraining.md', 'XML API', 'Char - SkillInTraining']
-- ['xmlapi/char_skillqueue.md', 'XML API', 'Char - SkillQueue']
-- ['xmlapi/char_standings.md', 'XML API', 'Char - Standings']
-- ['xmlapi/char_upcomingcalendarevents.md', 'XML API', 'Char - UpcomingCalendarEvents']
-- ['xmlapi/char_walletjournal.md', 'XML API', 'Char - WalletJournal']
-- ['xmlapi/char_wallettransactions.md', 'XML API', 'Char - WalletTransactions']
-- ['xmlapi/corp_accountbalance.md', 'XML API', 'Corp - AccountBalance']
-- ['xmlapi/corp_bookmarks.md', 'XML API', 'Corp - Bookmarks']
-- ['xmlapi/corp_corporationsheet.md', 'XML API', 'Corp - CorporationSheet']
-- ['xmlapi/corp_industryjobs.md', 'XML API', 'Corp - IndustryJobs']
-- ['xmlapi/corp_industryjobshistory.md', 'XML API', 'Corp - IndustryJobsHistory']
-- ['xmlapi/corp_membertracking.md', 'XML API', 'Corp - MemberTracking']
-- ['xmlapi/corp_starbaselist.md', 'XML API', 'Corp - StarbaseList']
-- ['xmlapi/corp_starbasedetail.md', 'XML API', 'Corp - StarbaseDetail']
-- ['xmlapi/corp_walletjournal.md', 'XML API', 'Corp - WalletJournal']
-- ['xmlapi/corp_wallettransactions.md', 'XML API', 'Corp - WalletTransactions']
-- ['xmlapi/enumerations.md', 'XML API', 'Constants']
-- ['xmlapi/eve_alliancelist.md', 'XML API', 'Eve - AllianceList']
-- ['xmlapi/eve_characteraffiliation.md', 'XML API', 'Eve - CharacterAffiliation']
-- ['xmlapi/eve_characterid.md', 'XML API', 'Eve - CharacterID']
-- ['xmlapi/eve_characterinfo.md', 'XML API', 'Eve - CharacterInfo']
-- ['xmlapi/eve_charactername.md', 'XML API', 'Eve - CharacterName']
-- ['xmlapi/eve_conquerablestationlist.md', 'XML API', 'Eve - ConquerableStationList']
-- ['xmlapi/eve_errorlist.md', 'XML API', 'Eve - ErrorList']
-- ['xmlapi/eve_reftypes.md', 'XML API', 'Eve - RefTypes']
-- ['xmlapi/eve_typename.md', 'XML API', 'Eve - TypeName']
-- ['xmlapi/map_facwarsystems.md', 'XML API', 'Map - FacWarSystems']
-- ['xmlapi/map_jumps.md', 'XML API', 'Map - Jumps']
-- ['xmlapi/map_kills.md', 'XML API', 'Map - Kills']
-- ['xmlapi/map_sovereignty.md', 'XML API', 'Map - Sovereignty']
-- ['xmlapi/serv_serversstatus.md', 'XML API', 'Server - ServerStatus']
-- ['sde/intro.md', 'Static Data Export', 'Introduction']
-- ['sde/included.md', 'Static Data Export', 'Whats Included']
-- ['sde/mssql.md', 'Static Data Export', 'Microsoft SQLServer Tables']
-- ['sde/sqlite.md', 'Static Data Export', 'SQLite Tables']
-- ['sde/yaml.md', 'Static Data Export', 'YAML Files']
-- ['sde/mssql_crpNPCCorporations.md', 'Static Data Export', 'NPC Corporations Table (MSSQL)']
-- ['sde/mssql_eveUnits.md', 'Static Data Export', 'EVE Units Table (MSSQL)']
-- ['sde/mssql_invFlags.md', 'Static Data Export', 'Inventory Flags Table (MSSQL)']
-- ['sde/mssql_invItems.md', 'Static Data Export', 'Inventory Items Table (MSSQL)']
-- ['sde/mssql_invNames.md', 'Static Data Export', 'Inventory Name Table (MSSQL)']
-- ['sde/mssql_staStations.md', 'Static Data Export', 'Stations Table (MSSQL)']
-- ['sde/yaml_typeIDs.md', 'Static Data Export', 'Inventory Types File (YAML)']
-- ['sde/conversions.md', 'Static Data Export', 'Conversions']
-- ['sde/tips.md', 'Static Data Export', 'Tips']
-- ['dogma/overview.md', 'Dogma', 'Overview']
-- ['imageserver/intro.md', 'Image Server', 'Introduction']
-- ['imageserver/iec.md', 'Image Server', 'Image Export Collection']
-- ['imageserver.md', 'Image Server Test']
+- Home: 'index.md'
+- Guidelines and References:
+    - 'Developer License': 'reference/license.md'
+    - 'Guidelines': 'reference/guidelines.md'
+    - 'Quick Reference': 'reference/reference.md'
+- Formulas:
+    - 'Warp-in Points': 'formulas/warpinpoints.md'
+- Single Sign-On (SS0):
+    - 'Introduction': 'sso/intro.md'
+    - 'Authentication Flow': 'sso/authentication.md'
+    - 'Refresh Tokens': 'sso/refreshtokens.md'
+    - 'SSO For Browser Apps': 'sso/implicitflow.md'
+    - 'Non-Browser Apps': 'sso/nonbrowserapps.md'
+    - 'Obtain Character ID': 'sso/obtaincharacterid.md'
+- CREST:
+    - 'Introduction': 'crest/intro.md'
+    - 'Authentication and Scopes': 'crest/authentication.md'
+    - 'Versioning': 'crest/versioning.md'
+    - 'Character':   
+        - 'Contacts': 'crest/char_contacts.md'
+        - 'Fittings': 'crest/char_fittings.md'
+        - 'Waypoints': 'crest/char_waypoints.md'
+        - 'Location': 'crest/char_location.md'
+    - 'Map':   
+        - 'Constellations': 'crest/map_constellations.md'
+        - 'Planets': 'crest/map_planets.md'
+        - 'Regions': 'crest/map_regions.md'
+        - 'SolarSystems': 'crest/map_solarsystems.md'
+    - 'Eve':   
+        - 'Alliances': 'crest/eve_alliances.md'
+        - 'Types': 'crest/eve_types.md'
+        - 'DogmaAttributes': 'crest/eve_dogmaAttributes.md'
+        - 'DogmaEffects': 'crest/eve_dogmaEffects.md'
+        - 'Wars': 'crest/eve_wars.md'
+- XML API:
+    - 'Introduction': 'xmlapi/intro.md'
+    - 'Authentication': 'xmlapi/authentication.md'
+    - 'Caching': 'xmlapi/caching.md'
+    - 'Constants': 'xmlapi/enumerations.md'
+    - 'Endpoints Overview': 'xmlapi/endpoints.md'
+    - 'Account':
+        - 'AccountStatus': 'xmlapi/account_accountstatus.md'
+        - 'APIKeyInfo': 'xmlapi/account_apikeyinfo.md'
+        - 'Characters': 'xmlapi/account_characters.md'
+    - 'API':
+        - 'CallList': 'xmlapi/api_calllist.md'
+    - 'Character':
+        - 'AccountBalance': 'xmlapi/char_accountbalance.md'
+        - 'AssetList': 'xmlapi/char_assetlist.md'
+        - 'Blueprints': 'xmlapi/char_blueprints.md'
+        - 'Bookmarks': 'xmlapi/char_bookmarks.md'
+        - 'CalendarEventAttendees': 'xmlapi/char_calendareventattendees.md'
+        - 'CharacterSheet': 'xmlapi/char_charactersheet.md'
+        - 'ChatChannels': 'xmlapi/char_chatchannels.md'
+        - 'ContactList': 'xmlapi/char_contactlist.md'
+        - 'ContractBids': 'xmlapi/char_contractbids.md'
+        - 'ContractItems': 'xmlapi/char_contractitems.md'
+        - 'Contracts': 'xmlapi/char_contracts.md'
+        - 'FacWarStats': 'xmlapi/char_facwarstats.md'
+        - 'IndustryJobs': 'xmlapi/char_industryjobs.md'
+        - 'IndustryJobsHistory': 'xmlapi/char_industryjobshistory.md'
+        - 'MailBodies': 'xmlapi/char_mailbodies.md'
+        - 'MailingLists': 'xmlapi/char_mailinglists.md'
+        - 'MailMessages': 'xmlapi/char_mailmessages.md'
+        - 'MarketOrders': 'xmlapi/char_marketorders.md'
+        - 'Notifications': 'xmlapi/char_notifications.md'
+        - 'NotificationTexts': 'xmlapi/char_notificationtexts.md'
+        - 'PlanetaryColonies': 'xmlapi/char_planetarycolonies.md'
+        - 'PlanetaryLinks': 'xmlapi/char_planetarylinks.md'
+        - 'PlanetaryPins': 'xmlapi/char_planetarypins.md'
+        - 'PlanetaryRoutes': 'xmlapi/char_planetaryroutes.md'
+        - 'Research': 'xmlapi/char_research.md'
+        - 'SkillInTraining': 'xmlapi/char_skillintraining.md'
+        - 'SkillQueue': 'xmlapi/char_skillqueue.md'
+        - 'Standings': 'xmlapi/char_standings.md'
+        - 'UpcomingCalendarEvents': 'xmlapi/char_upcomingcalendarevents.md'
+        - 'WalletJournal': 'xmlapi/char_walletjournal.md'
+        - 'WalletTransactions': 'xmlapi/char_wallettransactions.md'
+    - 'Corporation':
+        - 'AccountBalance': 'xmlapi/corp_accountbalance.md'
+        - 'Bookmarks': 'xmlapi/corp_bookmarks.md'
+        - 'CorporationSheet': 'xmlapi/corp_corporationsheet.md'
+        - 'IndustryJobs': 'xmlapi/corp_industryjobs.md'
+        - 'IndustryJobsHistory': 'xmlapi/corp_industryjobshistory.md'
+        - 'MemberTracking': 'xmlapi/corp_membertracking.md'
+        - 'StarbaseList': 'xmlapi/corp_starbaselist.md'
+        - 'StarbaseDetail': 'xmlapi/corp_starbasedetail.md'
+        - 'WalletJournal': 'xmlapi/corp_walletjournal.md'
+        - 'WalletTransactions': 'xmlapi/corp_wallettransactions.md'
+    - 'Eve':   
+        - 'AllianceList': 'xmlapi/eve_alliancelist.md'
+        - 'CharacterAffiliation': 'xmlapi/eve_characteraffiliation.md'
+        - 'CharacterID': 'xmlapi/eve_characterid.md'
+        - 'CharacterInfo': 'xmlapi/eve_characterinfo.md'
+        - 'CharacterName': 'xmlapi/eve_charactername.md'
+        - 'ConquerableStationList': 'xmlapi/eve_conquerablestationlist.md'
+        - 'ErrorList': 'xmlapi/eve_errorlist.md'
+        - 'RefTypes': 'xmlapi/eve_reftypes.md'
+        - 'TypeName': 'xmlapi/eve_typename.md'
+    - 'Map':   
+        - 'FacWarSystems': 'xmlapi/map_facwarsystems.md'
+        - 'Jumps': 'xmlapi/map_jumps.md'
+        - 'Kills': 'xmlapi/map_kills.md'
+        - 'Sovereignty': 'xmlapi/map_sovereignty.md'
+    - 'Server':   
+        - 'ServerStatus': 'xmlapi/serv_serversstatus.md'
+- Static Data Export:
+    - 'Introduction': 'sde/intro.md'
+    - 'Whats Included': 'sde/included.md'
+    - 'Microsoft SQLServer Tables': 'sde/mssql.md'
+    - 'SQLite Tables': 'sde/sqlite.md'
+    - 'YAML Files': 'sde/yaml.md'
+    - 'NPC Corporations Table (MSSQL)': 'sde/mssql_crpNPCCorporations.md'
+    - 'EVE Units Table (MSSQL)': 'sde/mssql_eveUnits.md'
+    - 'Inventory Flags Table (MSSQL)': 'sde/mssql_invFlags.md'
+    - 'Inventory Items Table (MSSQL)': 'sde/mssql_invItems.md'
+    - 'Inventory Name Table (MSSQL)': 'sde/mssql_invNames.md'
+    - 'Stations Table (MSSQL)': 'sde/mssql_staStations.md'
+    - 'Inventory Types File (YAML)': 'sde/yaml_typeIDs.md'
+    - 'Conversions': 'sde/conversions.md'
+    - 'Tips': 'sde/tips.md'
+- Dogma:
+    - 'Overview': 'dogma/overview.md'
+- Image Server:
+    - 'Introduction': 'imageserver/intro.md'
+    - 'Image Export Collection': 'imageserver/iec.md'
+- Image Server Test: 'imageserver.md'
 theme: readthedocs
