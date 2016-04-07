@@ -1,4 +1,4 @@
-# Image Server
+# Introduction
 You can use this service to obtain images related to entities in New Eden. At this time, it is possible to get alliance logos, corp logos, character portraits, faction logos, ship renders and inventory type icons in various resolutions.
 
 Corporation logos, alliance logos, inventory type icons and ship renders are returned as transparency-enabled 32 bit PNGs. Character portraits are returned as JPEGs.

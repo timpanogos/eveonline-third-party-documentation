@@ -19,7 +19,7 @@ You will need to have python, pip and virtualenv installed (install virtualenv u
     pip install -r requirements.txt
 
 ## Running
-    mkdocs serve
+    make livehtml
 
 # Contributing
 Please organize your submissions by API "section" and submit a separate pull
@@ -30,7 +30,7 @@ simultaneously.
 For example, to contribute a change to the XML API docs for character  MarketOrders:
 
 1. Create a branch (say, "marketorders") on your fork of [ccpgames/eveonline-third-party-documentation](https://github.com/ccpgames/eveonline-third-party-documentation)
-2. In your branch, make your changes to docs/xmlapi/char_marketorders.md.  Be sure to follow the standards for each section of the documentation.
+2. In your branch, make your changes to `docs/xmlapi/character/char_marketorders.md`.  Be sure to follow the standards for each section of the documentation.
 3. Submit a pull request from yourfork:marketorders to ccpgames:master
 
 Please also add your name to the CONTRIBUTORS file (sorted by first name please!).

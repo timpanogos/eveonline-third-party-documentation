@@ -1,4 +1,5 @@
-# Intro
+# Conversions
+## Intoduction
 
 Originally, the SDE was provided solely as an MS SQL server backup file. As the SDE is commonly used in environments where MS SQL is not available or would be overkill, a number of people maintain conversion routines and copies, to make it available in a more useful format.
 
@@ -13,7 +14,7 @@ As the various methods for conversion result in differing versions, with differe
 Desmont provides a tool to run on Windows, to merge the other data back into the SQL Server SDE, and to convert into a variety of formats, either at full database, or individual tables.
 
 * SQL Server
-* Mysql
+* MySQL
 * Postgres
 * MS Access
 * SQLite
@@ -26,7 +27,7 @@ This tool converts to a format close to the SDE as it was before CCP changed how
 Steve provides conversions of the SDE for download, in the following formats:
 
 * SQL Server
-* Mysql (both [full database](https://www.fuzzwork.co.uk/dump/mysql-latest.tar.bz2) and [single table](https://www.fuzzwork.co.uk/dump/latest/))
+* MySQL (both [full database](https://www.fuzzwork.co.uk/dump/mysql-latest.tar.bz2) and [single table](https://www.fuzzwork.co.uk/dump/latest/))
 * [Postgres](https://www.fuzzwork.co.uk/dump/postgres-latest.dmp.bz2) (both public schema, and evetools schema)
 * [SQLite](https://www.fuzzwork.co.uk/dump/sqlite-latest.sqlite.bz2)
 * [CSV/XLS](https://www.fuzzwork.co.uk/dump/latest/) (depending on row counts)
@@ -36,7 +37,7 @@ Historical copies are kept available. When data is migrated into alternate forma
 
 Conversion is performed by:
 
-* https://github.com/fuzzysteve/SDE-loaders to pull everything into SQL Server
+* [https://github.com/fuzzysteve/SDE-loaders](https://github.com/fuzzysteve/SDE-loaders) to pull everything into SQL Server
 * MySQL Migration Wizard in the Mysql Workbench to convert to MySQL
 * pgloader to pull the mysql data into postgres
 * mysql2sqlite.sh to pull the mysql data into sqlite

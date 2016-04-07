@@ -1,4 +1,4 @@
-# XML API
+# Introduction
 The EVE XML API is an HTTP **read only** API to the EVE Universe. The API has both publicly accessible information and private character/corporation information. Using the API does not require any kind of registration, simply point your HTTP requests to the correct locations, or use one of the many third-party libraries, and away you go.
 
 ## Accessing The API
@@ -35,6 +35,51 @@ If at all possible if something goes wrong with you application and we are consi
 
 A good User-Agent header makes CCP very happy.
 
+### Schema
+
+The returned response of the XML API follows the following schema:
+```xml
+<eveapi version="2">
+    <currentTime>DateTime</currentTime>
+    <result>
+        Various result schemas
+    </result>
+    <cachedUntil>DateTime</cachedUntil>
+</eveapi>
+```
+The `DateTime` is always of the format `yyyy-MM-dd HH:mm:ss`.
+
+The result schema can have various combinations like:
+```xml
+<result>
+    <xmlElement>Some text</xmlElement>
+    ...
+    <xmlElement>
+        <xmlElement>Some text</xmlElement>
+        ...
+    </xmlElement>
+</result>
+```
+or
+```xml
+<result>
+    <xmlElement>Some text</xmlElement>
+    ...
+</result>
+```
+or
+```xml
+<result>
+    <rowset name="" key="" columns="">
+        <row attributte1="" attributte2="" attributte3="" attributte4=""/>
+        ...
+    </rowset>
+</result>
+```
+or a combination of all above schemas.
+
+The **Sample Response** in each call page, displays the `result` schema.
+
 ### Test Server
 The Singularity test server has the XML API running and is in most cases updated before Tranquility. We do highly encourage third-party developers to test new API features on Singularity and provide feedback.
 
@@ -60,16 +105,16 @@ You will then receive the latest journal entries or transactions prior to "fromI
 
 The following pseudo-code illustrates a simple way to implement journal walking to collect all entries for a given month:
 
-```
-  let entries=[]
-  let next=get_entries(limit=2560)
+```erlang
+  let entries = []
+  let next = get_entries(limit=2560)
   while (next.size > 0)
     entries += next
-    next=get_entries(limit=2560)
-  let from=minID(entries)
-  next=get_entries(limit=2560, fromID=from)
+    next = get_entries(limit=2560)
+  let from = minID(entries)
+  next = get_entries(limit=2560, fromID=from)
   while (next.size > 0)
     entries += next
-    from=min(from, minID(next))
-    next=get_entries(limit=2560, fromID=from)
+    from = min(from, minID(next))
+    next = get_entries(limit=2560, fromID=from)
 ```

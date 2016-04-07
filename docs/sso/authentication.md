@@ -1,4 +1,5 @@
-# Implementing the SSO
+# Authentication Flow
+## Implementing the SSO
 The recommended flow for web applications where the client secret can be stored on a server is the Authorization Code Grant documented [here](http://tools.ietf.org/html/rfc6749#section-4.1).
 
 For those users that don't feel like reading the standard the authentication is really just a series of HTTPS requests and redirects described in this document.
@@ -29,15 +30,15 @@ At this point in time your website has the authorization code. The only thing th
 It is also important to note that the authorization code is single use only.
 
 The you need to make an HTTP POST to `https://login.eveonline.com/oauth/token` to exchange the authorization code with an access token, and it looks like this:
+```http
+POST https://login.eveonline.com/oauth/token HTTP/1.1
 
-    POST https://login.eveonline.com/oauth/token HTTP/1.1
-    
-    Authorization: Basic bG9...ZXQ=
-    Content-Type: application/x-www-form-urlencoded
-    Host: login.eveonline.com
-    
-    grant_type=authorization_code&code=gEyuYF_rf...ofM0
+Authorization: Basic bG9...ZXQ=
+Content-Type: application/x-www-form-urlencoded
+Host: login.eveonline.com
 
+grant_type=authorization_code&code=gEyuYF_rf...ofM0
+```
 - Authorization HTTP header: This is the string "Basic" plus the string {client_id}:{client_secret} Base64 encoded
     - NOTE: It is very important to make sure there are no spaces or newline characters in the string that is being Base64 encoded. If in doubt, try to Base64 encode these sample values and compare to the one below.
     - Example values:
@@ -50,12 +51,12 @@ The you need to make an HTTP POST to `https://login.eveonline.com/oauth/token` t
 - code: The authorization code obtained in Step 1. Make sure there are no extra spaces or newline characters at the end of the HTTP body.
 
 A successful verification request will yield a response in [JSON](http://www.json.org/) format similar to the following:
-
-    {
-        access_token: "uNEEh...a\_WpiaA2"
-        token_type: "Bearer"
-        expires_in: 300
-        refresh_token: null
-    }
-
+```json
+{
+    "access_token": "uNEEh...a\_WpiaA2",
+    "token_type": "Bearer",
+    "expires_in": 300,
+    "refresh_token": null
+}
+```
 The access token returned is valid for 1200 seconds, or 20 minutes.
