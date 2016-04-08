@@ -3,7 +3,7 @@ Returns the bodies of eve mail messages sent to the character.
 
 * __Path:__ ``/char/MailBodies.xml.aspx``
 * __Access mask:__ 512
-* __Cache timer:__ 10 years - see notes below
+* __Cache timer:__ 10 years <sup style="color: red; font-weight: bold">(see notes below)</sup>
 * __Parameters:__
     <table border="1">
         <tbody>

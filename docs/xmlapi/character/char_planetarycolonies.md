@@ -3,7 +3,7 @@ Retrieve planetary colonies owned by character.
 
 * __Path:__ ``/char/PlanetaryColonies.xml.aspx``
 * __Access mask:__ 2
-* __Cache timer:__ 60 minutes <sup title="Planetary colony information has special update rules.  See notes below" style="color: red">&#x2605;</sup>
+* __Cache timer:__ 60 minutes <sup style="color: red; font-weight: bold">(see notes below)</sup>
 * __Parameters:__
     <table border="1">
         <tbody>
