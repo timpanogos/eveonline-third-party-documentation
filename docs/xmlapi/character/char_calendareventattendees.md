@@ -77,7 +77,7 @@ Returns a list of all invited attendees for a given event.
 
 ### Notes
 
-* A call to [Char - UpcomingCalendarEvents](char_upcomingcalendarevents.md) must be made prior to calling this API. Otherwise you will receive the error:<br />
+* A call to <a href="char_upcomingcalendarevents.html">Character - UpcomingCalendarEvents</a> must be made prior to calling this API. Otherwise you will receive the error:<br />
     216: Calendar Event List not populated with upcoming events. You cannot request any random eventID.
 
 ### References

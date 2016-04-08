@@ -37,8 +37,8 @@ Constant values are used in certain response data columns to represent enumerate
 </table>
 
 ### Applies to
-* [Char - MarketOrders](character/char_marketorders.md)
-* [Corp - MarketOrders](corporation/corp_marketorders.md)
+* [Character - MarketOrders](character/char_marketorders.md)
+* [Corporation - MarketOrders](corporation/corp_marketorders.md)
 
 ## Order Range
 
@@ -68,8 +68,8 @@ Constant values are used in certain response data columns to represent enumerate
 </table>
 
 ### Applies to
-* [Char - MarketOrders](character/char_marketorders.md)
-* [Corp - MarketOrders](corporation/corp_marketorders.md)
+* [Character - MarketOrders](character/char_marketorders.md)
+* [Corporation - MarketOrders](corporation/corp_marketorders.md)
 
 ## Raw Quantity
 
@@ -95,10 +95,10 @@ Constant values are used in certain response data columns to represent enumerate
 </table>
 
 ### Applies to
-* [Char - AssetList](character/char_assetlist.md)
-* [Corp - AssetList](corporation/corp_assetlist.md)
-* [Char - ContractItems](character/char_contractitems.md)
-* [Corp - ContractItems](corporation/corp_contractitems.md)
+* [Character - AssetList](character/char_assetlist.md)
+* [Corporation - AssetList](corporation/corp_assetlist.md)
+* [Character - ContractItems](character/char_contractitems.md)
+* [Corporation - ContractItems](corporation/corp_contractitems.md)
 
 ## Inventory Flags
 
@@ -107,10 +107,10 @@ They define hangars or slots where an item may reside. It should be noted that i
 
 
 ### Applies to
-* [Char - AssetList](character/char_assetlist.md)
-* [Char - Blueprints](character/char_blueprints.md)
-* [Corp - AssetList](corporation/corp_assetlist.md)
-* [Char - Blueprints](corporation/corp_blueprints.md)
+* [Character - AssetList](character/char_assetlist.md)
+* [Character - Blueprints](character/char_blueprints.md)
+* [Corporation - AssetList](corporation/corp_assetlist.md)
+* [Character - Blueprints](corporation/corp_blueprints.md)
 
 ## Reference Type
 
@@ -149,7 +149,7 @@ They define hangars or slots where an item may reside. It should be noted that i
             </td>
             <td>0</td>
             <td></td>
-            <td>See <a href="character/char_wallettransactions.html">Char - WalletTransactions</a> or <a href="corporation/corp_wallettransactions.html">Corp - WalletTransactions</a>.</td>
+            <td>See <a href="character/char_wallettransactions.html">Character - WalletTransactions</a> or <a href="corporation/corp_wallettransactions.html">Corporation - WalletTransactions</a>.</td>
         </tr>
         <tr>
             <td align="right">10</td>
@@ -216,7 +216,7 @@ They define hangars or slots where an item may reside. It should be noted that i
             </td>
             <td>0</td>
             <td></td>
-            <td>Fee for industry manufacturing job.  See <a href="character/char_industryjobs.html">Char - IndustryJobs</a> or <a href="corporation/corp_industryjobs.html">Corp - IndustryJobs</a>.</td>
+            <td>Fee for industry manufacturing job.  See <a href="character/char_industryjobs.html">Character - IndustryJobs</a> or <a href="corporation/corp_industryjobs.html">Corporation - IndustryJobs</a>.</td>
         </tr>
         <tr>
             <td align="right">63, 64, 71, 72, 73, 74, 79, 80, 81, 82</td>
@@ -256,8 +256,8 @@ They define hangars or slots where an item may reside. It should be noted that i
 </table>
 
 ### Applies to
-* [Char - WalletJournal](character/char_walletjournal.md)
-* [Corp - WalletJournal](corporation/corp_walletjournal.md)
+* [Character - WalletJournal](character/char_walletjournal.md)
+* [Corporation - WalletJournal](corporation/corp_walletjournal.md)
 
 ## Notification Type
 
@@ -1155,7 +1155,7 @@ They define hangars or slots where an item may reside. It should be noted that i
 </table>
 
 ### Applies to
-* [Char - Notifications](character/char_notifications.md)
+* [Character - Notifications](character/char_notifications.md)
 
 ## Known POS States
 <table border="1">
@@ -1194,8 +1194,8 @@ They define hangars or slots where an item may reside. It should be noted that i
     </table>
 
 ### Applies to
-* [Corp - StarbaseList](corporation/corp_starbaselist.md)
-* [Corp - StarbaseDetail](corporation/corp_starbasedetail.md)
+* [Corporation - StarbaseList](corporation/corp_starbaselist.md)
+* [Corporation - StarbaseDetail](corporation/corp_starbasedetail.md)
 
 ## Industry Job Status
 
@@ -1233,8 +1233,8 @@ They define hangars or slots where an item may reside. It should be noted that i
 </table>
 
 ### Applies to
-* [Char - IndustryJobs](character/char_industryjobs.md)
-* [Char - IndustryJobsHistory](character/char_industryjobshistory.md)
-* [Corp - IndustryJobs](corporation/corp_industryjobs.md)
-* [Corp - IndustryJobsHistory](corporation/corp_industryjobshistory.md)
+* [Character - IndustryJobs](character/char_industryjobs.md)
+* [Character - IndustryJobsHistory](character/char_industryjobshistory.md)
+* [Corporation - IndustryJobs](corporation/corp_industryjobs.md)
+* [Corporation - IndustryJobsHistory](corporation/corp_industryjobshistory.md)
 

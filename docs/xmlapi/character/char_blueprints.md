@@ -65,7 +65,7 @@ Lists blueprints in characters inventory
             <td>long</td>
             <td>
                 References a solar system, station or itemID if this blueprint is located within a container.
-                If an itemID the <a href="char_assetlist.html">Char - AssetList</a> API must be queried to find the container using the itemID,
+                If an itemID the <a href="char_assetlist.html">Character - AssetList</a> API must be queried to find the container using the itemID,
                 from which the correct location of the Blueprint can be derived.
             </td>
         </tr>

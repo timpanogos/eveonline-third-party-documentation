@@ -312,7 +312,7 @@ Retrieve finished corporation industry jobs.
 
 ### Notes
 
-* This endpoint returns finished corporation jobs (e.g. started from a corporation hangar).  Use <a href="../../xmlapi/corp_industryjobs">Corp - IndustryJobsHistory</a> to retrieve unfinished jobs.
+* This endpoint returns finished corporation jobs (e.g. started from a corporation hangar).  Use <a href="../../xmlapi/corporation/corp_industryjobs.html">Corporation - IndustryJobs</a> to retrieve unfinished jobs.
 * This endpoint returns a maximum of 10000 rows and at most 90 days worth of data.
 * If a job is cancelled manually, then the completedCharacterID identifies the character who cancelled the job.
 * If a job is cancelled because the facility was unanchored, then completedCharacterID is 0.
