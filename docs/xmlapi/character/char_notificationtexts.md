@@ -3,7 +3,7 @@ Retrieve character notification bodies.
 
 * __Path:__ ``/char/NotificationTexts.xml.aspx``
 * __Access mask:__ 32768
-* __Cache timer:__ 10 years - see notes below
+* __Cache timer:__ 10 years <sup style="color: red; font-weight: bold">(see notes below)</sup>
 * __Parameters:__
     <table border="1">
         <tbody>
