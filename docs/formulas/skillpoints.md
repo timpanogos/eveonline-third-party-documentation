@@ -4,7 +4,9 @@
 
 The skillpoints needed for a level depend on the skill rank.
 
-$$y_{skillpoints} := 2^{2.5(x_{skilllevel}-1)} \cdot 250 \cdot r_{skillrank}$$
+```math
+ y_{skillpoints} = 2^{2.5(x_{skilllevel}-1)} \cdot 250 \cdot r_{skillrank}
+ ```
 
 ### Skillpoints for common ranks
 
@@ -34,7 +36,8 @@ $$y_{skillpoints} := 2^{2.5(x_{skilllevel}-1)} \cdot 250 \cdot r_{skillrank}$$
 
 ## Skillpoints per minute
 
-The skillpoints generated each minute depend on the primary (\\(a_{primary}\\)) and secondary attribute (\\(a_{secondary}\\)) of the skill.                             
+The skillpoints generated each minute depend on the primary ``$ (a_{primary}) $`` and secondary attribute ``$ (a_{secondary}) $`` of the skill.                             
 
-$$y_{skillpointsPerMinute} := a_{primary} + {a_{secondary} \over 2}$$
-
+```math
+y_{skillpointsPerMinute} = a_{primary} + {a_{secondary} \over 2}
+```
