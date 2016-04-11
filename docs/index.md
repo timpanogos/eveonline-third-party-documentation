@@ -9,6 +9,8 @@ There is a lot of work to be done on this site and any contributions are welcome
 
 The source files are written in markdown, which is very easy to get started using. There is a fairly good introduction to markdown available from [GitHub](https://guides.github.com/features/mastering-markdown/).
 
+Please follow the `recommonmark` guidelines for [math formulas](https://recommonmark.readthedocs.org/en/latest/auto_structify.html#math-formula) and [inline math](https://recommonmark.readthedocs.org/en/latest/auto_structify.html#inline-math).
+
 There is a contributors file, as well as more info on contributing to the documentation on the repository.
 
 * [Guidelines and References](reference/index.md)
