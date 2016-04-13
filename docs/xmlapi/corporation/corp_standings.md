@@ -1,5 +1,5 @@
 # Standings
-Returns the standings of non player entities have to the corporation.
+Returns the standings that non-player entities have to the corporation.
 
 * __Path:__ ``/corp/Standings.xml.aspx``
 * __Access mask:__ 262144
