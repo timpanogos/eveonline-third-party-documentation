@@ -400,7 +400,8 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td align="right">21</td>
             <td>Player leaves corp</td>
 	    <td>charID: 90610935<br>
-                corpID: 00000000</td>
+                corpID: 00000000
+	    </td>
         </tr>
         <tr>
             <td align="right">22</td>
@@ -863,7 +864,8 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td align="right">89</td>
             <td>Contact add notification</td>
 	    <td>level: 10<br>
-		message: Hi it was nice meeting you. I have set you blue.</td>
+		message: Hi it was nice meeting you. I have set you blue.
+	    </td>
         </tr>
         <tr>
             <td align="right">90</td>
@@ -1007,7 +1009,8 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td align="right">111</td>
             <td>Your Bounty Was Claimed</td>
             <td>bounty: 11111.0<br>
-		victimID: 00000000</td>
+		victimID: 00000000
+	    </td>
         </tr>
         <tr>
             <td align="right">112</td>
@@ -1029,13 +1032,15 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td>Kill Right Available</td>
             <td>charID: 00000000<br>
 		price: 0.0<br>
-		toEntityID: 00000000 </td>
+		toEntityID: 00000000
+	    </td>
         </tr>
         <tr>
             <td align="right">116</td>
             <td>Kill right Available Open</td>
             <td>charID: 00000000<br>
-		price: 0.0 </td>
+		price: 0.0
+	    </td>
         </tr>
         <tr>
             <td align="right">117</td>
@@ -1051,7 +1056,8 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td align="right">119</td>
             <td>Kill Right Unavailable</td>
             <td>charID: 00000000<br>
-		toEntityID: 00000000 </td>
+		toEntityID: 00000000
+	    </td>
         </tr>
         <tr>
             <td align="right">120</td>
@@ -1111,7 +1117,8 @@ They define hangars or slots where an item may reside. It should be noted that i
             <td>Character Application Withdraw</td>
             <td>applicationText: Hey, this is my alt.<br>
 		charID: 900000000<br>
-		corpID: 000000001</td>
+		corpID: 000000001
+            </td>
         </tr>
         <tr>
             <td align="right">138</td>
