@@ -399,7 +399,9 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">21</td>
             <td>Player leaves corp</td>
-	    <td>TBD</td>
+	    <td>charID: 90610935<br>
+                corpID: 00000000
+	    </td>
         </tr>
         <tr>
             <td align="right">22</td>
@@ -861,7 +863,9 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">89</td>
             <td>Contact add notification</td>
-	    <td>TBD</td>
+	    <td>level: 10<br>
+		message: Hi it was nice meeting you. I have set you blue.
+	    </td>
         </tr>
         <tr>
             <td align="right">90</td>
@@ -1004,7 +1008,9 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">111</td>
             <td>Your Bounty Was Claimed</td>
-            <td>TBD</td>
+            <td>bounty: 11111.0<br>
+		victimID: 00000000
+	    </td>
         </tr>
         <tr>
             <td align="right">112</td>
@@ -1024,12 +1030,17 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">115</td>
             <td>Kill Right Available</td>
-            <td>TBD</td>
+            <td>charID: 00000000<br>
+		price: 0.0<br>
+		toEntityID: 00000000
+	    </td>
         </tr>
         <tr>
             <td align="right">116</td>
             <td>Kill right Available Open</td>
-            <td>TBD</td>
+            <td>charID: 00000000<br>
+		price: 0.0
+	    </td>
         </tr>
         <tr>
             <td align="right">117</td>
@@ -1044,12 +1055,14 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">119</td>
             <td>Kill Right Unavailable</td>
-            <td>TBD</td>
+            <td>charID: 00000000<br>
+		toEntityID: 00000000
+	    </td>
         </tr>
         <tr>
             <td align="right">120</td>
             <td>Kill Right Unavailable Open</td>
-            <td>TBD</td>
+            <td>charID: 00000000</td>
         </tr>
         <tr>
             <td align="right">121</td>
@@ -1102,7 +1115,10 @@ They define hangars or slots where an item may reside. It should be noted that i
         <tr>
             <td align="right">130</td>
             <td>Character Application Withdraw</td>
-            <td>TBD</td>
+            <td>applicationText: Hey, this is my alt.<br>
+		charID: 900000000<br>
+		corpID: 000000001
+            </td>
         </tr>
         <tr>
             <td align="right">138</td>
@@ -1115,7 +1131,7 @@ They define hangars or slots where an item may reside. It should be noted that i
         </tr>
         <tr>
             <td align="right">140</td>
-            <td>Kill report available</td>
+            <td>Loss report available</td>
             <td>killMailHash: aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d<br>
                 killMailID: 00000000<br>
                 victimShipTypeID: 596
@@ -1123,7 +1139,7 @@ They define hangars or slots where an item may reside. It should be noted that i
         </tr>
         <tr>
             <td align="right">141</td>
-            <td>TBD</td>
+            <td>Kill report available</td>
             <td>killMailHash: a415ab5cc17c8c093c015ccdb7e552aee7911aa4<br>
                 killMailID: 00000000<br>
                 victimID: 000000001<br>
