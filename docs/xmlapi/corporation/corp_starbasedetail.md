@@ -5,7 +5,7 @@ Returns details for specified starbase.
 * __Access mask:__ 131072
 * __Cache timer:__ 1 hour
 * __Parameters:__
-	<table border="1">
+     <table border="1">
         <tbody>
             <tr>
                 <th>Argument</th>
@@ -185,31 +185,87 @@ Returns details for specified starbase.
 </table>
 
 ### Flags Description
-* __Access Restrictions:__
-They store access restrictions to the POS facilities on 2 bits:
-    <ol start="0">
-        <li>'Starbase Config'</li>
-        <li>'Starbase Fuel Tech'</li>
-        <li>'Corporation Members'</li>
-        <li>'Alliance Members'</li>
-    </ol>
+
+* __How it works__:
+There are two flags - the usage flag and the deploy flag. Each flags contain the information about which roles can perform which activity for the POS. That information is encoded in a 4 bit (usage) or 8 bit (deploy) field.
+A role is encoded in 2 bits, so each flag is divided into sections of 2 bits. Each of that sections correspond with a role.
+
+* __Roles:__
+The role needed to get access to a POS facilities is encoded in 2 bits:
+<ul>
+	<li>00 'Starbase Config'</li>
+	<li>01 'Corporation Members'</li>
+	<li>10 'Alliance Members'</li>
+	<li>11 'Starbase Fuel Tech'</li>
+</ul>
 
 * __Usage Flags:__
-access restrictions to the POS fuel bay are encoded in this 4 bit field.
-```
-if usageFlags == 9 == 0b1001   -->   10    01
-                                    view  take
-    0b10 == 2 --> 'Corporation Members' can view
-    0b01 == 1 --> 'Starbase Fuel Tech' can take
-```
+Access restrictions to the POS fuel bay are encoded in this 4 bit field.
+     <table border="1">
+        <thead>
+        <tr>
+                <th>Bits</th>
+                <th>Role</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+                <td>0, 1</td>
+                <td>view</td>
+        </tr>
+        <tr>
+                <td>2, 3</td>
+                <td>take</td>
+        </tr>
+        </tbody>
+    </table>
+
+__Example__:
+
+usage field = 3 decimal => 0011 binary
+
+bits 0,1 = 11 => Starbase Fuel Tech can view
+
+bits 2,3 = 00 => Starbase Config can take
 
 * __Deploy Flags:__
-access restrictions to who is able to operate this POS are encoded in this 8 bit field.
-```
-if usageFlags == 68 == 0b01000100  -->   01       00       01      00
-                                        anchor  unanchor  online  offline
-    0b01 == 1 --> 'Starbase Fuel Tech' can anchor
-    0b00 == 0 --> 'Starbase Config' can unanchor
-    0b01 == 1 --> 'Starbase Fuel Tech' can online
-    0b00 == 0 --> 'Starbase Config' can offline
-```
+Access restrictions to who is able to change state of this POS are encoded in this 8 bit field.
+
+ <table border="1">
+        <thead>
+        <tr>
+                <th>Bits</th>
+                <th>Role</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+                <td>0, 1</td>
+                <td>anchor</td>
+        </tr>
+        <tr>
+                <td>2, 3</td>
+                <td>unanchor</td>
+        </tr>
+          <tr>
+                <td>4, 5</td>
+                <td>online</td>
+        </tr>
+        <tr>
+                <td>6, 7</td>
+                <td>offline</td>
+        </tr>
+        </tbody>
+    </table>
+
+__Example__:
+
+deploy field = 99 decimal => 01100011 binary
+
+bits 0,1 = 11 => Starbase Fuel Tech can anchor
+
+bits 2,3 = 00 => Starbase Config can unanchor
+
+bits 4,5 = 10 => Alliance Members can online
+
+bits 6,7 = 01 => Corporation Members can offline
