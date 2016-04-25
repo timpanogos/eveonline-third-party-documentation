@@ -52,17 +52,17 @@ Retrieve corporation wallet journal.
 
 ```xml
 <result>
-    <rowset name="entries" key="refID" columns="date,refID,refTypeID,ownerName1,ownerID1,ownerName2,ownerID2,argName1,argID1,amount,balance,reason">
-        <row date="2012-12-19 12:51:22" refID="6723384310" refTypeID="54" ownerName1="trek apace" ownerID1="90251444" ownerName2="Secure Commerce Commission" ownerID2="1000132" argName1="" argID1="0" amount="-17700.00" balance="7140579224.62" reason="" />
-        <row date="2012-12-19 12:51:22" refID="6723384309" refTypeID="2" ownerName1="Ilasia Lynn" ownerID1="92690397" ownerName2="trek apace" ownerID2="90251444" argName1="2682037889" argID1="0" amount="1180000.00" balance="7140596924.62" reason="" />
-        <row date="2012-12-19 12:50:52" refID="6723383243" refTypeID="54" ownerName1="trek apace" ownerID1="90251444" ownerName2="Secure Commerce Commission" ownerID2="1000132" argName1="" argID1="0" amount="-26550.00" balance="7139416924.62" reason="" />
-        <row date="2012-12-19 12:50:52" refID="6723383242" refTypeID="2" ownerName1="Ilasia Lynn" ownerID1="92690397" ownerName2="trek apace" ownerID2="90251444" argName1="2682037615" argID1="0" amount="1770000.00" balance="7139443474.62" reason="" />
-        <row date="2012-12-19 11:52:55" refID="6723264857" refTypeID="54" ownerName1="trek apace" ownerID1="90251444" ownerName2="Secure Commerce Commission" ownerID2="1000132" argName1="" argID1="0" amount="-42300.00" balance="7137673474.62" reason="" />
-        <row date="2012-12-19 11:52:55" refID="6723264856" refTypeID="2" ownerName1="Pacak Zanjoahir" ownerID1="90500646" ownerName2="trek apace" ownerID2="90251444" argName1="2682011072" argID1="0" amount="2820000.00" balance="7137715774.62" reason="" />
-        <row date="2012-12-19 10:20:54" refID="6723140427" refTypeID="80" ownerName1="reygar burnt" ownerID1="1801683792" ownerName2="Secure Commerce Commission" ownerID2="1000132" argName1="62440569" argID1="0" amount="-10000.00" balance="7134895774.62" reason="" />
-        <row date="2012-12-19 10:17:06" refID="6723131004" refTypeID="46" ownerName1="trek apace" ownerID1="90251444" ownerName2="Secure Commerce Commission" ownerID2="1000132" argName1="EVE System" argID1="1" amount="-100.00" balance="7134905774.62" reason="" />
-        <row date="2012-12-19 03:19:08" refID="6722119077" refTypeID="54" ownerName1="trek apace" ownerID1="90251444" ownerName2="Secure Commerce Commission" ownerID2="1000132" argName1="" argID1="0" amount="-38070.00" balance="7134905874.62" reason="" />
-        <row date="2012-12-19 03:19:08" refID="6722119076" refTypeID="2" ownerName1="rusherl" ownerID1="1785921690" ownerName2="trek apace" ownerID2="90251444" argName1="2681763072" argID1="0" amount="2538000.00" balance="7134943944.62" reason="" />
+    <rowset name="entries" key="refID" columns="date,refID,refTypeID,ownerName1,ownerID1,ownerName2,ownerID2,argName1,argID1,amount,balance,reason,owner1TypeID,owner2TypeID">
+        <row date="2012-12-19 12:51:22" refID="6723384310" refTypeID="54" ownerName1="trek apace" ownerID1="90251444" ownerName2="Secure Commerce Commission" ownerID2="1000132" argName1="" argID1="0" amount="-17700.00" balance="7140579224.62" reason="" owner1TypeID="1373" owner2TypeID="2" />
+        <row date="2012-12-19 12:51:22" refID="6723384309" refTypeID="2" ownerName1="Ilasia Lynn" ownerID1="92690397" ownerName2="trek apace" ownerID2="90251444" argName1="2682037889" argID1="0" amount="1180000.00" balance="7140596924.62" reason="" owner1TypeID="1385" owner2TypeID="1373" />
+        <row date="2012-12-19 12:50:52" refID="6723383243" refTypeID="54" ownerName1="trek apace" ownerID1="90251444" ownerName2="Secure Commerce Commission" ownerID2="1000132" argName1="" argID1="0" amount="-26550.00" balance="7139416924.62" reason="" owner1TypeID="1373" owner2TypeID="2" />
+        <row date="2012-12-19 12:50:52" refID="6723383242" refTypeID="2" ownerName1="Ilasia Lynn" ownerID1="92690397" ownerName2="trek apace" ownerID2="90251444" argName1="2682037615" argID1="0" amount="1770000.00" balance="7139443474.62" reason="" owner1TypeID="1385" owner2TypeID="1373" />
+        <row date="2012-12-19 11:52:55" refID="6723264857" refTypeID="54" ownerName1="trek apace" ownerID1="90251444" ownerName2="Secure Commerce Commission" ownerID2="1000132" argName1="" argID1="0" amount="-42300.00" balance="7137673474.62" reason="" owner1TypeID="1373" owner2TypeID="2" />
+        <row date="2012-12-19 11:52:55" refID="6723264856" refTypeID="2" ownerName1="Pacak Zanjoahir" ownerID1="90500646" ownerName2="trek apace" ownerID2="90251444" argName1="2682011072" argID1="0" amount="2820000.00" balance="7137715774.62" reason="" owner1TypeID="1373" owner2TypeID="1373" />
+        <row date="2012-12-19 10:20:54" refID="6723140427" refTypeID="80" ownerName1="reygar burnt" ownerID1="1801683792" ownerName2="Secure Commerce Commission" ownerID2="1000132" argName1="62440569" argID1="0" amount="-10000.00" balance="7134895774.62" reason="" owner1TypeID="1376" owner2TypeID="2" />
+        <row date="2012-12-19 10:17:06" refID="6723131004" refTypeID="46" ownerName1="trek apace" ownerID1="90251444" ownerName2="Secure Commerce Commission" ownerID2="1000132" argName1="EVE System" argID1="1" amount="-100.00" balance="7134905774.62" reason="" owner1TypeID="1373" owner2TypeID="2" />
+        <row date="2012-12-19 03:19:08" refID="6722119077" refTypeID="54" ownerName1="trek apace" ownerID1="90251444" ownerName2="Secure Commerce Commission" ownerID2="1000132" argName1="" argID1="0" amount="-38070.00" balance="7134905874.62" reason="" owner1TypeID="1373" owner2TypeID="2" />
+        <row date="2012-12-19 03:19:08" refID="6722119076" refTypeID="2" ownerName1="rusherl" ownerID1="1785921690" ownerName2="trek apace" ownerID2="90251444" argName1="2681763072" argID1="0" amount="2538000.00" balance="7134943944.62" reason="" owner1TypeID="1373" owner2TypeID="1373" />
     </rowset>
 </result>
 ```
@@ -165,6 +165,28 @@ Retrieve corporation wallet journal.
             <td>reason</td>
             <td><strong>string</strong></td>
             <td>Ref type dependent reason.  See the <a href="../constants.html#reference-type">Reference Type table</a>.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>owner1TypeID</td>
+            <td><strong>int</strong></td>
+            <td>
+                Determines the owner type:<br />
+                2 = Corporation<br />
+                1373-1386 = Character<br />
+                16159 = Alliance
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>owner2TypeID</td>
+            <td><strong>int</strong></td>
+            <td>
+                Determines the owner type:<br />
+                2 = Corporation<br />
+                1373-1386 = Character<br />
+                16159 = Alliance
+            </td>
         </tr>
     </tbody>
 </table>
