@@ -5,30 +5,30 @@ Retrieve character notification headers.
 * __Access mask:__ 16384
 * __Cache timer:__ 30 minutes
 * __Parameters:__
-    <table border="1">
-        <tbody>
-            <tr>
-                <th>Argument</th>
-                <th>Type</th>
-                <th>Meaning</th>
-            </tr>
-            <tr>
-                <td>keyID</td>
-                <td><strong>long</strong></td>
-                <td>API key ID</td>
-            </tr>
-            <tr>
-                <td>vCode</td>
-                <td><strong>char</strong></td>
-                <td>API verification code</td>
-            </tr>
-            <tr>
-                <td>characterID</td>
-                <td><strong>long</strong></td>
-                <td>Character ID for which notification headers will be retrieved</td>
-            </tr>
-        </tbody>
-    </table>
+<table border="1">
+    <tbody>
+        <tr>
+            <th>Argument</th>
+            <th>Type</th>
+            <th>Meaning</th>
+        </tr>
+        <tr>
+            <td>keyID</td>
+            <td><strong>long</strong></td>
+            <td>API key ID</td>
+        </tr>
+        <tr>
+            <td>vCode</td>
+            <td><strong>char</strong></td>
+            <td>API verification code</td>
+        </tr>
+        <tr>
+            <td>characterID</td>
+            <td><strong>long</strong></td>
+            <td>Character ID for which notification headers will be retrieved</td>
+        </tr>
+    </tbody>
+</table>
 
 ### Sample Response
 
@@ -60,10 +60,10 @@ Retrieve character notification headers.
             <td></td>
             <td>typeID</td>
             <td>
-	        <strong>int</strong>
-            <sup>
-                <a href="../constants.html#notification-type">[1]</a>
-            </sup>
+                <strong>int</strong>
+                <sup>
+                    <a href="../constants.html#notification-type">[1]</a>
+                </sup>
             </td>
             <td>Type ID describing the notification.</td>
         </tr>
@@ -91,6 +91,555 @@ Retrieve character notification headers.
             <td><strong>boolean</strong></td>
             <td>1 if this notification has been read in the EVE client, 0 otherwise.</td>
         </tr>
+    </tbody>
+</table>
+
+### Notification Types
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>TypeID</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>  
+        <tr>
+            <td align="right">1</td>
+            <td>Legacy</td>
+        </tr>
+        <tr>
+            <td align="right">2</td>
+            <td>Character deleted</td>
+        </tr>
+        <tr>
+            <td align="right">3</td>
+            <td>Give medal to character</td>
+        </tr>
+        <tr>
+            <td align="right">4</td>
+            <td>Alliance maintenance bill</td>
+        </tr>
+        <tr>
+            <td align="right"> 5
+            </td>
+            <td>Alliance war declared
+            </td></tr>
+        <tr>
+            <td align="right"> 6
+            </td>
+            <td>Alliance war surrender
+            </td></tr>
+        <tr>
+            <td align="right"> 7
+            </td>
+            <td>Alliance war retracted
+            </td></tr>
+        <tr>
+            <td align="right"> 8
+            </td>
+            <td>Alliance war invalidated by Concord
+            </td></tr>
+        <tr>
+            <td align="right"> 9
+            </td>
+            <td>Bill issued to a character
+            </td></tr>
+        <tr>
+            <td align="right"> 10
+            </td>
+            <td>Bill issued to corporation or alliance
+            </td></tr>
+        <tr>
+            <td align="right"> 11
+            </td>
+            <td>Bill not paid because there's not enough ISK available
+            </td></tr>
+        <tr>
+            <td align="right"> 12
+            </td>
+            <td>Bill, issued by a character, paid
+            </td></tr>
+        <tr>
+            <td align="right"> 13
+            </td>
+            <td>Bill, issued by a corporation or alliance, paid
+            </td></tr>
+        <tr>
+            <td align="right"> 14
+            </td>
+            <td>Bounty claimed
+            </td></tr>
+        <tr>
+            <td align="right"> 15
+            </td>
+            <td>Clone activated
+            </td></tr>
+        <tr>
+            <td align="right"> 16
+            </td>
+            <td>New corp member application
+            </td></tr>
+        <tr>
+            <td align="right"> 17
+            </td>
+            <td>Corp application rejected
+            </td></tr>
+        <tr>
+            <td align="right"> 18
+            </td>
+            <td>Corp application accepted
+            </td></tr>
+        <tr>
+            <td align="right"> 19
+            </td>
+            <td>Corp tax rate changed
+            </td></tr>
+        <tr>
+            <td align="right"> 20
+            </td>
+            <td>Corp news report, typically for shareholders
+            </td></tr>
+        <tr>
+            <td align="right"> 21
+            </td>
+            <td>Player leaves corp
+            </td></tr>
+        <tr>
+            <td align="right"> 22
+            </td>
+            <td>Corp news, new CEO
+            </td></tr>
+        <tr>
+            <td align="right"> 23
+            </td>
+            <td>Corp dividend/liquidation, sent to shareholders
+            </td></tr>
+        <tr>
+            <td align="right"> 24
+            </td>
+            <td>Corp dividend payout, sent to shareholders
+            </td></tr>
+        <tr>
+            <td align="right"> 25
+            </td>
+            <td>Corp vote created
+            </td></tr>
+        <tr>
+            <td align="right"> 26
+            </td>
+            <td>Corp CEO votes revoked during voting
+            </td></tr>
+        <tr>
+            <td align="right"> 27
+            </td>
+            <td>Corp declares war
+            </td></tr>
+        <tr>
+            <td align="right"> 28
+            </td>
+            <td>Corp war has started
+            </td></tr>
+        <tr>
+            <td align="right"> 29
+            </td>
+            <td>Corp surrenders war
+            </td></tr>
+        <tr>
+            <td align="right"> 30
+            </td>
+            <td>Corp retracts war
+            </td></tr>
+        <tr>
+            <td align="right"> 31
+            </td>
+            <td>Corp war invalidated by Concord
+            </td></tr>
+        <tr>
+            <td align="right"> 32
+            </td>
+            <td>Container password retrieval
+            </td></tr>
+        <tr>
+            <td align="right"> 33
+            </td>
+            <td>Contraband or low standings cause an attack or items being confiscated
+            </td></tr>
+        <tr>
+            <td align="right"> 34
+            </td>
+            <td>First ship insurance
+            </td></tr>
+        <tr>
+            <td align="right"> 35
+            </td>
+            <td>Ship destroyed, insurance payed
+            </td></tr>
+        <tr>
+            <td align="right"> 36
+            </td>
+            <td>Insurance contract invalidated/runs out
+            </td></tr>
+        <tr>
+            <td align="right"> 37
+            </td>
+            <td>Sovereignty claim fails (alliance)
+            </td></tr>
+        <tr>
+            <td align="right"> 38
+            </td>
+            <td>Sovereignty claim fails (corporation)
+            </td></tr>
+        <tr>
+            <td align="right"> 39
+            </td>
+            <td>Sovereignty bill late (alliance)
+            </td></tr>
+        <tr>
+            <td align="right"> 40
+            </td>
+            <td>Sovereignty bill late (corporation)
+            </td></tr>
+        <tr>
+            <td align="right"> 41
+            </td>
+            <td>Sovereignty claim lost (alliance)
+            </td></tr>
+        <tr>
+            <td align="right"> 42
+            </td>
+            <td>Sovereignty claim lost (corporation)
+            </td></tr>
+        <tr>
+            <td align="right"> 43
+            </td>
+            <td>Sovereignty claim acquired (alliance)
+            </td></tr>
+        <tr>
+            <td align="right"> 44
+            </td>
+            <td>Sovereignty claim acquired (corporation)
+            </td></tr>
+        <tr>
+            <td align="right"> 45
+            </td>
+            <td>Alliance anchoring alert
+            </td></tr>
+        <tr>
+            <td align="right"> 46
+            </td>
+            <td>Alliance structure turns vulnerable
+            </td></tr>
+        <tr>
+            <td align="right"> 47
+            </td>
+            <td>Alliance structure turns invulnerable
+            </td></tr>
+        <tr>
+            <td align="right"> 48
+            </td>
+            <td>Sovereignty disruptor anchored
+            </td></tr>
+        <tr>
+            <td align="right"> 49
+            </td>
+            <td>Structure won/lost
+            </td></tr>
+        <tr>
+            <td align="right"> 50
+            </td>
+            <td>Corp office lease expiration notice
+            </td></tr>
+        <tr>
+            <td align="right"> 51
+            </td>
+            <td>Clone contract revoked by station manager
+            </td></tr>
+        <tr>
+            <td align="right"> 52
+            </td>
+            <td>Corp member clones moved between stations
+            </td></tr>
+        <tr>
+            <td align="right"> 53
+            </td>
+            <td>Clone contract revoked by station manager
+            </td></tr>
+        <tr>
+            <td align="right"> 54
+            </td>
+            <td>Insurance contract expired
+            </td></tr>
+        <tr>
+            <td align="right"> 55
+            </td>
+            <td>Insurance contract issued
+            </td></tr>
+        <tr>
+            <td align="right"> 56
+            </td>
+            <td>Jump clone destroyed
+            </td></tr>
+        <tr>
+            <td align="right"> 57
+            </td>
+            <td>Jump clone destroyed
+            </td></tr>
+        <tr>
+            <td align="right"> 58
+            </td>
+            <td>Corporation joining factional warfare
+            </td></tr>
+        <tr>
+            <td align="right"> 59
+            </td>
+            <td>Corporation leaving factional warfare
+            </td></tr>
+        <tr>
+            <td align="right"> 60
+            </td>
+            <td>Corporation kicked from factional warfare on startup because of too low standing to the faction
+            </td></tr>
+        <tr>
+            <td align="right"> 61
+            </td>
+            <td>Character kicked from factional warfare on startup because of too low standing to the faction
+            </td></tr>
+        <tr>
+            <td align="right"> 62
+            </td>
+            <td>Corporation in factional warfare warned on startup because of too low standing to the faction
+            </td></tr>
+        <tr>
+            <td align="right"> 63
+            </td>
+            <td>Character in factional warfare warned on startup because of too low standing to the faction
+            </td></tr>
+        <tr>
+            <td align="right"> 64
+            </td>
+            <td>Character loses factional warfare rank
+            </td></tr>
+        <tr>
+            <td align="right"> 65
+            </td>
+            <td>Character gains factional warfare rank
+            </td></tr>
+        <tr>
+            <td align="right"> 66
+            </td>
+            <td>Agent has moved
+            </td></tr>
+        <tr>
+            <td align="right"> 67
+            </td>
+            <td>Mass transaction reversal message
+            </td></tr>
+        <tr>
+            <td align="right"> 68
+            </td>
+            <td>Reimbursement message
+            </td></tr>
+        <tr>
+            <td align="right"> 69
+            </td>
+            <td>Agent locates a character
+            </td></tr>
+        <tr>
+            <td align="right"> 70
+            </td>
+            <td>Research mission becomes available from an agent
+            </td></tr>
+        <tr>
+            <td align="right"> 71
+            </td>
+            <td>Agent mission offer expires
+            </td></tr>
+        <tr>
+            <td align="right"> 72
+            </td>
+            <td>Agent mission times out
+            </td></tr>
+        <tr>
+            <td align="right"> 73
+            </td>
+            <td>Agent offers a storyline mission
+            </td></tr>
+        <tr>
+            <td align="right"> 74
+            </td>
+            <td>Tutorial message sent on character creation
+            </td></tr>
+        <tr>
+            <td align="right"> 75
+            </td>
+            <td>Tower alert
+            </td></tr>
+        <tr>
+            <td align="right"> 76
+            </td>
+            <td>Tower resource alert
+            </td></tr>
+        <tr>
+            <td align="right"> 77
+            </td>
+            <td>Station aggression message
+            </td></tr>
+        <tr>
+            <td align="right"> 78
+            </td>
+            <td>Station state change message
+            </td></tr>
+        <tr>
+            <td align="right"> 79
+            </td>
+            <td>Station conquered message
+            </td></tr>
+        <tr>
+            <td align="right"> 80
+            </td>
+            <td>Station aggression message
+            </td></tr>
+        <tr>
+            <td align="right"> 81
+            </td>
+            <td>Corporation requests joining factional warfare
+            </td></tr>
+        <tr>
+            <td align="right"> 82
+            </td>
+            <td>Corporation requests leaving factional warfare
+            </td></tr>
+        <tr>
+            <td align="right"> 83
+            </td>
+            <td>Corporation withdrawing a request to join factional warfare
+            </td></tr>
+        <tr>
+            <td align="right"> 84
+            </td>
+            <td>Corporation withdrawing a request to leave factional warfare
+            </td></tr>
+        <tr>
+            <td align="right"> 85
+            </td>
+            <td>Corporation liquidation
+            </td></tr>
+        <tr>
+            <td align="right"> 86
+            </td>
+            <td>Territorial Claim Unit under attack
+            </td></tr>
+        <tr>
+            <td align="right"> 87
+            </td>
+            <td>Sovereignty Blockade Unit under attack
+            </td></tr>
+        <tr>
+            <td align="right"> 88
+            </td>
+            <td>Infrastructure Hub under attack
+            </td></tr>
+        <tr>
+            <td align="right"> 89
+            </td>
+            <td>Contact add notification
+            </td></tr>
+        <tr>
+            <td align="right"> 90
+            </td>
+            <td>Contact edit notification
+            </td></tr>
+        <tr>
+            <td align="right"> 91
+            </td>
+            <td>Incursion Completed
+            </td></tr>
+        <tr>
+            <td align="right"> 92
+            </td>
+            <td>Corp Kicked
+            </td></tr>
+        <tr>
+            <td align="right"> 93
+            </td>
+            <td>Customs office has been attacked
+            </td></tr>
+        <tr>
+            <td align="right"> 94
+            </td>
+            <td>Customs office has entered reinforced
+            </td></tr>
+        <tr>
+            <td align="right"> 95
+            </td>
+            <td>Customs office has been transferred
+            </td></tr>
+        <tr>
+            <td align="right"> 96
+            </td>
+            <td>FW Alliance Warning
+            </td></tr>
+        <tr>
+            <td align="right"> 97
+            </td>
+            <td>FW Alliance Kick
+            </td></tr>
+        <tr>
+            <td align="right"> 98
+            </td>
+            <td>AllWarCorpJoined Msg
+            </td></tr>
+        <tr>
+            <td align="right"> 99
+            </td>
+            <td>Ally Joined Defender
+            </td></tr>
+        <tr>
+            <td align="right"> 100
+            </td>
+            <td>Ally Has Joined a War Aggressor
+            </td></tr>
+        <tr>
+            <td align="right"> 101
+            </td>
+            <td>Ally Joined War Ally
+            </td></tr>
+        <tr>
+            <td align="right"> 102
+            </td>
+            <td>New war system: entity is offering assistance in a war.
+            </td></tr>
+        <tr>
+            <td align="right"> 103
+            </td>
+            <td>War Surrender Offer
+            </td></tr>
+        <tr>
+            <td align="right"> 104
+            </td>
+            <td>War Surrender Declined
+            </td></tr>
+        <tr>
+            <td align="right"> 105
+            </td>
+            <td>FacWar LP Payout Kill
+            </td></tr>
+        <tr>
+            <td align="right"> 106
+            </td>
+            <td>FacWar LP Payout Event
+            </td></tr>
+        <tr>
+            <td align="right"> 107
+            </td>
+            <td>FacWar LP Disqualified Eventd
+            </td></tr>
+        <tr>
+            <td align="right"> 108
+            </td>
+            <td>FacWar LP Disqualified Kill
+            </td></tr>
     </tbody>
 </table>
 
