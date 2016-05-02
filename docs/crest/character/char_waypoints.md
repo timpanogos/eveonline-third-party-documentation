@@ -14,7 +14,7 @@ Body format:
   "clearOtherWaypoints": false,
   "first": false,
   "solarSystem": {
-    "href": "https://public-crest.eveonline.com/solarsystems/30000003/",
+    "href": "https://crest-tq.eveonline.com/solarsystems/30000003/",
     "id": 30000003
   }
 }

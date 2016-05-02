@@ -15,7 +15,7 @@ The dogma effects resource allows an application to read dogma effects.
   "items": [
     {
       "id_str": "4",
-      "href": "https://public-crest.eveonline.com/dogma/effects/4/",
+      "href": "https://crest-tq.eveonline.com/dogma/effects/4/",
       "id": 4,
       "name": "shieldBoosting"
     },
@@ -25,7 +25,7 @@ The dogma effects resource allows an application to read dogma effects.
     { "..." },
    ],
   "next": {
-    "href": "https://public-crest.eveonline.com/dogma/effects/?page=2"
+    "href": "https://crest-tq.eveonline.com/dogma/effects/?page=2"
   },
   "totalCount": 3896,
   "pageCount_str": "8"

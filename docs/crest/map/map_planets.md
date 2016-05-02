@@ -27,10 +27,10 @@ The planets resource allows an application to read planets data.
     "z": 49900095982
   },
   "type": {
-    "href": "https://public-crest.eveonline.com/types/2016/"
+    "href": "https://crest-tq.eveonline.com/types/2016/"
   },
   "system": {
-    "href": "https://public-crest.eveonline.com/solarsystems/30000032/",
+    "href": "https://crest-tq.eveonline.com/solarsystems/30000032/",
     "name": "Hasiari"
   },
   "name": "Hasiari I"

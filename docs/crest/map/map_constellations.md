@@ -14,7 +14,7 @@ The constellations resource allows an application to read constellations.
   "items": [
     {
       "id_str": "20000001",
-      "href": "https://public-crest.eveonline.com/constellations/20000001/",
+      "href": "https://crest-tq.eveonline.com/constellations/20000001/",
       "id": 20000001,
       "name": "San Matar"
     },
@@ -44,11 +44,11 @@ The constellations resource allows an application to read constellations.
     "z": -9760976595570807000
   },
   "region": {
-    "href": "https://public-crest.eveonline.com/regions/11000016/"
+    "href": "https://crest-tq.eveonline.com/regions/11000016/"
   },
   "systems": [
     {
-      "href": "https://public-crest.eveonline.com/solarsystems/31002538/",
+      "href": "https://crest-tq.eveonline.com/solarsystems/31002538/",
       "id": 31002538,
       "id_str": "31002538"
     },

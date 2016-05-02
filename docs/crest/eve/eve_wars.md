@@ -14,7 +14,7 @@ The wars resource allows an application to read wars data.
   "pageCount": 239,
   "items": [
     {
-      "href": "https://public-crest.eveonline.com/wars/1/",
+      "href": "https://crest-tq.eveonline.com/wars/1/",
       "id": 1,
       "id_str": "1"
     },
@@ -24,7 +24,7 @@ The wars resource allows an application to read wars data.
     { "..." },
    ],
   "next": {
-    "href": "https://public-crest.eveonline.com/wars/?page=2"
+    "href": "https://crest-tq.eveonline.com/wars/?page=2"
   },
   "totalCount": 477886,
   "pageCount_str": "239"
@@ -49,7 +49,7 @@ The wars resource allows an application to read wars data.
     "shipsKilled": 0,
     "shipsKilled_str": "0",
     "name": "Privateer Alliance",
-    "href": "https://public-crest.eveonline.com/alliances/753644383/",
+    "href": "https://crest-tq.eveonline.com/alliances/753644383/",
     "id_str": "753644383",
     "icon": {
       "href": "http://imageserver.eveonline.com/Alliance/753644383_128.png"
@@ -59,13 +59,13 @@ The wars resource allows an application to read wars data.
   },
   "mutual": false,
   "allyCount_str": "0",
-  "killmails": "https://public-crest.eveonline.com/wars/42000/killmails/all/",
+  "killmails": "https://crest-tq.eveonline.com/wars/42000/killmails/all/",
   "id_str": "42000",
   "defender": {
     "shipsKilled": 0,
     "shipsKilled_str": "0",
     "name": "Ka-Tet",
-    "href": "https://public-crest.eveonline.com/alliances/389924442/",
+    "href": "https://crest-tq.eveonline.com/alliances/389924442/",
     "id_str": "389924442",
     "icon": {
       "href": "http://imageserver.eveonline.com/Alliance/389924442_128.png"
