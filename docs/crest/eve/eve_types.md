@@ -15,7 +15,7 @@ The types resource allows an application to read types.
   "items": [
     {
       "id_str": "0",
-      "href": "https://public-crest.eveonline.com/types/0/",
+      "href": "https://crest-tq.eveonline.com/types/0/",
       "id": 0,
       "name": "#System"
     },
@@ -25,7 +25,7 @@ The types resource allows an application to read types.
     { "..." },
    ],
   "next": {
-    "href": "https://public-crest.eveonline.com/types/?page=2"
+    "href": "https://crest-tq.eveonline.com/types/?page=2"
   },
   "totalCount": 28370,
   "pageCount_str": "29"
@@ -53,7 +53,7 @@ The types resource allows an application to read types.
       {
         "attribute": {
           "id_str": "4",
-          "href": "https://public-crest.eveonline.com/dogma/attributes/4/",
+          "href": "https://crest-tq.eveonline.com/dogma/attributes/4/",
           "id": 4,
           "name": "mass"
         },

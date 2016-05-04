@@ -16,7 +16,7 @@ The alliances resource allows an application to read alliances data.
         {
             "id_str" : 99000006,
             "shortName" : 666,
-            "href" : "https://public-crest.eveonline.com/alliances/99000006/",
+            "href" : "https://crest-tq.eveonline.com/alliances/99000006/",
             "id" : 99000006,
             "name" : "Everto Rex Regis"
         },
@@ -26,7 +26,7 @@ The alliances resource allows an application to read alliances data.
         { "..." }
     ],
     "next" : {
-        "href" : "https://public-crest.eveonline.com/alliances/?page=2"
+        "href" : "https://crest-tq.eveonline.com/alliances/?page=2"
     },
     "totalCount" : 2989,
     "pageCount_str" : 12
@@ -52,7 +52,7 @@ The alliances resource allows an application to read alliances data.
     "creatorCorporation" : {
         "name" : "Covenant of the Phoenix",
         "isNPC" : false,
-        "href" : "https://public-crest.eveonline.com/corporations/98001096/",
+        "href" : "https://crest-tq.eveonline.com/corporations/98001096/",
         "id_str" : 98001096,
         "logo" : {
             "32x32" : {
@@ -75,9 +75,9 @@ The alliances resource allows an application to read alliances data.
     "creatorCharacter" : {
         "name" : "Jan Shan",
         "isNPC" : false,
-        "href" : "https://public-crest.eveonline.com/characters/681594178/",
+        "href" : "https://crest-tq.eveonline.com/characters/681594178/",
         "capsuleer" : {
-            "href" : "https://public-crest.eveonline.com/characters/681594178/capsuleer/"
+            "href" : "https://crest-tq.eveonline.com/characters/681594178/capsuleer/"
         },
         "portrait" : {
             "32x32" : {

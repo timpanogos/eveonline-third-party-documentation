@@ -15,7 +15,7 @@ The dogma attributes resource allows an application to read dogma attributes.
   "items": [
     {
       "id_str": "2",
-      "href": "https://public-crest.eveonline.com/dogma/attributes/2/",
+      "href": "https://crest-tq.eveonline.com/dogma/attributes/2/",
       "id": 2,
       "name": "isOnline"
     },
@@ -25,7 +25,7 @@ The dogma attributes resource allows an application to read dogma attributes.
     { "..." },
    ],
   "next": {
-    "href": "https://public-crest.eveonline.com/dogma/attributes/?page=2"
+    "href": "https://crest-tq.eveonline.com/dogma/attributes/?page=2"
   },
   "totalCount": 1939,
   "pageCount_str": "4"

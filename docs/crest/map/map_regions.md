@@ -14,7 +14,7 @@ The regions resource allows an application to read regions.
   "items": [
     {
       "id_str": "11000001",
-      "href": "https://public-crest.eveonline.com/regions/11000001/",
+      "href": "https://crest-tq.eveonline.com/regions/11000001/",
       "id": 11000001,
       "name": "A-R00001"
     },
@@ -40,11 +40,11 @@ The regions resource allows an application to read regions.
 {
   "description": "It has long been an established fact of civilization [...]",
   "marketBuyOrders": {
-    "href": "https://public-crest.eveonline.com/market/10000042/orders/buy/"
+    "href": "https://crest-tq.eveonline.com/market/10000042/orders/buy/"
   },
   "constellations": [
     {
-      "href": "https://public-crest.eveonline.com/constellations/20000302/",
+      "href": "https://crest-tq.eveonline.com/constellations/20000302/",
       "id": 20000302,
       "id_str": "20000302"
     },
@@ -57,7 +57,7 @@ The regions resource allows an application to read regions.
   "id_str": "10000042",
   "id": 10000042,
   "marketSellOrders": {
-    "href": "https://public-crest.eveonline.com/market/10000042/orders/sell/"
+    "href": "https://crest-tq.eveonline.com/market/10000042/orders/sell/"
   }
 }
 ```
