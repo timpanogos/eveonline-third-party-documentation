@@ -33,44 +33,121 @@ The solar systems resource allows an application to read solar systems.
 ### Route
 ``/solarsystems/<solarsystemID:solarsystemIdType>/``
 
+Ids that start with 31 are wormhole solar system, 30 are normal solar systems
+
 ### GET
 * Cache: 1 hour
 
 ```json
 {
   "stats": {
-    "href": "https://crest-tq.eveonline.com/solarsystems/30000032/stats/"
+    "href": "https://crest-tq.eveonline.com/solarsystems/30002290/stats/"
   },
-  "name": "Hasiari",
-  "securityStatus": 0.7981876134872437,
-  "securityClass": "B",
-  "href": "https://crest-tq.eveonline.com/solarsystems/30000032/",
-  "id_str": "30000032",
   "planets": [
     {
-      "href": "https://crest-tq.eveonline.com/planets/40002133/"
+      "href": "https://crest-tq.eveonline.com/planets/40145807/",
+      "moons": [
+        {
+          "href": "https://crest-tq.eveonline.com/moons/40145808/"
+        }
+      ]
     },
-    { "..." },
-    { "..." },
-    { "..." },
-    { "..." },
-   ],
+    {
+      "href": "https://crest-tq.eveonline.com/planets/40145809/",
+      "moons": [
+        {
+          "href": "https://crest-tq.eveonline.com/moons/40145810/"
+        },
+        { "..." },
+        { "..." },
+        { "..." },
+        { "..." },
+      ]
+    },
+    {
+      "href": "https://crest-tq.eveonline.com/planets/40145812/",
+      "moons": [
+        {
+          "href": "https://crest-tq.eveonline.com/moons/40145813/"
+        },
+        { "..." },
+        { "..." },
+        { "..." },
+        { "..." },
+      ]
+    },
+    {
+      "href": "https://crest-tq.eveonline.com/planets/40145816/",
+      "moons": [
+        {
+          "href": "https://crest-tq.eveonline.com/moons/40145817/"
+        },
+        { "..." },
+        { "..." },
+        { "..." },
+        { "..." },
+      ]
+    },
+    {
+      "href": "https://crest-tq.eveonline.com/planets/40145838/",
+      "moons": [
+        {
+          "href": "https://crest-tq.eveonline.com/moons/40145839/"
+        },
+        { "..." },
+        { "..." },
+        { "..." },
+        { "..." },
+      ]
+    },
+    {
+      "href": "https://crest-tq.eveonline.com/planets/40145861/",
+      "moons": [
+        {
+          "href": "https://crest-tq.eveonline.com/moons/40145862/"
+        },
+        { "..." },
+        { "..." },
+        { "..." },
+        { "..." },
+      ]
+    },
+    {
+      "href": "https://crest-tq.eveonline.com/planets/40145873/",
+      "moons": [
+        {
+          "href": "https://crest-tq.eveonline.com/moons/40145874/"
+        },
+        { "..." },
+        { "..." },
+        { "..." },
+        { "..." },
+      ]
+    }
+  ],
+  "stargates": [
+    {
+      "href": "https://crest-tq.eveonline.com/stargates/50000569/"
+    },
+    {
+      "href": "https://crest-tq.eveonline.com/stargates/50000570/"
+    }
+  ],
+  "securityClass": "K4",
+  "href": "https://crest-tq.eveonline.com/solarsystems/30002290/",
+  "id_str": "30002290",
+  "securityStatus": -0.18677988648414612,
   "position": {
-    "y": 39062466382135416,
-    "x": -87895710227609470,
-    "z": -26800575462533416
-  },
-  "sovereignty": {
-    "id_str": "500007",
-    "href": "https://crest-tq.eveonline.com/alliances/500007/",
-    "id": 500007,
-    "name": "Ammatar Mandate"
+    "y": 52867918353394540,
+    "x": 149868501775364700,
+    "z": 87927918423435500
   },
   "constellation": {
-    "href": "https://crest-tq.eveonline.com/constellations/20000005/",
-    "id": 20000005,
-    "id_str": "20000005"
+    "href": "https://crest-tq.eveonline.com/constellations/20000336/",
+    "id": 20000336,
+    "id_str": "20000336"
   },
-  "id": 30000032
+  "id": 30002290,
+  "name": "PXE-RG"
 }
 ```

@@ -5,7 +5,7 @@ The characters location resource allows an application to read a characters loca
 ``/characters/<characterID:characterIdType>/location/``
 
 ### GET
-* Cache: 10 seconds
+* Cache: 5 seconds
 * Scope: `characterLocationRead`
 
 User has to be online to see his location, if he is offline than response is empty.
