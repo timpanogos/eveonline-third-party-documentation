@@ -1,7 +1,7 @@
 # Non-Browser Apps
 
 The OAuth2 workflow for non-browser applications is a more complicated process as there is no easy way to capture the
- post-auth redirect. Below you will find 3 common methods of capturing this redirect, each with its own pros and cons.
+ post-auth redirect. Below you will a number of common methods for capturing this redirect, each with its own pros and cons.
 
 Non-Browser applications also differ in that there is no way to secure your secret key if you wish to use the
  authorization code workflow. Some applications (Such as Pyfa) get around this by providing an option for users to
@@ -15,23 +15,23 @@ This method involves registering a URL Handler for your application, and using t
 * Native look and feel for the user.
 
 ### Cons
-* Mutli-instance applications require response routing
+* Multi-instance applications require response routing
 * Some browser display warnings for unrecognised URL Schemes
 
 URL Handlers are the best method to use in controlled, single instance environments such as mobile devices. Their use
  in Desktop OS such as Windows, OSX and Linux is harder due to varying methods of Handler registration, additional
  browser warnings, and increased developer effort in routing the response to the correct application instance.
 
-Using this method require you to first chose a URL Scheme to register for your application. As you will need the schema
+Using this method require you to first chose a URL Scheme to register for your application. As you will need the scheme
  to be unique to your application it is probably best to use either your App name or a shortened variation of it.
 
-> **Example:** For the application "Amazing Eve App" I may chose the schema "amazingeve://"
+> **Example:** For the application "Amazing Eve App" I may chose the scheme "amazingeve://"
 
-You will then need to register this schema with your OS, details on how to do that can be found at:
-* Android: [https://stackoverflow.com/questions/2448213/how-to-implement-my-very-own-uri-scheme-on-android](https://stackoverflow.com/questions/2448213/how-to-implement-my-very-own-uri-scheme-on-android)
-* IOS: [https://stackoverflow.com/questions/8201724/how-to-register-a-custom-app-opening-url-scheme-with-xcode-4](https://stackoverflow.com/questions/8201724/how-to-register-a-custom-app-opening-url-scheme-with-xcode-4)
-* Windows: [https://msdn.microsoft.com/en-us/library/aa767914(v=vs.85).aspx](https://msdn.microsoft.com/en-us/library/aa767914(v=vs.85).aspx)
-* OSX: [https://stackoverflow.com/questions/471581/how-to-map-a-custom-protocol-to-an-application-on-the-mac](https://stackoverflow.com/questions/471581/how-to-map-a-custom-protocol-to-an-application-on-the-mac)
+You will then need to register this scheme with your OS, details on how to do that can be found at:
+* Android: <https://stackoverflow.com/questions/2448213/how-to-implement-my-very-own-uri-scheme-on-android>
+* IOS: <https://stackoverflow.com/questions/8201724/how-to-register-a-custom-app-opening-url-scheme-with-xcode-4>
+* Windows: <https://msdn.microsoft.com/en-us/library/aa767914(v=vs.85).aspx>
+* OSX: <https://stackoverflow.com/questions/471581/how-to-map-a-custom-protocol-to-an-application-on-the-mac>
 * Linux: Is more involved for a number of reasons and so is left as an exercise for the reader.
 
 For multi-instance applications the `state` parameter is useful storing which instance made the auth request. Mobile
@@ -82,7 +82,7 @@ It is detailed here for completeness, and should not be used unless the above op
 * Works everywhere all the time
 
 ### Cons
-* THe user will be entering their EVE credentials inside your application, breaking the trust separation.
+* The user will be entering their EVE credentials inside your application, breaking the trust separation.
 
 This is probably the most strait forward method to implement.
 1) Chose a Callback URL
@@ -91,3 +91,21 @@ This is probably the most strait forward method to implement.
 4) Load the authorisation endpoint (per standard workflow) in the embedded browser.
 5) Wait for the user to complete the authentication process and for your Listen to trigger.
 6) Read the authentication details out of the URL.
+
+## Manual
+
+**Because of this methods heavy reliance on the user, it is not recommended**
+
+### Pros
+* 100% Reliable, assuming your users can copy/paste correctly
+
+### Cons
+* Requires the user to correctly copy and paste a potentially very long string
+
+In this method, you create a web page that echo authentication details back to the user and instructs the user to copy
+ and paste these details into your application.
+
+If you use this method, I recommend converting the response to [base64url][base64url] Encoded string to make copying easier.
+
+
+[base64url]: https://tools.ietf.org/html/rfc4648#section-5
