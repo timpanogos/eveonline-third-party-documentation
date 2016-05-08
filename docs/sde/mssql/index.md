@@ -7,7 +7,7 @@ much of the original contents of the dump file.
 The current SQLServer dump contains the following tables:
 
 * [Agents Table](mssql_agtAgents.md)
-* [Researach Agents Table](mssql_agtResearchAgents.md)
+* [Research Agents Table](mssql_agtResearchAgents.md)
 * [Factions Table](mssql_chrFactions.md)
 * [NPC Corporations Table](mssql_crpNPCCorporations.md)
 * [EVE Units Table](mssql_eveUnits.md)
