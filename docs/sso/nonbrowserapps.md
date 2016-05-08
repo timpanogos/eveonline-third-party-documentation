@@ -75,3 +75,19 @@ Currently EVE SSO does not support wildcard components in the Callback URL, so y
 You should always bind to your chosen port on the loopback interface.
 
 ## Embedded Browser
+**This method is not recommended as it breaks the trust separation between application and authentication provider.
+It is detailed here for completeness, and should not be used unless the above options are not feasible.**
+
+### Pros
+* Works everywhere all the time
+
+### Cons
+* THe user will be entering their EVE credentials inside your application, breaking the trust separation.
+
+This is probably the most strait forward method to implement.
+1) Chose a Callback URL
+2) Start a embedded browser in your application
+3) Listen for a URL Navigation event to your Callback URL
+4) Load the authorisation endpoint (per standard workflow) in the embedded browser.
+5) Wait for the user to complete the authentication process and for your Listen to trigger.
+6) Read the authentication details out of the URL.
