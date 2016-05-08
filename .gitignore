@@ -3,3 +3,4 @@ site/
 _build/
 .project
 /nbproject
+.DS_Store

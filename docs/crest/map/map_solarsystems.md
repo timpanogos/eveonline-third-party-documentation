@@ -33,7 +33,7 @@ The solar systems resource allows an application to read solar systems.
 ### Route
 ``/solarsystems/<solarsystemID:solarsystemIdType>/``
 
-Ids that start with 31 are wormhole solar system, 30 are normal solar systems
+Ids that start with 31 are wormhole solar system, 30 are normal (K-Space) solar systems.
 
 ### GET
 * Cache: 1 hour
