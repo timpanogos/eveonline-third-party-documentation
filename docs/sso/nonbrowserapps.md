@@ -47,6 +47,31 @@ To initiate the login process, launch a browser process to the authorisation end
 ## Lightweight Local HTTP Server
 For this method your application starts a short lived lightweight http server when the auth process starts.
 
+### Pros
+* Single solution for all platforms
+* Native look and feel for the user
 
+### Cons
+* May cause firewall prompt when you start the http server
+* It is hard to know how long to leave the server listening for
+* You may have conflicts with other applications or other instances of your application when attempting to bind the port
+
+Using the HTTP Server method will require you to chose a port that will be unused on all of your users computers.
+
+When you create your application in the EVE Developer Console the `Callback URL` will need to be a path under
+ `http://localhost:$port/`, where `$port` is the port you have chosen to use.
+
+When you initiate the login process, you need to start your local http server on your chosen port and have it wait
+ to receive a request. You then launch a browser process ot the authorisation endpoint as per the standard workflow.
+
+When the SSO authentication process has finished the user will be redirected to your local web server, where you can
+ parse the request url for the authentication response.
+
+Multi-instance applications may wish to have a shared process for running the web server and performing a return route
+ for authentication request to avoid multiple instances attempting to bind to the same port, causing errors.
+
+Currently EVE SSO does not support wildcard components in the Callback URL, so you can not bind to a random port.
+
+You should always bind to your chosen port on the loopback interface.
 
 ## Embedded Browser
