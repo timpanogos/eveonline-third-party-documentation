@@ -19,6 +19,7 @@ You will need to have python, pip and virtualenv installed (install virtualenv u
     pip install -r requirements.txt
 
 ## Running
+    cd docs/
     make livehtml
 
 # Contributing
