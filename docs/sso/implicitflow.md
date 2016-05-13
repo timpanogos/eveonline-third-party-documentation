@@ -20,7 +20,7 @@ The distinction between client and server side applications is important as
 ## Client Side Applications
 
 In most situations, Client side applications will want use the Implicit Flow.
- The primary reason this is prefered for client side applications is that it
+ The primary reason this is preferred for client side applications is that it
  avoids exposing the client secret. It also has the added benefit of reducing
  the number of steps required to get a usable token.
 
@@ -34,12 +34,12 @@ It should be noted that the EVE SSO implementation of the OAuth2 Implicit flow
 
 ## Server Side Applications
 
-Server side applications should always use the authorisation code flow. Using
+Server side applications should always use the authorization code flow. Using
  the authorization code flow avoids exposing your authorization token to
  more than is necessary as the client side will only see the access code.
 
 The Authorization code flow has the added benefit of being able to contain a
- `refresh_token` which can be used to get a new `acaess_token` even after it
+ `refresh_token` which can be used to get a new `access_token` even after it
  has expired. This is incredibly useful, eg. for applications that wish to
  perform resource access on a schedule.
 
@@ -49,8 +49,8 @@ The EVE SSO implementation of the authorization code flow appends the code as a
 
 ## Additional Notes
 
-The suggestions made on this page outline the easiest authorisation flow to use
+The suggestions made on this page outline the easiest authorization flow to use
  with client and server side applications, as well as some best practice reasoning.
  They are just suggestions and there could be any number of reasons to use the
- authorisation code flow in a client  side application, or pass the token acquired
+ authorization code flow in a client  side application, or pass the token acquired
  with the implicit flow back to the application server.
