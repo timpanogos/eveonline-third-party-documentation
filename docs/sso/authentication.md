@@ -27,7 +27,7 @@ At this point your website has the authorization code. The only thing the author
 
 It is also important to note that the authorization code is single use only.
 
-The you need to make an HTTP POST to `https://login.eveonline.com/oauth/token` to exchange the authorization code with an access token. Example request:
+You need to make a POST request to `https://login.eveonline.com/oauth/token` to exchange the authorization code for an access token. Example request:
 ```http
 POST https://login.eveonline.com/oauth/token HTTP/1.1
 
