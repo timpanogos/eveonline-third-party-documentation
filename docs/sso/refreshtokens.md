@@ -1,25 +1,13 @@
 # Refresh Tokens
 If any valid scope was requested in the initial redirect to the SSO, a refresh token will be returned by the token endpoint, along with the access token. While the access token will expire after a set interval, the refresh token can be stored and used indefinitely. Users can revoke access for individual apps on the [support site](https://community.eveonline.com/support/third-party-applications/).
 
-To get a new access token you must make a POST request to "https://login.eveonline.com/oauth/token" with the following parameters:
-- grant_type - Must be set to "refresh_token".
-- refresh_token - The refresh token recieved from the last request to the token endpoint.
+To get a new access token you must make a POST request to `https://login.eveonline.com/oauth/token` with the following parameters:
+- grant_type: Must be set to "refresh_token".
+- refresh_token: The refresh token recieved from the last request to the token endpoint.
 
-Example request body:
-```json
-{
-  "grant_type":"refresh_token",
-  "refresh_token":"gEy...fM0"
-}
-```
+You also need to include the same Authentication header ([basic access authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) with the client ID as the username and secret key as the password) which was used for previous requests to the token endpoint.
 
-You also need to include the same Authentication header ([basic access authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) with the client ID as the username and secret key as password) which was used for previous requests to the token endpoint.
-Example:
-```http
-Authorization: Basic bG9...ZXQ=
-```
-
-After all that, your request should look like this:
+The request should look like this:
 ```http
 POST https://login.eveonline.com/oauth/token HTTP/1.1
 
