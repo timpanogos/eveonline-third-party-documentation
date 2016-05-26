@@ -11,10 +11,6 @@ If you would like to access private information you will need an API key and can
 * Base URL: [https://api.eveonline.com/](https://api.eveonline.com/)
 * API Keys: [https://community.eveonline.com/support/api-key](https://community.eveonline.com/support/api-key)
 
-It is highly recommended that you consider using an existing [library](https://wiki.eveonline.com/en/wiki/XML_API_Libraries) to make accessing the API easier.
-
-You can also find some examples for getting started with the API over [here](https://wiki.eveonline.com/en/wiki/XML_API_Getting_Started).
-
 ## Other Information
 ### Rate Limits
 - General Rate Limit: 30 requests per second
