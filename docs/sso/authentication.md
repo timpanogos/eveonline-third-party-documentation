@@ -12,7 +12,7 @@ When a user clicks the login button on your website you need to redirect the use
 - scope: The requested scopes as a space delimited string.
 - state: An opaque value used by the client to maintain state between the request and callback. The SSO includes this value when redirecting back to the 3rd party website. While not required, it is important to use this for security reasons. [http://www.thread-safe.com/2014/05/the-correct-use-of-state-parameter-in.html](http://www.thread-safe.com/2014/05/the-correct-use-of-state-parameter-in.html) explains why the state parameter is needed.
 
-Example URL: `https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri=https://3rdpartysite.com/callback&client_id=3rdpartyClientId&scope=&state=uniquestate123`
+Example URL: `https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri=https%3A%2F%2F3rdpartysite.com%2Fcallback&client_id=3rdpartyClientId&scope=characterContactsRead%20characterContactsWrite&state=uniquestate123`
 
 The user will need to log into their EVE Online account and select the character that your web site will be given access to. If the user is already logged in with an EVE Online account, they will just need to select a character and approve the required scopes.
 
@@ -32,13 +32,10 @@ You need to make a POST request to `https://login.eveonline.com/oauth/token` to 
 POST https://login.eveonline.com/oauth/token HTTP/1.1
 
 Authorization: Basic bG9...ZXQ=
-Content-Type: application/json
+Content-Type: application/x-www-form-urlencoded
 Host: login.eveonline.com
 
-{
-  "grant_type":"authorization_code",
-  "code":"gEyuYF_rf...ofM0"
-}
+grant_type=authorization_code&code=gEyuYF_rf...ofM0
 ```
 - Authorization HTTP header: [Basic access authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) is used, with the client ID as the username and secret key as the password. The header should be the string "Basic " plus the [Base64](https://en.wikipedia.org/wiki/Base64) encoded string `{client_id}:{client_secret}`.
     - It is very important to make sure there is no whitespace around or in the string that is being Base64 encoded. If in doubt, try to Base64 encode the sample values provided below and compare them to the results:
@@ -50,12 +47,26 @@ Host: login.eveonline.com
 - grant_type: Must be set to "authorization_code".
 - code: The authorization code obtained earlier.
 
+Alternatively, while not in accordance with the OAuth 2.0 standard, the body of the request may use JSON encoding. Example:
+```http
+POST https://login.eveonline.com/oauth/token HTTP/1.1
+
+Authorization: Basic bG9...ZXQ=
+Content-Type: application/json
+Host: login.eveonline.com
+
+{
+  "grant_type":"authorization_code",
+  "code":"gEyuYF_rf...ofM0"
+}
+```
+
 A successful verification request will yield a response containing details about the access token. Example:
 ```json
 {
-    "access_token": "uNEEh...a\_WpiaA2",
-    "token_type": "Bearer",
-    "expires_in": 300,
-    "refresh_token": null
+    "access_token":"uNEEh...a_WpiaA2",
+    "token_type":"Bearer",
+    "expires_in":1200,
+    "refresh_token":"gEy...fM0"
 }
 ```
