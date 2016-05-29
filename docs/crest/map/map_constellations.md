@@ -33,6 +33,8 @@ The constellations resource allows an application to read constellations.
 ### Route
 ``/constellations/<constellationID:constellationIdType>/``
 
+Constellation IDs for K-space start above 20000000, and IDs for W-space start above 21000000.
+
 ### GET
 * Cache: 1 hour
 
