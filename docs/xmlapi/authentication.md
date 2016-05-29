@@ -48,7 +48,7 @@ To authenticate using an SSO access token, include the access token as a paramet
 accessToken | SSO access token.
 accessType | Should be set to `character` or `corporation`, depending on which type of access is required. Optional, defaults to `character`.
 
-Example: `https://api.eveonline.com/account/AccountStatus.xml.aspx?keyID=5342860&vCode=1JlLzA5N7fsKh0keyYfFQtkCfm4VvnO4coFXXUDun2ySQjd66AxxJF0OxljvdwdZ`
+Example: `https://api.eveonline.com/char/AccountBalance.xml.aspx?characterID=93265215&accessToken=Ls-vx-xMqq03cl7yMPWdWTVyp1TQUod7WyXti_EmuEVaUMt5JQibftknW06mtFDfhLS7khMP7S93QxXeUzGnxw2`
 
 ### Scope to access mask mappings
 These tables list the SSO scopes which allow access to the XML API and the access masks they map to. To check which access mask an access token provides, you may also make a call to the [/account/APIKeyInfo.xml.aspx](account/account_apikeyinfo.md) endpoint using the token.
