@@ -2,28 +2,9 @@
 Returns list of corporation starbases.
 
 * __Path:__ ``/corp/StarbaseList.xml.aspx``
-* __Access mask:__ 524288
 * __Cache timer:__ 6 hours
-* __Parameters:__ 
-	<table border="1">
-		<tbody>
-            <tr>
-                <th>Argument</th>
-                <th>Type</th>
-                <th>Meaning</th>
-            </tr>
-            <tr>
-                <td>keyID</td>
-                <td><strong>long</strong></td>
-                <td>API key ID</td>
-            </tr>
-            <tr>
-                <td>vCode</td>
-                <td><strong>char</strong></td>
-                <td>API verification code</td>
-            </tr>
-		</tbody>
-	</table>
+* __Access mask:__ 524288
+* __Parameters:__ none
 
 ### Sample Response
 ```xml

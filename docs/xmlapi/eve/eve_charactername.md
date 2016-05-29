@@ -2,15 +2,15 @@
 Returns the names for a comma-separated list of owner IDs for characters, corporations, alliances, and so on.
 
 * __Path:__ ``/eve/CharacterName.xml.aspx ``
-* __Access mask:__ None
 * __Cache timer:__ 30 days
+* __Access mask:__ none
 * __Parameters:__
     <table border="1">
         <tbody>
             <tr>
                 <th>Argument</th>
                 <th>Type</th>
-                <th>Meaning</th>
+                <th>Description</th>
             </tr>
             <tr>
                 <td>ids</td>

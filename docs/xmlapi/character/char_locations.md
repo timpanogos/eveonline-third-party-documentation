@@ -4,25 +4,15 @@ Retrieve location and name of specific items that belong to the character / corp
 retrieve the player-set name of containers and ships.
 
 * __Path:__ ``/char/Locations.xml.aspx``
+* __Cache timer:__ 1 hour
 * __Access mask:__ 134217728
-* __Cache timer:__ 1 hour  
 * __Parameters:__
     <table border="1">
         <tbody>
             <tr>
                 <th>Argument</th>
                 <th>Type</th>
-                <th>Meaning</th>
-            </tr>
-            <tr>
-                <td>keyID</td>
-                <td>long</td>
-                <td>API key ID</td>
-            </tr>
-            <tr>
-                <td>vCode</td>
-                <td>string</td>
-                <td>API verification code</td>
+                <th>Description</th>
             </tr>
             <tr>
                 <td>characterID</td>

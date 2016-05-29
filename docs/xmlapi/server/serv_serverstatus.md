@@ -2,9 +2,9 @@
 Provides status of the server up/down and the number of users logged onto the server.
 
 * __Path:__ ``/server/ServerStatus.xml.aspx``
-* __Access mask:__ none
 * __Cache timer:__ 3 minutes
-* __Parameters:__ None, this function accepts no arguments.
+* __Access mask:__ none
+* __Parameters:__ none
 
 ### Sample Response
 

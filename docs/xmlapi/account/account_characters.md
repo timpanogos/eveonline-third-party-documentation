@@ -2,28 +2,9 @@
 Lists all characters included in this API key.  
 
 * __Path:__ ``/account/Characters.xml.aspx``
-* __Access mask:__ -  
-* __Cache timer:__ 1 hour  
-* __Parameters:__
-    <table border="1">
-        <tbody>
-            <tr>
-                <th>Argument</th>
-                <th>Type</th>
-                <th>Meaning</th>
-            </tr>
-            <tr>
-                <td>keyID</td>
-                <td><strong>long</strong></td>
-                <td>API key ID</td>
-            </tr>
-            <tr>
-                <td>vCode</td>
-                <td><strong>char</strong></td>
-                <td>API verification code</td>
-            </tr>
-        </tbody>
-    </table>
+* __Cache timer:__ 1 hour
+* __Access mask:__ 0
+* __Parameters:__ none
 
 ### Sample Response
 

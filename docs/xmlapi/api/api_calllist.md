@@ -2,9 +2,9 @@
 List of all selectable API endpoints/groups to which an API grants access to.
 
 * __Path:__ ``/api/CallList.xml.aspx``  
-* __Access mask:__ -  
 * __Cache timer:__ 6 hours  
-* __Parameters:__ -  
+* __Access mask:__ none  
+* __Parameters:__ none  
 
 ### Sample Response
 

@@ -1,11 +1,10 @@
 # Kills
-Provides number of ship, pod and NPC kills per solar system, doesn't include wormhole space. 
+Provides number of ship, pod and NPC kills per solar system within the last hour, doesn't include wormhole space. Only solar system where kills have been made are listed, so assume zero in case the system is not listed.
 
-* __Description:__ Returns the number of kills in solarsystems within the last hour. Only solar system where kills have been made are listed, so assume zero in case the system is not listed.
 * __Path:__ ``/map/kills.xml.aspx``
-* __Access mask:__ none
 * __Cache timer:__ 1 hour
-* __Parameters:__ None, this function accepts no arguments.
+* __Access mask:__ none
+* __Parameters:__ none
 
 ### Sample Response
 

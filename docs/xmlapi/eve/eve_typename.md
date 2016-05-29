@@ -2,15 +2,15 @@
 Returns the names associated with a sequence of typeIDs.
 
 * __Path:__ ``/eve/TypeName.xml.aspx ``
-* __Access mask:__ None
 * __Cache timer:__ 1 hour
+* __Access mask:__ none
 * __Parameters:__
     <table border="1">
         <tbody>
             <tr>
                 <th>Argument</th>
                 <th>Type</th>
-                <th>Meaning</th>
+                <th>Description</th>
             </tr>
             <tr>
                 <td>ids</td>
