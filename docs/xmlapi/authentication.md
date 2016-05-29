@@ -1,8 +1,41 @@
 # Authentication
-There are two methods of authentication available for use with the XML API.
+There are two methods of authentication available for use with the XML API. As the XML API is a read-only API and only supports GET requests, both involve adding parameters to the query string.
 
 ## API keys
-API keys may be created, updated and deleted by users at the [API Key Management](https://community.eveonline.com/support/api-key/) page.
+API keys are the primary method of accessing private XML API endpoints. They may be created, updated and deleted by users at the [API Key Management](https://community.eveonline.com/support/api-key/) page.
+
+### Usage
+To authenticate using an API key, include the key ID and verification code as parameters in the URL.
+
+| Parameter | Value |
+| --------- | ----- |
+keyID | Key ID of the API key.
+vCode | Verification code of the API key.
+
+Example: `https://api.eveonline.com/account/AccountStatus.xml.aspx?keyID=5342860&vCode=1JlLzA5N7fsKh0keyYfFQtkCfm4VvnO4coFXXUDun2ySQjd66AxxJF0OxljvdwdZ`
+
+### API key parameters
+- Name: Name of the API key. Does not have to be unique, and is only visible to the owner of the API key. Irrelevant to end users of the API key, but may make API key management easier for their owners.
+- Key ID: Unique ID of the API key. May not be changed.
+- Verification code: Alphanumeric string consisting of up to 64 characters. By default, a random full length code will be generated, but the owner may use a verification code of any length. Matches the regular expression `[a-zA-Z0-9]{1,64}`
+- Access mask: Bitmask defining which endpoints the API key will provide access to.
+- Type: Two main types of API keys are character and corporation keys. Character keys can be further divided into character keys, which provide access to only one chracter, and account keys, which provide access to all characters on an account. Only directors of a corporation may create corporation API keys.
+- Expiry date: How long the API key will be valid. By default, API keys are valid for 1 year from the date of creation, but that date may be changed and they may also be set to never expire. Expired API keys may be reactivated by changing the expiry date.
+
+Provided you have the key ID and verification code of an API key, you can use the [/account/APIKeyInfo.xml.aspx](account/account_apikeyinfo.md) endpoint to retrieve most information about it. As all properties of an API key except the key ID may be modified by the owner at any time, it is good practive to use this endpoint for monitoring stored API keys.
+
+### Create predefined API keys
+It is possible to ease the process of requesting a specific API key from someone by providing them with a CreatePredefined link. It will take them to the API key creation page, but some or all of the fields may be predefined by the link.
+
+The base URL is `https://community.eveonline.com/support/api-key/CreatePredefined`, and presets are defined by adding a query string to that URL. The parameters which may be used are:
+
+| Name | Values | Default | Description |
+| ---- | ------ | ------- | ----------- |
+accessMask | Valid access mask | 0 | The access mask which the API key should have.
+ownerType | `Character` or `Corporation` | `Character` |  Type of the API key which should be created. Whether a character key is account wide or not is determined by another property.
+ownerID | 0 or a valid character/corporation ID | 0 | Character or corporation which the API key applies to. Value of 0 will create an account key instead of a character key.
+
+For example, to request an account wide API key which gives you access to mail of all characters on that account, you can provide your users with the following link: `https://community.eveonline.com/support/api-key/CreatePredefined?accessMask=3584`
 
 ## SSO access tokens
 
