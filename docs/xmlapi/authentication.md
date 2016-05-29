@@ -38,14 +38,24 @@ ownerID | 0 or a valid character/corporation ID | 0 | Character or corporation w
 For example, to request an account wide API key which gives you access to mail of all characters on that account, you can provide your users with the following link: `https://community.eveonline.com/support/api-key/CreatePredefined?accessMask=3584`
 
 ## SSO access tokens
+SSO access tokens are another method for accessing private endpoints. Compared to API keys, they are more limited as they can't be used for account access. Aside from that limitation, using this method will make things easier for your users as they won't have to bother with creating an API key and giving you the details: they just have to authorize your SSO app.
 
+### Usage
+To authenticate using an SSO access token, include the access token as a parameter in the URL. As an access token may contain scopes for both character and corporation access, you must also define which one you will be using.
+
+| Parameter | Value |
+| --------- | ----- |
+accessToken | SSO access token.
+accessType | Should be set to `character` or `corporation`, depending on which type of access is required. Optional, defaults to `character`.
+
+Example: `https://api.eveonline.com/account/AccountStatus.xml.aspx?keyID=5342860&vCode=1JlLzA5N7fsKh0keyYfFQtkCfm4VvnO4coFXXUDun2ySQjd66AxxJF0OxljvdwdZ`
 
 ### Scope to access mask mappings
-These tables list the SSO scopes which allow access to the XML API and the access masks they map to.
+These tables list the SSO scopes which allow access to the XML API and the access masks they map to. To check which access mask an access token provides, you may also make a call to the [/account/APIKeyInfo.xml.aspx](account/account_apikeyinfo.md) endpoint using the token.
 
 #### Character access
-SSO scope | Access mask
-:--- | ---:
+| SSO scope | Access mask |
+| :-------- | ----------: |
 characterWalletRead | 1 &#124; 2097152 &#124; 4194304
 characterAssetsRead | 2 &#124; 134217728
 characterCalendarRead | 4 &#124; 1048576
@@ -66,8 +76,8 @@ characterChatChannelsRead | 536870912
 characterClonesRead | 2147483648
 
 #### Corporation access
-SSO scope | Access mask
-:--- | ---:
+| SSO scope | Access mask |
+| :-------- | ----------: |
 corporationWalletRead | 1 &#124; 8 &#124; 1048576 &#124; 2097152
 corporationAssetsRead | 2 &#124; 32 &#124; 16777216
 corporationMedalsRead | 4 &#124; 8192
