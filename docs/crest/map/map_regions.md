@@ -33,6 +33,8 @@ The regions resource allows an application to read regions.
 ### Route
 ``/regions/<regionID:regionIdType>/``
 
+Region IDs for K-space start above 10000000, and IDs for W-space start above 11000000.
+
 ### GET
 * Cache: 1 hour
 
