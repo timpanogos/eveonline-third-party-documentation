@@ -6,14 +6,10 @@ As the XML API is an HTTP API you can access it by simply pointing your browser 
 
 The above will take you to the public character information for the specific character ID.
 
-If you would like to access private information you will need an API key and can then do it like so: `https://api.eveonline.com/corp/IndustryJobsHistory.xml.aspx?keyID={api_key_id_here}&vCode={api_verification_code_here}`
+If you would like to access private information you will need to authenticate using one of the available methods as described in [Authentication](authentication.md).
 
 * Base URL: [https://api.eveonline.com/](https://api.eveonline.com/)
 * API Keys: [https://community.eveonline.com/support/api-key](https://community.eveonline.com/support/api-key)
-
-It is highly recommended that you consider using an existing [library](https://wiki.eveonline.com/en/wiki/XML_API_Libraries) to make accessing the API easier.
-
-You can also find some examples for getting started with the API over [here](https://wiki.eveonline.com/en/wiki/XML_API_Getting_Started).
 
 ## Other Information
 ### Rate Limits

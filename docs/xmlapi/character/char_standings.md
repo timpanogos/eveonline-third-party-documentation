@@ -2,26 +2,16 @@
 Retrieve character standings.
 
 * __Path:__ ``/char/Standings.xml.aspx``
-* __Access mask:__ 524288
 * __Cache timer:__ 3 hours
+* __Access mask:__ 524288
 * __Parameters:__
     <table border="1">
         <tbody>
             <tr>
                 <th>Argument</th>
                 <th>Type</th>
-                <th>Meaning</th>
+                <th>Description</th>
             </tr>
-            <tr>
-                <td>keyID</td>
-                <td><strong>long</strong></td>
-                <td>API key ID</td>
-            </tr>
-            <tr>
-                <td>vCode</td>
-                <td><strong>char</strong></td>
-                <td>API verification code</td>
-            <tr>
             <tr>
                 <td>characterID</td>
                 <td><strong>long</strong></td>

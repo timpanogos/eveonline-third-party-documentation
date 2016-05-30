@@ -2,42 +2,15 @@
 Returns details for a specific corporation.
 
 * __Path:__ ``/corp/CorporationSheet.xml.aspx``
-* __Access mask:__ 8
 * __Cache timer:__ 5 hours 57 minutes
+* __Access mask:__ none or 8
 * __Parameters:__
     <table border="1">
         <tbody>
             <tr>
                 <th>Argument</th>
                 <th>Type</th>
-                <th>Meaning</th>
-            </tr>
-            <tr>
-                <td>keyID</td>
-                <td><strong>long</strong></td>
-                <td>API key ID</td>
-            </tr>
-            <tr>
-                <td>vCode</td>
-                <td><strong>char</strong></td>
-                <td>API verification code</td>
-            </tr>
-            <tr>
-                <td>corporationID</td>
-                <td><strong>long</strong></td>
-                <td>ID of corporation</td>
-            </tr>
-        </tbody>
-    </table>
-
-    or for <a href="#no-key">limited access</a>
-
-    <table border="1">
-        <tbody>
-            <tr>
-                <th>Argument</th>
-                <th>Type</th>
-                <th>Meaning</th>
+                <th>Description</th>
             </tr>
             <tr>
                 <td>corporationID</td>
@@ -98,29 +71,8 @@ Returns details for a specific corporation.
 </result>
 ```
 
-### No key
+### Sample response (public)
 Public details of any corporation can be retrieved without an API key.
-
-* __Parameters:__
-    <table border="1">
-        <tbody>
-            <tr>
-                <th>Argument</th>
-                <th>Type</th>
-                <th>Meaning</th>
-            </tr>
-            <tr>
-                <td>corporationID</td>
-                <td><strong>long</strong></td>
-                <td>ID of corporation</td>
-            </tr>
-        </tbody>
-    </table>
-
-Notes.
-If you pass both corporationID and the other parameters to the API server it will return the non-member version of the information just like you had only passed it corporationID.
-
-### Sample Response
 
 ```xml
 <result>

@@ -2,25 +2,15 @@
 Retrieve character Chat Channels.
 
 * __Path:__ ``/char/ChatChannels.xml.aspx``
-* __Access mask:__ 536870912
 * __Cache timer:__ 1 hour
+* __Access mask:__ 536870912
 * __Parameters:__
     <table border="1">
         <tbody>
             <tr>
                 <th>Argument</th>
                 <th>Type</th>
-                <th>Meaning</th>
-            </tr>
-            <tr>
-                <td>keyID</td>
-                <td><strong>long</strong></td>
-                <td>API key ID</td>
-            </tr>
-            <tr>
-                <td>vCode</td>
-                <td><strong>char</strong></td>
-                <td>API verification code</td>
+                <th>Description</th>
             </tr>
             <tr>
                 <td>characterID</td>

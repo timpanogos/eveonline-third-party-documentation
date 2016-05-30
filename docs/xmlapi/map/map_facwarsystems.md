@@ -1,10 +1,10 @@
 # FacWarSystems
+Returns a list of contestable solarsystems and the NPC faction currently occupying them. It should be noted that this file only returns a non-zero ID if the occupying faction is not the sovereign faction.
 
-* __Description:__ Returns a list of contestable solarsystems and the NPC faction currently occupying them. It should be noted that this file only returns a non-zero ID if the occupying faction is not the sovereign faction.
 * __Path:__ ``/map/FacWarSystems.xml.aspx``
-* __Access mask:__ none
 * __Cache timer:__ 1 hour
-* __Parameters:__ None, this function accepts no arguments.
+* __Access mask:__ none
+* __Parameters:__ none
 
 ### Sample Response
 

@@ -2,15 +2,15 @@
 Returns active Alliances in New Eden and their member Corporations.
 
 * __Path:__ ``/eve/AllianceList.xml.aspx``
-* __Access mask:__ None
 * __Cache timer:__ 60 minutes
+* __Access mask:__ none
 * __Parameters:__
     <table border="1">
         <tbody>
             <tr>
                 <th>Argument</th>
                 <th>Type</th>
-                <th>Meaning</th>
+                <th>Description</th>
             </tr>
             <tr>
                 <td>version</td>

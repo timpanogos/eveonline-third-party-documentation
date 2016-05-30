@@ -2,25 +2,15 @@
 Lists Items and details of a particular contract.
 
 * __Path:__ ``/char/ContractItems.xml.aspx``
+* __Cache timer:__ 10 years
 * __Access mask:__ 67108864
-* __Cache timer:__ 10 years 
 * __Parameters:__
     <table border="1">
         <tbody>
             <tr>
                 <th>Argument</th>
                 <th>Type</th>
-                <th>Meaning</th>
-            </tr>
-            <tr>
-                <td>keyID</td>
-                <td><strong>long</strong></td>
-                <td>API key ID</td>
-            </tr>
-            <tr>
-                <td>vCode</td>
-                <td><strong>char</strong></td>
-                <td>API verification code</td>
+                <th>Description</th>
             </tr>
             <tr>
                 <td>characterID</td>

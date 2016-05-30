@@ -2,9 +2,9 @@
 Provides Sovereignty / Ownership information for solar systems in New Eden excluding wormhole space.
   
 * __Path:__ ``/map/Sovereignty.xml.aspx``
-* __Access mask:__ none
 * __Cache timer:__ 1 hour
-* __Parameters:__ None, this function accepts no arguments.
+* __Access mask:__ none
+* __Parameters:__ none
 
 ### Sample Response
 

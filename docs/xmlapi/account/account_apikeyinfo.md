@@ -2,28 +2,9 @@
 Specifies the access rights of an API key.  
 
 * __Path:__ ``/account/APIKeyInfo.xml.aspx``
-* __Access mask:__ none
 * __Cache timer:__ 5 minutes
-* __Parameters:__
-    <table border="1">
-        <tbody>
-            <tr>
-                <th>Argument</th>
-                <th>Type</th>
-                <th>Meaning</th>
-            </tr>
-            <tr>
-                <td>keyID</td>
-                <td><strong>long</strong></td>
-                <td>The ID of the Customizable API Key (CAK) for authentication.</td>
-            </tr>
-            <tr>
-                <td>vCode</td>
-                <td><strong>char(64)</strong></td>
-                <td>The user defined or CCP generated <em>Verification Code</em> for the CAK.</td>
-            </tr>
-        </tbody>
-    </table>
+* __Access mask:__ 0
+* __Parameters:__ none
 
 ### Sample Response
 

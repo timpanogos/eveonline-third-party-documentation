@@ -2,9 +2,9 @@
 Returns a list of conquerable stations in New Eden.
 
 * __Path:__ ``/eve/ConquerableStationList.xml.aspx``
-* __Access mask:__ none
 * __Cache timer:__ 1 hour
-* __Parameters:__ None, this function accepts no arguments.
+* __Access mask:__ none
+* __Parameters:__ none
 
 ### Sample Response
 

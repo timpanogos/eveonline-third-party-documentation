@@ -2,9 +2,9 @@
 Returns a list of transaction types used in the [Corporation - WalletJournal](../corporation/corp_walletjournal.md) & [Character - WalletJournal](../character/char_walletjournal.md).
 
 * __Path:__ ``/eve/RefTypes.xml.aspx``
-* __Access mask:__ none
 * __Cache timer:__ 24 hour
-* __Parameters:__ None, this function accepts no arguments.
+* __Access mask:__ none
+* __Parameters:__ none
 
 ### Sample Response
 

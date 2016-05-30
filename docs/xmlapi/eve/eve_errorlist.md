@@ -2,9 +2,9 @@
 Returns a list of error codes and text that the API may return.
 
 * __Path:__ ``/eve/ErrorList.xml.aspx``
-* __Access mask:__ none
 * __Cache timer:__ 1 hour
-* __Parameters:__ None, this function accepts no arguments.
+* __Access mask:__ none
+* __Parameters:__ none
 
 ### Sample Response
 

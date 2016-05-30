@@ -2,25 +2,15 @@
 Returns information about the character. Has three data sets it can return depending on access mask.
 
 * __Path:__ ``/eve/CharacterInfo.xml.aspx ``
-* __Access mask:__ 0 or 8388608 or 16777216
 * __Cache timer:__ 60 minutes
+* __Access mask:__ none or 8388608 or 16777216
 * __Parameters:__
     <table border="1">
         <tbody>
             <tr>
                 <th>Argument</th>
                 <th>Type</th>
-                <th>Meaning</th>
-            </tr>
-            <tr>
-                <td>keyID</td>
-                <td><strong>long</strong></td>
-                <td>API key ID <em>(Optional)</em></td>
-            </tr>
-            <tr>
-                <td>vCode</td>
-                <td><strong>char(64)</strong></td>
-                <td>API verification code <em>(Optional)</em></td>
+                <th>Description</th>
             </tr>
             <tr>
                 <td>characterID</td>
@@ -30,7 +20,7 @@ Returns information about the character. Has three data sets it can return depen
         </tbody>
     </table>
 
-### Sample Response (access mask 0)
+### Sample Response (no access mask)
 
 ```xml
 <eveapi version="2">

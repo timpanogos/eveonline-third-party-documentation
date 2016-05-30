@@ -2,25 +2,15 @@
 Retrieve corporation account balances.
 
 * __Path:__ ``/corp/AccountBalance.xml.aspx``
+* __Cache timer:__ 15 minutes
 * __Access mask:__ 1
-* __Cache timer:__ 15 minutes  
 * __Parameters:__
     <table border="1">
         <tbody>
             <tr>
                 <th>Argument</th>
                 <th>Type</th>
-                <th>Meaning</th>
-            </tr>
-            <tr>
-                <td>keyID</td>
-                <td><strong>long</strong></td>
-                <td>API key ID</td>
-            </tr>
-            <tr>
-                <td>vCode</td>
-                <td><strong>char</strong></td>
-                <td>API verification code</td>
+                <th>Description</th>
             </tr>
             <tr>
                 <td>characterID</td>
