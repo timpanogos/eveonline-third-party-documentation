@@ -3,7 +3,7 @@ If any valid scope was requested in the initial redirect to the SSO, a refresh t
 
 To get a new access token you must make a POST request to `https://login.eveonline.com/oauth/token` with the following parameters:
 - grant_type: Must be set to "refresh_token".
-- refresh_token: The refresh token recieved from the last request to the token endpoint.
+- refresh_token: The refresh token received from the last request to the token endpoint.
 
 You also need to include the same Authentication header ([basic access authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) with the client ID as the username and secret key as the password) which was used for previous requests to the token endpoint.
 
