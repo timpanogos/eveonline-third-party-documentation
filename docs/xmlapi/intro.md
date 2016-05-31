@@ -25,7 +25,7 @@ If for some reason you require more than 30 requests per second on the API pleas
 ### User-Agent
 Consuming the XML API does not require you as a developer to register or pass any unique identification with each request. While this is makes getting into and developing with the API very easy, it means aside from the IP address CCP has very little way in identifying who the requests are coming from.
 
-We ask that if you are going to consume the API that you pass a custom [User-Agent](http://en.wikipedia.org/wiki/User_agent) header along with your requests. The User-Agent should primarily include information on how we can contact you, but it is also a good idea to include your application name and version.
+We ask that if you are going to consume the API that you pass a custom [User-Agent](https://en.wikipedia.org/wiki/User_agent) header along with your requests. The User-Agent should primarily include information on how we can contact you, but it is also a good idea to include your application name and version.
 
 If at all possible if something goes wrong with you application and we are considering banning it from the API, we will attempt to contact you first before banning. There are of course other reasons for us to contact you, but that is the primary one.
 
