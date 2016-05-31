@@ -5,11 +5,13 @@ Simply put, SSOs are a way for users to log into one web site using their userna
 For EVE Online, the SSO means that you can sign into a web site that has integrated the EVE SSO and confirm you are a specific character. While signing into a site you will be asked which character you wish to authenticate with and the web site that let you sign in with the EVE SSO will get confirmation from CCP that you own that character. The original web site will only ever get your character, they never see your account name or password. The original web site will not know what account that character is on or have any way, from us at least, of linking that character to any other character on the same account.
 
 ## Registering for the SSO
-To use the SSO in your app, you must first register it at [the developers' site](https://developers.eveonline.com/). When you create a new application here it will give you a client ID and secret key, which are used in the authentication flow.
+To use the SSO in your app, you must first register it at [the developers site](https://developers.eveonline.com/). When you create a new application here it will give you a client ID and secret key, which are used in the authentication flow.
 
-You are required to supply a callback URL and this is the only location the login server will redirect back to after the user has authorised the login (see the authentication flow for details).
-
-You will also be asked to select what authentication scopes your application will ask for. At present, the only one is publicData, which gives access to market orders.
+You are required to supply the following:
+- Name: Name of the application, will be displayed to the users when asked to authorize your app.
+- Description: Description of the application, will be listed under your app in [Third Party Applications](https://community.eveonline.com/support/third-party-applications/).
+- Connection type: Can be CREST Access or Authentication Only. If CREST Access is selected, you will also need to select the scopes your app will use.
+- Callback URL: Callback URL, which is the only location the login server will redirect back to after the user has authorized the login (See [Authentication flow](authentication.md) for details.)
 
 ### Errors
 Please note:
