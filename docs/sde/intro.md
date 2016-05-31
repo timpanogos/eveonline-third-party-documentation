@@ -2,7 +2,7 @@
 The [Static Data Export (SDE)](https://developers.eveonline.com/resource/resources) is a CCP provided periodic snapshot of static data used in EVE Online. 
 The SDE provides data in three formats:
 
-1. [YAML](http://en.wikipedia.org/wiki/YAML) is the preferred format for new data added to the SDE.
+1. [YAML](https://en.wikipedia.org/wiki/YAML) is the preferred format for new data added to the SDE.
 2. [SQLite](https://www.sqlite.org/) is the packaging format for certain universe data.
 3. [Microsoft SQLServer (MSSQL)](https://en.wikipedia.org/wiki/Microsoft_SQL_Server) dump format is the format for everything else.
 
