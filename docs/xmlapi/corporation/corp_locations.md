@@ -11,16 +11,6 @@ Returns location of an item or character.
                 <th>Type</th>
                 <th>Meaning</th>
             </tr>
-            <tr>
-                <td>keyID</td>
-                <td><strong>long</strong></td>
-                <td>API key ID</td>
-            </tr>
-            <tr>
-                <td>vCode</td>
-                <td><strong>char</strong></td>
-                <td>API verification code</td>
-            </tr>
              <tr>
                 <td>ids</td>
                 <td><strong>long</strong></td>
