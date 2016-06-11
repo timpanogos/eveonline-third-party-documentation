@@ -3,6 +3,8 @@
 * [Introduction](intro.md)
 * [Authentication](authentication.md)
 * [Caching](caching.md)
+* [Rate Limits](ratelimits.md)
+* [API Walking](walking.md)
 * [Response Data Constants](constants.md)
 
 ## Calls
