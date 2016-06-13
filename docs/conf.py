@@ -54,7 +54,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'EVE Online Third-Party Developer Documentation'
-copyright = u'2015, CCP'
+copyright = u'2015-2016, CCP'
 author = u'CCP'
 
 # The version info for the project you're documenting, acts as replacement for
