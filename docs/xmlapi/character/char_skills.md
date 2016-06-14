@@ -3,7 +3,7 @@ Retrieve skills portion of character sheet.
 
 * __Path:__ ``/char/Skills.xml.aspx``
 * __Cache timer:__ 1 hour
-* __Access mask:__ 1073741824
+* __Access mask:__ 1073741824 or 8
 * __Parameters:__
     <table border="1">
         <tbody>

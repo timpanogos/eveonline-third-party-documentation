@@ -3,7 +3,7 @@ Retrieve clones and basic attributes portion of character sheet.
 
 * __Path:__ ``/char/Clones.xml.aspx``
 * __Cache timer:__ 1 hour
-* __Access mask:__ 2147483648
+* __Access mask:__ 2147483648 or 8
 * __Parameters:__
     <table border="1">
         <tbody>
