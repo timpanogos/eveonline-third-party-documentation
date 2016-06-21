@@ -36,8 +36,8 @@ Either `all` or the `crest-type-url` can be used.
       "stationID": 60000274,
       "type": 967
     },
-    { ... },
-    { ... },
+    { "..." },
+    { "..." },
   ],
   "totalCount": 254775,
   "next": {
