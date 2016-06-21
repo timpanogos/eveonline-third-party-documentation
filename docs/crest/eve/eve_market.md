@@ -1,16 +1,17 @@
 # Market
 The market resource allows an application to read market data.
 
-## Bulk Market Orders
+## Market Orders
+### Bulk Market Orders
 
 "[This] resource can be found under /market/<regionID>/orders/all/ and returns all market orders for a given region paginated, with up to 10,000 results per page. For busy regions such as The Forge, you would expect around 30 pages of data based on the current trading volume." - [CCP FoxFour](https://developers.eveonline.com/blog/article/new-crest-resource-for-bulk-market-orders)
 
-### Route
+#### Route
 ``/market/<regionId>/orders/<all|crest-type-url>/``
 
 Either `all` or the `crest-type-url` can be used.
 
-### GET
+#### GET
 * Cache: ?? minutes
 * Example for Forge (10000002):
 
