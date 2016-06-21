@@ -1,7 +1,50 @@
 # Market
-The market resource allows an application to read market data.
+The market resource allows an application to read region based market data.
 
 ## Market Orders
+### Sell and Buy Orders
+#### Route
+``https://crest-tq.eveonline.com/market/<regionID>/orders/<sell|buy>/<crest-type-url>/``
+
+Either `sell` or `buy` may be used.
+
+#### GET
+* Cache: ?? minutes
+* Example for Tritanium (34) sell orders in Forge (10000002):
+
+``https://crest-tq.eveonline.com/market/10000002/orders/sell/?type=https://crest-tq.eveonline.com/inventory/types/34/``
+
+```json
+{
+  "totalCount_str": "197",
+  "items": [
+    {
+      "volume_str": "531",
+      "buy": false,
+      "issued": "2016-05-01T13:48:33",
+      "price": 9.99,
+      "volumeEntered": 45500,
+      "minVolume": 1,
+      "volume": 531,
+      "range": "region",
+      "href": "https://crest-tq.eveonline.com/market/10000002/orders/4523489059/",
+      "duration_str": "90",
+      "location": {
+        "id_str": "60005593",
+        "href": "https://crest-tq.eveonline.com/universe/locations/60005593/",
+        "id": 60005593,
+        "name": "Itamo VIII - Core Complexion Inc. Factory"
+      }
+    },
+    { "..." },
+    { "..." },
+  ],
+  "pageCount": 1,
+  "pageCount_str": "1",
+  "totalCount": 197
+}
+```
+
 ### Bulk Market Orders
 
 "[This] resource can be found under /market/<regionID>/orders/all/ and returns all market orders for a given region paginated, with up to 10,000 results per page. For busy regions such as The Forge, you would expect around 30 pages of data based on the current trading volume." - [CCP FoxFour](https://developers.eveonline.com/blog/article/new-crest-resource-for-bulk-market-orders)
@@ -50,7 +93,7 @@ Either `all` or the `crest-type-url` can be used.
 
 ### GET
 * Cache: ?? minutes
-* Example (Tritanium (34) in Forge (10000002)):
+* Example for Tritanium (34) in Forge (10000002):
 
 ``https://crest-tq.eveonline.com/market/10000002/history/?type=https://crest-tq.eveonline.com/inventory/types/34/``
 
