@@ -8,10 +8,6 @@ The market resource allows an application to read market data.
 ### Route
 ``/market/<regionId>/orders/<all|crest-type-url>/``
 
-## History
-### Route
-``/market/<regionID>/history/<crest-type-url>/``
-
 Either `all` or the `crest-type-url` can be used.
 
 ### GET
@@ -46,6 +42,10 @@ Either `all` or the `crest-type-url` can be used.
   "pageCount": 9
 }
 ```
+
+## History
+### Route
+``/market/<regionID>/history/<crest-type-url>/``
 
 ### GET
 * Cache: ?? minutes
