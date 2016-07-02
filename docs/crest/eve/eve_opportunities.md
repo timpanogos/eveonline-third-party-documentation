@@ -31,7 +31,7 @@
 
 ## Opportunities Task
 ### Route
-``opportunities/tasks/<opportunitiesTaskId:opportunitiesTaskIdType>/``
+``/opportunities/tasks/<opportunitiesTaskId:opportunitiesTaskIdType>/``
 
 ### GET
 * Cache: 1 hour
@@ -106,7 +106,7 @@
 
 ## Opportunities Group
 ### Route
-``opportunities/groups/<opportunitiesGroupId:opportunitiesGroupIdType>/``
+``/opportunities/groups/<opportunitiesGroupId:opportunitiesGroupIdType>/``
 
 ### GET
 * Cache: 1 hour
