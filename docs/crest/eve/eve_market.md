@@ -13,6 +13,7 @@ MarketTypeCollection-v1+json
 ``/market/types/``
 
 ### GET
+* Cache: 5 minutes
 
 ```json
 {
@@ -57,6 +58,7 @@ MarketTypeCollection-v1+json
 ``/market/types/<typeId:typeIdType>/``
 
 ### GET
+* Cache: 5 minutes
 
 ```json
 {
@@ -89,6 +91,7 @@ MarketTypePriceCollection-v1+json
 ``/market/prices/``
 
 ### GET
+* Cache: 23 hours
 
 ```json
 {
@@ -122,6 +125,7 @@ MarketGroupCollection-v1+json
 ``/market/groups/``
 
 ### GET
+* Cache: 5 minutes
 
 ```json
 {
@@ -155,6 +159,7 @@ MarketGroup-v1+json
 ``/market/groups/<groupId:groupIdType>/``
 
 ### GET
+* Cache: 5 minutes
 
 ```json
 {
@@ -183,7 +188,7 @@ MarketOrderCollection-v1+json
 Either `sell` or `buy` may be used.
 
 #### GET
-* Cache: ?? minutes
+* Cache: 5 minutes
 * Example for Tritanium (34) sell orders in Forge (10000002):
 
 ``/market/10000002/orders/sell/?type=https://crest-tq.eveonline.com/inventory/types/34/``
@@ -233,7 +238,7 @@ MarketOrderCollectionSlim-v1+json
 Either `all` or the `crest-type-url` can be used.
 
 #### GET
-* Cache: ?? minutes
+* Cache: 5 minutes
 * Example for Forge (10000002):
 
 ``/market/10000002/orders/all/``
@@ -275,7 +280,7 @@ MarketTypeHistoryCollection-v1+json
 ``/market/<regionId:regionIdType>/history/<crest-type-url>/``
 
 ### GET
-* Cache: ?? minutes
+* Cache: 30 minutes
 * Sorting: From oldest to newest (with the last item being yesterday).
 * Example for Tritanium (34) in Forge (10000002):
 
