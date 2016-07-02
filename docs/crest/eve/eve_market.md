@@ -1,10 +1,184 @@
 # Market
 The market resource allows an application to read region based market data.
 
+Valid for base API version: ``application/vnd.ccp.eve.Api-v5+json``
+
+## Market Types
+
+### API version
+
+MarketTypeCollection-v1+json
+
+### Route
+``/market/types/``
+
+### GET
+
+```json
+{
+  "totalCount_str": "11060",
+  "pageCount": 12,
+  "items": [
+     {
+        "marketGroup": {
+          "href": "https://crest-tq.eveonline.com/market/groups/516/",
+          "id": 516,
+          "id_str": "516"
+        },
+        "type": {
+          "id_str": "18",
+          "href": "https://crest-tq.eveonline.com/inventory/types/18/",
+          "id": 18,
+          "name": "Plagioclase",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/18_64.png"
+          }
+        },
+        "id": 18,
+        "id_str": "18"
+     },
+     { "..." }
+  ],
+  "next": {
+     "href": "https://crest-tq.eveonline.com/market/types/?page=2"
+  },
+  "totalCount": 11060,
+  "pageCount_str": "12"
+}
+```
+
+## Market Type
+
+### API version
+
+MarketTypeCollection-v1+json
+
+### Route
+``/market/types/<typeId:typeIdType>/``
+
+### GET
+
+```json
+{
+  "marketGroup": {
+    "href": "https://crest-tq.eveonline.com/market/groups/516/",
+    "id": 516,
+    "id_str": "516"
+  },
+  "type": {
+    "id_str": "18",
+    "href": "https://crest-tq.eveonline.com/inventory/types/18/",
+    "id": 18,
+    "name": "Plagioclase",
+    "icon": {
+      "href": "http://imageserver.eveonline.com/Type/18_64.png"
+    }
+  },
+  "id": 18,
+  "id_str": "18"
+}
+```
+
+## Market Prices
+
+### API version
+
+MarketTypePriceCollection-v1+json
+
+### Route
+``/market/prices/``
+
+### GET
+
+```json
+{
+  "totalCount_str": "10134",
+  "items": [
+    {
+      "adjustedPrice": 306988.09,
+      "averagePrice": 306292.67,
+      "type": {
+        "id_str": "32772",
+        "href": "https://crest-tq.eveonline.com/inventory/types/32772/",
+        "id": 32772,
+        "name": "Medium Ancillary Shield Booster"
+      }
+    },
+    { "..." }
+  ],
+  "pageCount": 1,
+  "pageCount_str": "1",
+  "totalCount": 10134
+}
+```
+
+## Market Groups
+
+### API version
+
+MarketGroupCollection-v1+json
+
+### Route
+``/market/groups/``
+
+### GET
+
+```json
+{
+  "totalCount_str": "2103",
+  "items": [
+    {
+      "name": "Blueprints",
+      "href": "https://crest-tq.eveonline.com/market/groups/2/",
+      "id_str": "2",
+      "id": 2,
+      "types": {
+        "href": "https://crest-tq.eveonline.com/market/types/?group=https://crest-tq.eveonline.com/market/groups/2/"
+      },
+      "description": "Blueprints are data items used in industry for manufacturing, research and invention jobs"
+    },
+    { "..." }
+  ],
+  "pageCount": 1,
+  "pageCount_str": "1",
+  "totalCount": 2103
+}  
+```
+
+## Market Group
+
+### API version
+
+MarketGroup-v1+json
+
+### Route
+``/market/groups/<groupId:groupIdType>/``
+
+### GET
+
+```json
+{
+  "name": "Blueprints",
+  "href": "https://crest-tq.eveonline.com/market/groups/2/",
+  "id_str": "2",
+  "id": 2,
+  "types": {
+    "href": "https://crest-tq.eveonline.com/market/types/?group=https://crest-tq.eveonline.com/market/groups/2/"
+  },
+  "description": "Blueprints are data items used in industry for manufacturing, research and invention jobs"
+}
+```
+
 ## Market Orders
+
 ### Sell and Buy Orders
+
+#### API version
+
+MarketOrderCollection-v1+json
+
 #### Route
-``https://crest-tq.eveonline.com/market/<regionID>/orders/<sell|buy>/<crest-type-url>/``
+``/market/<regionId:regionIdType>/orders/<"sell"|"buy">/<crest-type-url>/``
 
 Either `sell` or `buy` may be used.
 
@@ -12,7 +186,7 @@ Either `sell` or `buy` may be used.
 * Cache: ?? minutes
 * Example for Tritanium (34) sell orders in Forge (10000002):
 
-``https://crest-tq.eveonline.com/market/10000002/orders/sell/?type=https://crest-tq.eveonline.com/inventory/types/34/``
+``/market/10000002/orders/sell/?type=https://crest-tq.eveonline.com/inventory/types/34/``
 
 ```json
 {
@@ -49,6 +223,10 @@ Either `sell` or `buy` may be used.
 
 "[This] resource can be found under /market/<regionID>/orders/all/ and returns all market orders for a given region paginated, with up to 10,000 results per page. For busy regions such as The Forge, you would expect around 30 pages of data based on the current trading volume." - [CCP FoxFour](https://developers.eveonline.com/blog/article/new-crest-resource-for-bulk-market-orders)
 
+#### API version
+
+MarketOrderCollectionSlim-v1+json
+
 #### Route
 ``/market/<regionId>/orders/<all|crest-type-url>/``
 
@@ -58,7 +236,7 @@ Either `all` or the `crest-type-url` can be used.
 * Cache: ?? minutes
 * Example for Forge (10000002):
 
-``https://crest-tq.eveonline.com/market/10000002/orders/all/``
+``/market/10000002/orders/all/``
 
 ```json
 {
@@ -87,15 +265,21 @@ Either `all` or the `crest-type-url` can be used.
 }
 ```
 
-## History
+## Market History
+
+### API version
+
+MarketTypeHistoryCollection-v1+json
+
 ### Route
-``/market/<regionID>/history/<crest-type-url>/``
+``/market/<regionId:regionIdType>/history/<crest-type-url>/``
 
 ### GET
 * Cache: ?? minutes
+* Sorting: From oldest to newest (with the last item being yesterday).
 * Example for Tritanium (34) in Forge (10000002):
 
-``https://crest-tq.eveonline.com/market/10000002/history/?type=https://crest-tq.eveonline.com/inventory/types/34/``
+``/market/10000002/history/?type=https://crest-tq.eveonline.com/inventory/types/34/``
 
 ```json
 {
@@ -121,5 +305,3 @@ Either `all` or the `crest-type-url` can be used.
   "totalCount": 412
 }
 ```
-
-* The items list is sorted from oldest to newest (with the last history item being yesterday).
