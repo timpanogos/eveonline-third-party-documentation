@@ -6,6 +6,7 @@
 * [Incursions](eve_incursions.md)
 * [Industry Facilities and Facility](eve_industryFacilities.md)
 * [Insurance Prices](eve_insuranceprices.md)
+* [Market](eve_market.md)
 * [Opportunities Tasks and Opportunities Groups](eve_opportunities.md)
 * [Sovereignty Structures and Campaigns](eve_sovereignty.md)
 * [Time](eve_time.md)
