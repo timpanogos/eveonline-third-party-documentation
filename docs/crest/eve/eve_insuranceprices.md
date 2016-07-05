@@ -15,7 +15,7 @@ Insurance prices resource allows an application to read insurance prices data.
     {
       "type": {
         "id_str": "582",
-        "href": "https://crest-tq.eveonline.com/types/582/",
+        "href": "https://crest-tq.eveonline.com/inventory/types/582/",
         "id": 582,
         "name": "Bantam"
       },

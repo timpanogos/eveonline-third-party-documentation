@@ -34,7 +34,7 @@ The planets resource allows an application to read planets data.
   },
   "type": {
     "id_str": "2016",
-    "href": "https://crest-tq.eveonline.com/types/2016/",
+    "href": "https://crest-tq.eveonline.com/inventory/types/2016/",
     "id": 2016,
     "name": "Planet (Barren)",
     "icons": {

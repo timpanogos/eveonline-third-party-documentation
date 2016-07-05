@@ -3,7 +3,7 @@ The types resource allows an application to read types.
 
 ## Types
 ### Route
-``/types/``
+``/inventory/types/``
 
 ### GET
 * Cache: 1 hour
@@ -15,7 +15,7 @@ The types resource allows an application to read types.
   "items": [
     {
       "id_str": "0",
-      "href": "https://crest-tq.eveonline.com/types/0/",
+      "href": "https://crest-tq.eveonline.com/inventory/types/0/",
       "id": 0,
       "name": "#System"
     },
@@ -25,7 +25,7 @@ The types resource allows an application to read types.
     { "..." },
    ],
   "next": {
-    "href": "https://crest-tq.eveonline.com/types/?page=2"
+    "href": "https://crest-tq.eveonline.com/inventory/types/?page=2"
   },
   "totalCount": 28370,
   "pageCount_str": "29"
@@ -34,7 +34,7 @@ The types resource allows an application to read types.
 
 ## Type
 ### Route
-``/types/<typeID:typeIdType>/``
+``/inventory/types/<typeID:typeIdType>/``
 
 ### GET
 * Cache: 1 hour

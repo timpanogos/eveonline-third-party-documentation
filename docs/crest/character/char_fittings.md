@@ -26,7 +26,7 @@ It is important to remember that adding or deleting a fit will not invalidate th
           "quantity_str": "1",
           "type": {
             "id_str": "518",
-            "href": "http://crest.regner.dev/types/518/",
+            "href": "https://crest-tq.eveonline.com/inventory/types/518/",
             "id": 518,
             "name": "Basic Gyrostabilizer"
           },
@@ -35,10 +35,10 @@ It is important to remember that adding or deleting a fit will not invalidate th
         }
       ],
       "fittingID": 258,
-      "href": "http://crest.regner.dev/characters/90000001/fittings/258/",
+      "href": "https://crest-tq.eveonline.com/characters/90000001/fittings/258/",
       "ship": {
         "id_str": "587",
-        "href": "http://crest.regner.dev/types/587/",
+        "href": "https://crest-tq.eveonline.com/inventory/types/587/",
         "id": 587,
         "name": "Rifter"
       },
@@ -62,7 +62,7 @@ It is important to remember that adding or deleting a fit will not invalidate th
     "type": {
         "id": 518,
         "name": "Basic Gyrostabilizer",
-        "href": "http://crest.regner.dev/types/518/"
+        "href": "https://crest-tq.eveonline.com/inventory/types/518/"
     },
     "flag": 11,
     "quantity": 1
@@ -70,7 +70,7 @@ It is important to remember that adding or deleting a fit will not invalidate th
   "ship": {
     "id": 587,
     "name": "Rifter",
-    "href": "http://crest.regner.dev/types/374/"
+    "href": "https://crest-tq.eveonline.com/inventory/types/374/"
   }
 }
 ```
@@ -93,7 +93,7 @@ It is important to remember that adding or deleting a fit will not invalidate th
       "quantity_str": "1",
       "type": {
         "id_str": "518",
-        "href": "http://crest.regner.dev/types/518/",
+        "href": "https://crest-tq.eveonline.com/inventory/types/518/",
         "id": 518,
         "name": "Basic Gyrostabilizer"
       },
@@ -102,10 +102,10 @@ It is important to remember that adding or deleting a fit will not invalidate th
     }
   ],
   "fittingID": 258,
-  "href": "http://crest.regner.dev/characters/90000001/fittings/258/",
+  "href": "https://crest-tq.eveonline.com/characters/90000001/fittings/258/",
   "ship": {
       "id_str": "587",
-      "href": "http://crest.regner.dev/types/587/",
+      "href": "https://crest-tq.eveonline.com/inventory/types/587/",
       "id": 587,
       "name": "Rifter"
   },

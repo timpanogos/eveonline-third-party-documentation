@@ -17,7 +17,7 @@ The stargate resource allows an application to read stargate data.
   },
   "type": {
     "id_str": "3875",
-    "href": "https://crest-tq.eveonline.com/types/3875/",
+    "href": "https://crest-tq.eveonline.com/inventory/types/3875/",
     "id": 3875,
     "name": "Stargate (Gallente System)",
     "icons": {

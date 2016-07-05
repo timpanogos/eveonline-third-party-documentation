@@ -32,7 +32,7 @@ Shows sovereignty data for structures or campaigns.
       "vulnerableEndTime": "2016-05-04T22:00:00",
       "type": {
         "id_str": "32226",
-        "href": "https://crest-tq.eveonline.com/types/32226/",
+        "href": "https://crest-tq.eveonline.com/inventory/types/32226/",
         "id": 32226,
         "name": "Territorial Claim Unit"
       }
