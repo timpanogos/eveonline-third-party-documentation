@@ -8,7 +8,8 @@ CREST is the new RESTfull API, destined to replace the older XML API. Currently 
 ## Walking
 CREST is designed to be a properly RESTful API with good support for versioning and changes. As such, a well designed app will not break when things are changed on the API (most of the time!). To enable this one of the things your app should do is generate links to endpoints dynamically. The only hard coded URL will be to the root resource. Here you will find a list of all the other top level endpoints, with href elements for each.
 
-To get the list of endpoints, you simply need to make an HTTP GET request to the appropriate root (SISI or TQ).
+* To get the base list of endpoints, you simply need to make an HTTP GET request to the appropriate root (SISI or TQ).
+* To dynamically acquire possible authed endpoints, you should make an authed HTTP GET request to the `decode` endpoint.
 
 For more details on walking through endpoints, see the appropriate section of these docs.
 
