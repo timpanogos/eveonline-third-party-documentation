@@ -11,11 +11,33 @@ When designing your application you will need to decide what information you req
 ### publicData
 The first scope released. Not required by any resources, as public data doesn't require any authentication anymore.
 
+### characterAccountRead
+Allows an application to read your character's account information.
+
+### characterAssetsRead
+Allows an application to read your character's assets.
+
+### characterBookmarksRead
+Allows an application to read your character's bookmarks.
+
+### characterCalendarRead
+Allows an application to read your character's calendar.
+
+### characterChatChannelsRead
+Allows an application to read a list of the chat channels your character is in.
+
+### characterClonesRead
+Allows an application to read a list of your character's clones.
+
 ### characterContactsRead
 Allows access to reading your character's contacts.
 
 ### characterContactsWrite
 Allows access to create and update your character's contacts.
+
+### characterFactionalWarfareRead
+
+Allows an application to read your character's FW information.
 
 ### characterFittingsRead
 Allows an application to read all of the saved fits for a character.
@@ -23,11 +45,38 @@ Allows an application to read all of the saved fits for a character.
 ### characterFittingsWrite
 Allows an application to create new saved fits as well as delete existing ones.
 
+### characterIndustryJobsRead
+Allows an application to read your character's industry jobs.
+
+### characterKillsRead
+Allows an application to read your character's killmails. Only killmail that the character is the victim or the finalBlow will be returned with this scope.
+
 ### characterLocationRead
 Allows an application to read your character's current location.
 
+### characterMailRead
+Allows an application to read your character's mail.
+
+### characterMarketOrdersRead
+Allows an application to read your character's market orders.
+
+### characterMedalsRead
+Allows an application to read your character's medals.
+
 ### characterNavigationWrite
 Allows an application to set your auto-pilot waypoints on your client.
+
+### characterNotificationsRead
+Allows an application to read your character's notifications.
+
+### characterResearchRead
+Allows an application to read your character's research information.
+
+### characterSkillsRead
+Allows an application to read your character's skills.
+
+### characterWalletRead
+Allows an application to read your character's wallet.
 
 ## Using your access token
 Once you have a valid access token from the SSO, you can make calls to authenticated CREST by adding an Authorization header and using the auth'd crest endpoint.
