@@ -2,7 +2,7 @@
 Retrieve character Chat Channels.
 
 * __Path:__ ``/char/ChatChannels.xml.aspx``
-* __Cache timer:__ 1 hour
+* __Cache timer:__ 14 minutes
 * __Access mask:__ 536870912
 * __Parameters:__
     <table border="1">
