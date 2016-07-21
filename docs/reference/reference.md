@@ -4,7 +4,7 @@
 
 - Application Management: [https://developers.eveonline.com/](https://developers.eveonline.com/)
 - CREST: [https://crest-tq.eveonline.com/](https://crest-tq.eveonline.com/)
-- Image Server: [https://image.eveonline.com/](https://image.eveonline.com/)
+- Image Server: [https://imageserver.eveonline.com/](https://imageserver.eveonline.com/)
 - Login: [https://login.eveonline.com/](https://login.eveonline.com/)
 - XML API: [https://api.eveonline.com/](https://api.eveonline.com/)
 
