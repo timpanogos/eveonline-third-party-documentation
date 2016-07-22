@@ -226,7 +226,7 @@ Either `sell` or `buy` may be used.
 
 ### Bulk Market Orders
 
-"[This] resource can be found under /market/<regionID>/orders/all/ and returns all market orders for a given region paginated, with up to 10,000 results per page. For busy regions such as The Forge, you would expect around 30 pages of data based on the current trading volume." - [CCP FoxFour](https://developers.eveonline.com/blog/article/new-crest-resource-for-bulk-market-orders)
+"[This] resource can be found under /market/<regionID>/orders/all/ and returns all market orders for a given region paginated, with up to [30,000] results per page. For busy regions such as The Forge, you would expect around [10] pages of data based on the current trading volume." - [CCP FoxFour](https://developers.eveonline.com/blog/article/new-crest-resource-for-bulk-market-orders)
 
 #### API version
 
