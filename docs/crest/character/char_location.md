@@ -1,5 +1,5 @@
 # Location
-The characters location resource allows an application to read a characters location.
+The characters location resource allows an application to read a character's location.
 
 ### Route
 ``/characters/<characterID:characterIdType>/location/``
