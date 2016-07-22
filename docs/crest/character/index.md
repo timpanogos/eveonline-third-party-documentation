@@ -1,5 +1,6 @@
 # Character
 
+* [Character](char_character.md)
 * [Contacts and Contact](char_contacts.md)
 * [Fittings and Fitting](char_fittings.md)
 * [Opportunities](char_opportunities.md)
