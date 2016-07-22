@@ -1,5 +1,5 @@
 # Opportunities
-Shows opportunities that character completed
+Shows opportunities that the character completed
 
 ## Contacts
 ### Route
