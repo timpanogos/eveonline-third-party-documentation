@@ -1,5 +1,5 @@
 # Contacts and Contact
-The character contacts resource allows an application to both read and write a characters contacts.
+The character contacts resource allows an application to both read and write a character's contacts.
 
 ## Contacts
 ### Route
