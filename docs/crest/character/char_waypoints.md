@@ -2,7 +2,7 @@
 The characters waypoints resource allows an application to write a characters waypoints.
 
 ### Route
-``/characters/<characterID:characterIdType>/navigation/waypoints/``
+``/characters/<characterID:characterIdType>/ui/autopilot/waypoints/``
 
 ### POST
 * Scope: `characterNavigationWrite`
