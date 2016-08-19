@@ -22,7 +22,7 @@ retrieve the player-set name of containers and ships.
             <tr>
                 <td>IDs</td>
                 <td>list of long</td>
-                <td>comma separated list of typeIDs that belong to the owner of the API key</td>
+                <td>comma separated list of itemIDs that belong to the owner of the API key</td>
             </tr>
         </tbody>
     </table>
