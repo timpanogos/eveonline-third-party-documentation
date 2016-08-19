@@ -1,4 +1,4 @@
-# Single Sign-On (SS0)
+# Single Sign-On (SSO)
 
 * [Introduction](intro.md)
 * [Authentication Flow](authentication.md)
