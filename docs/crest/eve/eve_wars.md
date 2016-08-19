@@ -40,10 +40,11 @@ The wars resource allows an application to read wars data.
 
 ```json
 {
+  "id": 42000,
   "timeFinished": "2007-10-29T14:29:00",
   "openForAllies": false,
   "timeStarted": "2007-10-22T13:36:00",
-  "allyCount": 0,
+  "allyCount": 3,
   "timeDeclared": "2007-10-21T13:36:00",
   "aggressor": {
     "shipsKilled": 0,
@@ -55,10 +56,10 @@ The wars resource allows an application to read wars data.
       "href": "http://imageserver.eveonline.com/Alliance/753644383_128.png"
     },
     "id": 753644383,
-    "iskKilled": 0
+    "iskKilled": 0.0
   },
   "mutual": false,
-  "allyCount_str": "0",
+  "allyCount_str": "3",
   "killmails": "https://crest-tq.eveonline.com/wars/42000/killmails/all/",
   "id_str": "42000",
   "defender": {
@@ -71,8 +72,20 @@ The wars resource allows an application to read wars data.
       "href": "http://imageserver.eveonline.com/Alliance/389924442_128.png"
     },
     "id": 389924442,
-    "iskKilled": 0
+    "iskKilled": 0.0
   },
-  "id": 42000
-}
+  "allies":[  
+      {  
+         "id_str":"98414924",
+         "href":"https://crest-tq.eveonline.com/corporations/98414924/",
+         "id":98414924,
+         "name":"Mordu's Foreign Legion",
+         "icon":{  
+            "href":"http://imageserver.eveonline.com/Corporation/98414924_128.png"
+         }
+      },
+      { "..." },
+      { "..." }
+   ]
+  }
 ```
