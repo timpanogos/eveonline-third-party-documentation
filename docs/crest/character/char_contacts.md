@@ -102,22 +102,13 @@ Returns the Location of the newly created contact in the Location header (also w
 }
 ```
 
-## Contact
 ### Route
-``/characters/<characterID:characterIdType>/contact/<contactID:contactIdType>/``
-
-### GET
-* Cache: 5 minutes
-* Scope: `characterContactsRead`
-
-```
-    Not Implemented!
-```
+``/characters/<characterID:characterIdType>/contacts/<contactID:contactIdType>/``
 
 ### PUT
 * Scope: `characterContactsWrite`
 
-Used like adding, just set to the values you want to adjust.
+Adds or updates a contact.
 
 ```json
 {
