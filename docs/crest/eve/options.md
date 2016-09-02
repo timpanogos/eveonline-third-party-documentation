@@ -23,14 +23,4 @@ The EVE root reports the entire tree, however each valid endpoint (see EndpointC
 ### Data
 (TBD)
 
-the following is from logging HTTP OPTIONS call to each endpoint reported by EndpointCollection.
-
-json has been converted to a java Object Graph and I've done a java "toString" on each object graph that was returned. The following is the result.
-
-The purpose here is to give you an idea of the schema information available for me, already in a java friendly form from which I can auto-gen at least the ###Data segments or the entire .md if desired.
-
-scroll through looking for H1 header bolding for a few points of interest
-
-note: schema of schema (2nd representation) was edited out to reduce the size of this information.  It is information that is not interesting for our needs.
-
 

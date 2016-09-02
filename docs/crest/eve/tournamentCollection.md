@@ -34,24 +34,24 @@ This is a proposed template for all endpoints.  Suggested terms using the exampl
 (TBD)
 
 A possible way to display the schema (I prefer this one)
+parse notes: 
+1. take description if given, typePrettyName otherwise
+2. ordering of an objects first level containment is a bit problematic
 
     Tournament
-        long someId
-        UnicodeString someutf8
-        String someString
-        int someInt
-        Array1 arrayOfOrdinal
-		Array2 arrayOfObject
-		Object1 firstLevelObject
-    Array1
-		long
-    Array2
-		Object2
-	Object1
-		long someId
-		Object2 secondLevelObject
-	Object2
-		String someString
+        Long pageCount       // optional, Long (64bit integer)
+        Array[Dict] items    // Array of Dict
+		Long totalCount      // optional Long (64bit integer)
+		ExternalRef next     // optional External reference
+		ExternalRef previous // optional External reference
+    Array[Dict]
+		Object[Ref] href // Link to a tournament resource
+	Ref
+		Uri href	// Uri to Tournament
+		String name // Unicode string (unicode)	
+	ExternalRef
+		Uri href // External reference
+		
 
 Another possible way
 <table border="1">
@@ -60,6 +60,8 @@ Another possible way
       <th>Object</th>
       <th>Type</th>
       <th>Variable</th>
+      <th>Optional</th>
+      <th>Description</th>
     </tr>
     <tr>
       <td>Tournament</td>
