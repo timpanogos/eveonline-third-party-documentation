@@ -2,9 +2,9 @@
 
 * [Alliances and Alliance](eve_alliances.md)
 * [Bloodlines](eve_bloodlines.md)
-* [CallGroups](callGroups.md)
 * [Dogma Attributes and Attribute](eve_dogmaAttributes.md)
 * [Dogma Effects and Effect](eve_dogmaEffects.md)
+* [EndpointCollection](callGroups.md)
 * [Incursions](eve_incursions.md)
 * [Industry Facilities and Facility](eve_industryFacilities.md)
 * [Insurance Prices](eve_insuranceprices.md)
