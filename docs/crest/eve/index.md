@@ -2,6 +2,7 @@
 
 * [Alliances and Alliance](eve_alliances.md)
 * [Bloodlines](eve_bloodlines.md)
+* [CallGroups](callGroups.md)
 * [Dogma Attributes and Attribute](eve_dogmaAttributes.md)
 * [Dogma Effects and Effect](eve_dogmaEffects.md)
 * [Incursions](eve_incursions.md)
@@ -10,7 +11,9 @@
 * [Inventory](eve_inventory.md)
 * [Market](eve_market.md)
 * [Opportunities Tasks and Opportunities Groups](eve_opportunities.md)
+* [Options](options.md)
 * [Races](eve_races.md)
 * [Sovereignty Structures and Campaigns](eve_sovereignty.md)
 * [Time](eve_time.md)
+* [TournamentCollection](tournamentCollection.md)
 * [Wars and War](eve_wars.md)
