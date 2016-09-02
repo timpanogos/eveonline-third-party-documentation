@@ -33,7 +33,27 @@ This is a proposed template for all endpoints.  Suggested terms using the exampl
 ### Data
 (TBD)
 
-A possible way to display the schema
+A possible way to display the schema (I prefer this one)
+
+    Tournament
+        long someId
+        UnicodeString someutf8
+        String someString
+        int someInt
+        Array1 arrayOfOrdinal
+		Array2 arrayOfObject
+		Object1 firstLevelObject
+    Array1
+		long
+    Array2
+		Object2
+	Object1
+		long someId
+		Object2 secondLevelObject
+	Object2
+		String someString
+
+Another possible way
 <table border="1">
   <tbody>
     <tr>
@@ -79,7 +99,7 @@ A possible way to display the schema
     <tr>
       <td></td>
       <td>Object1</td>
-      <td>innerObject1</td>
+      <td>firstLevelObject</td>
     </tr>
     <tr>
       <td>Array1</td>
@@ -118,7 +138,6 @@ A possible way to display the schema
     </tr>
   </tbody>
 </table>
-
 
 ```
    TournamentCollection
