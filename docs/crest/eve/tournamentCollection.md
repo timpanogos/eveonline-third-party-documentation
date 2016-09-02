@@ -32,6 +32,94 @@ This is a proposed template for all endpoints.  Suggested terms using the exampl
 
 ### Data
 (TBD)
+
+A possible way to display the schema
+<table border="1">
+  <tbody>
+    <tr>
+      <th>Object</th>
+      <th>Type</th>
+      <th>Variable</th>
+    </tr>
+    <tr>
+      <td>Tournament</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>long</td>
+      <td>someId</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>UnicodeString</td>
+      <td>someutf8String</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>String</td>
+      <td>someString</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>int</td>
+      <td>someCount</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Array1</td>
+      <td>arrayOfOrdinal</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Array2</td>
+      <td>arrayOfObject</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Object1</td>
+      <td>innerObject1</td>
+    </tr>
+    <tr>
+      <td>Array1</td>
+      <td>long</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Array2</td>
+      <td>Object1</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Object1</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>long</td>
+      <td>someId</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Object2</td>
+      <td>secondLevelObject</td>
+    </tr>
+    <tr>
+      <td>Object2</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>String</td>
+      <td>someString</td>
+    </tr>
+  </tbody>
+</table>
+
+
 ```
    TournamentCollection
   
