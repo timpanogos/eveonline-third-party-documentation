@@ -17,9 +17,13 @@ This endpoint is pageable to be able to handle very large collections of static/
 
 ### Inputs
 `<tournamentID>/series/<seriesID:Long>/matches/<matchID:Long>/static/`
+
 `<tournamentID>/series/<seriesID:Long>/matches/<matchID:Long>/realtime/<frameID:Long>/`
+
+(TBD) page walking id?
  
 ### Cache time
+
 (TBD)
 
 ### Data
