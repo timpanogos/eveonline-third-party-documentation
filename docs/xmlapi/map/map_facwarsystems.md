@@ -38,7 +38,7 @@ Returns a list of contestable solarsystems and the NPC faction currently occupyi
             <td>The unique identification number of a solar system. You can look up the details of the solar system in the table mapSolarSystems of the SDE</td>
         </tr>
         <tr>
-            <td>SolarSystemName</td>
+            <td>solarSystemName</td>
             <td>string</td>
             <td>The name of a solar system.</td>
         </tr>
@@ -49,7 +49,7 @@ Returns a list of contestable solarsystems and the NPC faction currently occupyi
         </tr>
         <tr>
             <td>occupyingFactionName</td>
-            <td>int</td>
+            <td>string</td>
             <td>The name of the occupying NPC Faction.</td>
         </tr>
         <tr>
