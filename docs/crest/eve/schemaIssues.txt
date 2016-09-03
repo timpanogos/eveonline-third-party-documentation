@@ -1,1 +1,16 @@
-EndpointCollection cache time is 20 seconds - expected much longer
+1. EndpointCollection cache time is 20 seconds - expected much longer
+
+2. in the schema of schema application/vnd.ccp.eve.Options-v1+json - 
+   representation 1.  I did not see this "contentType" field in the returned data
+   
+	name: contentType
+	description: null
+	optional: true
+	extraData: null
+	typePrettyName: Dictionary
+	type: Dict
+	
+3. see the options.txt dump, search "look here" and find the "corporations"
+   only the schema representation is returned not the value representation. 
+4. see the options.txt dump, 3rd look here or so.  DecodeToken's two 
+representations are swapped compared to all others I've seen.
