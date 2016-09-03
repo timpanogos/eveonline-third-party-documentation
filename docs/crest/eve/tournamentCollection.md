@@ -4,7 +4,7 @@
 
 (TBD) Based on CCP Bartender's above quote the following is a guess: Given a `seriesID` and a `matchID` along with the `"static"` command The TournamentCollection endpoint returns a collection of static named tournament URI's along with optional `next` and `previous` URL's to other Tournament information web pages.  The `"realtime"` command can be given inplace of the `"static"` command along with a `frameID` to obtain a collection of frame named tournament URI's.  
 
-This endpoint is pageable to be able to handle very large collections of static/realtime named tournament URI's.  If the returned TournamentCollection object contains `pageCount` and `totalCount` fields then the total content can be [walked - yes we need a crest page](../../xmlapi/walking.md).
+This endpoint is pageable to be able to handle very large collections of static/realtime named tournament URI's.  If the returned TournamentCollection object contains `pageCount` and `totalCount` fields then the total content can be walked. (TBD - link to paging description)
 
 ### Accept
 `application/vnd.ccp.eve.TournamentCollection-v1+json`
@@ -41,6 +41,8 @@ This endpoint is pageable to be able to handle very large collections of static/
     ExternalRef
         Uri href // External reference
 		
+### Notes
+1. The json structure is not OOP friendly and will require special attention.
 
   
 

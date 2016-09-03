@@ -20,39 +20,33 @@ None
 
 ### Data
 
-```
-EndpointCollection
-    Long userCount               // Long (64bit integer)
-    String serverVersion;        // Unicode string (unicode)
-    String serverName;           // Unicode string (unicode)
-    String serviceStatus;        // Unicode string (unicode)
-    Array[EndpointGroup] groups; // Array of EndpointGroups
-EndpointGroup
-	String name                 // Unicode string (unicode)
-	Array[Endpoint] endpoints	// Array of Endpoint  
-Endpoint
-	String name // Unicode string (unicode)
-	String uri  // Uri of Endpoint  
+    EndpointCollection
+        Long userCount               // Long (64bit integer)
+        String serverVersion;        // Unicode string (unicode)
+        String serverName;           // Unicode string (unicode)
+        String serviceStatus;        // Unicode string (unicode)
+        Array[EndpointGroup] groups; // Array of EndpointGroups
+    EndpointGroup
+	    String name                 // Unicode string (unicode)
+	    Array[Endpoint] endpoints	// Array of Endpoint  
+    Endpoint
+	    String name // Unicode string (unicode)
+	    String uri  // Uri of Endpoint  
   
-```
-
 ### Notes
-The json structure is inconsistent and may require tweaks for OOP parsers.
+1. The json structure is inconsistent and will require tweaks for OOP parsers.
 
 Variant one
 
-```json
 	groupName: 
 	{
 		"href": "https://crest-tq.eveonline.com/constellations/"
-	},
+	}
 
-```
 
 Variant two
 
-```json
- 	groupName: 
+	groupName: 
 	{
 		endpointName1: 
 		{
@@ -62,6 +56,4 @@ Variant two
 		{
 			"href": "https://crest-tq.eveonline.com/opportunities/groups/"
 		}
-	}, 
-
-``` 
+	}
