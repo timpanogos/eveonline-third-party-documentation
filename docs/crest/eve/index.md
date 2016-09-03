@@ -4,7 +4,7 @@
 * [Bloodlines](eve_bloodlines.md)
 * [Dogma Attributes and Attribute](eve_dogmaAttributes.md)
 * [Dogma Effects and Effect](eve_dogmaEffects.md)
-* [EndpointCollection](callGroups.md)
+* [EndpointCollection](endpointCollection.md)
 * [Incursions](eve_incursions.md)
 * [Industry Facilities and Facility](eve_industryFacilities.md)
 * [Insurance Prices](eve_insuranceprices.md)

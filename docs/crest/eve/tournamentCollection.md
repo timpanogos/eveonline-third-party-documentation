@@ -24,7 +24,7 @@ This endpoint is pageable to be able to handle very large collections of static/
  
 ### Cache time
 
-(TBD)
+300 seconds (5 minutes)
 
 ### Data
     Tournament

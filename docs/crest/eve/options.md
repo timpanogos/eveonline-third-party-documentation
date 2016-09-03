@@ -8,19 +8,47 @@ The EVE root reports the entire tree, however each valid endpoint (see EndpointC
 ### Accept
 `application/vnd.ccp.eve.Api-v5+json`
 
+### Version
+`v5`
+
 ### Route
 `EVE root for a full tree report`
 
 `any valid endpoint for just that object's schema`
 
-
-### Version
-`v5+json`
+### Inputs
+None
 
 ### Cache time
-'300 seconds'
+300 seconds (5 minutes)
 
 ### Data
-(TBD)
+
+```
+Representations
+    Array[Representation]
+Representation
+    String versionStr
+    AcceptType acceptType 
+    String verb           // Unicode string (unicode)
+    int version           // Long (64bit integer)
+    boolean thirdParty    // Boolean value (bool)
+AcceptType
+    String name     // Unicode string (unicode)
+    CcpType ccpType 
+CcpType
+    String name           // Unicode string (unicode)
+    String description    // Unicode string (unicode)
+    boolean optional      // Boolean value (bool)
+    String extraData
+    String typePrettyName // Unicode string (unicode)
+    String type
+    Array[CcpType] children
+        
+```
+
+### Notes
+1. The json structure is not OOP friendly and will require special attention.
+2. This is an custom CCP meta-data format.  For an example of converting this to proper json schema see [crestmatic](http://jimpurbrick.com/crestmatic/) and [crestexplorerjs](http://jimpurbrick.com/crestexplorerjs/#https://crest-tq.eveonline.com/).
 
 

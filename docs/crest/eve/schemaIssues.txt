@@ -1,0 +1,1 @@
+EndpointCollection cache time is 20 seconds - expected much longer
