@@ -66,6 +66,17 @@ industrySystems
 tokenDecode
 virtualGoodStore
 
+12. AllianceCollection first json entry is 'totalCount_str="2988"' totalCount_str 
+is not mentioned in the schema, it comes first.  Why would we have any "_str" on 
+long values anyway? schema indicates "pageCount" should be the first element and 
+be of type long.  The declared 3rd element, id Long is missing.
+12.a Alliance id_str not declared in schema its declared as id Long.  Once again
+out of order.
+12.b pageCount_str not in schema
+
+13. I'm going to assume all the rest are similar to 12 and quit logging them.
+
+14. avoid wrapping simple href's in their own objects. 
 
 
 
