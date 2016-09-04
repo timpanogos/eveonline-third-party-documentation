@@ -11,6 +11,62 @@
 	type: Dict
 	
 3. see the options.txt dump, search "look here" and find the "corporations"
-   only the schema representation is returned not the value representation. 
+   only the schema representation is returned not the value representation.
+    
 4. see the options.txt dump, 3rd look here or so.  DecodeToken's two 
 representations are swapped compared to all others I've seen.
+
+5. route /virtualGoodStore/ reported by EndpointCollection fails the request with
+href: https://vgs-tq.eveonline.com/ HTTP/1.1 405 Method Not Allowed
+
+6. If an endpoints "acceptType->name:" ("Access") base (string short the version) 
+from the schema was included in the EndpointCollection schema an application 
+would not have to kludge up a key to be able to map the two together. 
+
+7. /inventory/types/ reported by EndpointCollection is not found in the schema reported from root
+
+8. naming on decode/TokenDecode is inconsistent in Options verses EndpointCollection - very minor
+
+9. all endpoints should be in a group.  As reported by EndpointCollection the following violate this:
+/alliances/
+/bloodlines/
+/constellations/
+/corporations/ 
+/incursions/
+/insuranceprices/
+/races/
+/regions/
+/solarsystems/
+/time/
+/decode/
+/tournaments/
+/virtualGoodStore/
+/wars/
+
+10. The following are found in current documentation but are not found in the schema or EndpointCollection.  
+Note TokenDecode (per crestexplorerjs) is not a solution as it returns values not schema.  A program should
+be able determine all the endpoints/schema without being authenticated.
+
+Character
+Contacts and Contact
+Fittings and Fitting
+OpportunitiesRead
+Waypoints
+Location
+Open Window
+Planets and Planet
+Stargate
+War  (WarCollection is there but seems incomplete, war is missing)
+
+11. the following are missing from the documentation
+corporations
+npcCorporations
+industryFacilities
+industrySystems
+tokenDecode
+virtualGoodStore
+
+
+
+
+
