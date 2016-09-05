@@ -3,6 +3,7 @@
 * [Introduction](intro.md)
 * [Authentication and Scopes](authentication.md)
 * [Versioning](versioning.md)
+* [Numeric Strings](numeric_strings.md)
 
 ## Calls
 
