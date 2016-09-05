@@ -1,6 +1,7 @@
 This is a proposed template for all endpoints.  Suggested terms using the example of this object:
 
 * schema: obtained with the Options endpoint.
+* endpoint:  The api, method or function.
 * endpoint object:  The root object of the endpoint as reported by the schema.
 * object: any nested object within an endpoint object.
 * accept base: `application/vnd.ccp.eve.TournamentCollection` the UID of the object as obtained from the schema, less the version.
@@ -8,7 +9,8 @@ This is a proposed template for all endpoints.  Suggested terms using the exampl
 * Accept: the UID/version obtained from the schema for this endpoint.  
 * Route: obtained with the EndpointCollection endpoint
 * Version: the version value extracted from the Accept string.
-* Data: a pseudo representation of the returned data based on the schema for this object.  
+* Data: a pseudo representation of the returned data based on the schema for this object.
+  
 
 1. The endpoint's .md name should be endpoint name.
 2. The navigation index should use the endpoint name.
