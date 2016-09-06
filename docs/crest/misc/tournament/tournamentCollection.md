@@ -20,6 +20,8 @@ This is the root-base endpoint for all Tournament functionality.  There are five
 
 * cache time: 300 seconds (5 minutes)
 
+### Model
+
     Tournaments
         Long pageCount
         String pageCountStr
