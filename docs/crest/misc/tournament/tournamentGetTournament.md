@@ -16,13 +16,14 @@ This endpoint returns a tournament object from the requested TournamentId.
 `/tournaments/`
 
 ### Inputs
-/<Long:tournamentId>/
+
+`/<Long:tournamentId>/`
 
 ### Parent Endpoints
 [tournamentCollection](tournamentCollection.md)
 
 ### Children Endpoints
-[tournamentSeriesCollection](tournamentSeriesCollection.md)
+[tournamentGetSeries](tournamentGetSeries.md)
 
 ### Cache time
 
@@ -41,6 +42,29 @@ This endpoint returns a tournament object from the requested TournamentId.
     ExternalRef
         String url
         String linkType
+
+### Sample
+
+    {
+		"series": 
+		{
+			"href": "https://api-sisi.testeveonline.com/tournaments/9/series/"
+		}, 
+		"type": "single-elim", 
+		"name": "Sarum Preliminary", 
+		"entries": 
+		[
+			{
+				"teamStats": 
+				{
+					"href": "https://api-sisi.testeveonline.com/tournaments/9/teams/208/"
+				}, 
+				"href": "https://api-sisi.testeveonline.com/tournaments/teams/208/", 
+				"name": "Mitara Newelle"
+			}, 
+			...
+		]
+	}
         		
 ### Notes
-(TBD)
+(TBD) various href's point to yet more data

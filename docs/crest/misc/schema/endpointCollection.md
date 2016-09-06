@@ -33,8 +33,8 @@ None
 	    String name // Unicode string (unicode)
 	    String uri  // Uri of Endpoint  
   
-### Notes
-1. The json structure is inconsistent and will require tweaks for OOP parsers.
+  
+### Sample
 
 Variant one
 
@@ -42,7 +42,6 @@ Variant one
 	{
 		"href": "https://crest-tq.eveonline.com/constellations/"
 	}
-
 
 Variant two
 
@@ -57,3 +56,8 @@ Variant two
 			"href": "https://crest-tq.eveonline.com/opportunities/groups/"
 		}
 	}
+
+
+### Notes
+1. The json structure is inconsistent and will require tweaks for OOP parsers.
+
