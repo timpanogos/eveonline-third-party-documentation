@@ -12,7 +12,7 @@ This endpoint returns a match object from the requested TournamentId.SeriesId.Ma
 `/tournaments/n/series/n/matches/`
 
 ### Inputs
-/<matchID:Long>/
+/<Long:matchId>/
 
 ### Parent Endpoints
 [tournamentMatchCollection](tournamentMatchCollection.md)

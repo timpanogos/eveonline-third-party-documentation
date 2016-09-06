@@ -12,7 +12,7 @@ This endpoint returns a frame object from the requested TournamentId.SeriesId.Ma
 `/tournaments/n/series/n/matches/n/realtime/`
 
 ### Inputs
-/<frameID:Long>/
+/<Long:frameId>/
 
 ### Parent Endpoints
 [tournamentRealtimeRange](tournamentRealtimeRange.md)

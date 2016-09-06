@@ -5,14 +5,18 @@ This endpoint returns a tournament object from the requested TournamentId.
 ### Accept
 `application/vnd.ccp.eve.TournamentCollection-v1+json`
 
+(TBD) not obtained from schema
+
 ### Version
 `v1`
+
+(TBD) not obtained from schema
 
 ### Route
 `/tournaments/`
 
 ### Inputs
-/<tournamentID:Long>/
+/<Long:tournamentId>/
 
 ### Parent Endpoints
 [tournamentCollection](tournamentCollection.md)
@@ -22,11 +26,21 @@ This endpoint returns a tournament object from the requested TournamentId.
 
 ### Cache time
 
-(TBD) 300 seconds (5 minutes)
+300 seconds (5 minutes)
 
 ### Data
-(TDB)        
+    Series
+        String name
+        String type
+        ExternalRef seriesUrl
+        Array[TeamStats] teamStats; 
+    TeamStats 
+        String name 
+        String teamsUrl
+        ExternalRef matchesUrl 
+    ExternalRef
+        String url
+        String linkType
         		
 ### Notes
 (TBD)
-
