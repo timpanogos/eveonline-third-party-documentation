@@ -1,4 +1,4 @@
-# TournamentCollection-getMatch
+# application/vnd.ccp.eve.TournamentMatch-v1+json
 (TBD)  
 This endpoint returns a match object from the requested TournamentId.SeriesId.MatchId.
 

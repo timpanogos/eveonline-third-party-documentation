@@ -1,12 +1,6 @@
-# TournamentCollection-listMatches
+# application/vnd.ccp.eve.TournamentMatchCollection-v1+json
 (TBD)  
 This endpoint returns a list of matches for a given TournamentId.SeriesId.
-
-### Accept
-`application/vnd.ccp.eve.TournamentCollection-v1+json`
-
-### Version
-`v1`
 
 ### Route
 `/tournaments/n/series/n/`

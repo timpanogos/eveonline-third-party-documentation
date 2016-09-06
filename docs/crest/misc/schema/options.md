@@ -1,9 +1,9 @@
 # Options
-Options is the object returned with an HTTP OPTIONS request of the EVE root entry point which returns a full schema tree defining the object graph currently running and available from EVE.  This includes each endpoints `Accept` string, version and typing of all variables in the model. 
+Options is the object returned with an HTTP OPTIONS request of the CREST root entry point which returns a full schema tree defining the object graph currently running and available from CREST.  This includes each endpoints `Accept` string, version and typing of all variables in the model. 
 
 This object used in connection with the [EndpointCollection](endpointCollection.md) endpoint can be used to write dynamic uri's and endpoint version checking crest clients.
 
-The EVE root reports the entire tree, however each valid endpoint (see EndpointCollection) can be called to report just the schema of that endpoint.  
+The CREST root reports the entire tree, however each valid endpoint (see EndpointCollection) can be called to report just the schema of that endpoint.  
 
 ### Accept
 `application/vnd.ccp.eve.Api-v5+json`
@@ -12,7 +12,7 @@ The EVE root reports the entire tree, however each valid endpoint (see EndpointC
 `v5`
 
 ### Route
-`EVE root for a full tree report`
+`CREST root for a full tree report`
 
 `any valid endpoint for just that object's schema`
 

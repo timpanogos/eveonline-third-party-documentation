@@ -1,16 +1,15 @@
-# TournamentCollection-getTournament
+# application/vnd.ccp.eve.Tournament-v1+json
+
 (TBD)  
-This endpoint returns a tournament object from the requested TournamentId.
+This endpoint returns the tournament object for the requested TournamentId.
 
 ### Accept
-`application/vnd.ccp.eve.TournamentCollection-v1+json`
+
 
 (TBD) not obtained from schema
 
 ### Version
 `v1`
-
-(TBD) not obtained from schema
 
 ### Route
 `/tournaments/`
