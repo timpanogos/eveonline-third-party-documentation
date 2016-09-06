@@ -33,7 +33,6 @@ None
 	    String name // Unicode string (unicode)
 	    String uri  // Uri of Endpoint  
   
-  
 ### Sample
 
 Variant one
@@ -57,7 +56,5 @@ Variant two
 		}
 	}
 
-
 ### Notes
 1. The json structure is inconsistent and will require tweaks for OOP parsers.
-

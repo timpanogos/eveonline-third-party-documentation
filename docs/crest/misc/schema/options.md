@@ -44,7 +44,6 @@ None
         String type
         Array[CcpType] children
         
-
 ### Sample
 
     {
@@ -110,5 +109,3 @@ None
 ### Notes
 1. The json structure is not OOP friendly and will require special attention.
 2. This is a custom CCP meta-data format.  For an example of converting this to proper json schema see [crestmatic](http://jimpurbrick.com/crestmatic/) and [crestexplorerjs](http://jimpurbrick.com/crestexplorerjs/#https://crest-tq.eveonline.com/).
-
-
