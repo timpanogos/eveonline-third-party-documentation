@@ -1,3 +1,3 @@
 # Misc
 
-* [TournamentCollection](./tournament/TournamentCollection.md)
+* [TournamentCollection](tournament/tournamentCollection.md)
