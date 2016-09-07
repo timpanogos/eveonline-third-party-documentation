@@ -9,10 +9,10 @@ This is the root-base endpoint for all Tournament functionality.  There are five
 
 ## Navigation
 
-* `/tournaments/<Long:tournamentId>/series/<Long:seriesId>/matches/<Long:matchId>/realtime/<Long:frameId>/`
+* [group](trounamentGroup.md)
 * [TournamentCollection](tournamentCollection.md) → [Tournament](tournament.md)  → [TournamentSeriesCollection](tournamentSeriesCollection.md) → [TournamentSeries](tournamentSeries.md) → [TournamentMatchCollection](tournamentMatchCollection.md)  
 * next: tournaments[index].tournament.hrefWrapper.tournamentUrl
-* next: Use desired Array[Tournament] index
+* next: Use desired Array[Tournament] index + 1
 * here: https://crest-tq.eveonline.com/tournaments/
 * next: https://crest-tq.eveonline.com/tournaments/1/
 
