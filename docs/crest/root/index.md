@@ -35,7 +35,7 @@
 
 18 [schema](schema/group.md) `https://crest-tq.eveonline.com/schema/`
 
-19 [tournaments](tournaments/group.md) `https://crest-tq.eveonline.com/tournaments/`
+19 [tournaments](tournaments/tournamentGroup.md) `https://crest-tq.eveonline.com/tournaments/`
 
 20 [solarsystems](solarsystems/leaf.md) `https://crest-tq.eveonline.com/solarsystems/`
 
