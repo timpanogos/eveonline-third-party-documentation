@@ -44,4 +44,3 @@
 22 [virtualGoodStore](virtualGoodStore/leaf.md) `https://crest-tq.eveonline.com/virtualGoodStore/`
 
 23 [wars](wars/leaf.md) `https://crest-tq.eveonline.com/wars/`
-
