@@ -1,11 +1,11 @@
-# $title 
+# vnd.ccp.eve.Fleet 
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `$url`
+- **Example URL:** `https://api-sisi.testeveonline.comfleets/0/`
 
 ### Data
 
@@ -48,4 +48,5 @@
 #### Notes
 
 - (TBD).
+
 

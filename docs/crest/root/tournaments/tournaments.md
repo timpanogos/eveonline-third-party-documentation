@@ -1,7 +1,52 @@
-# Group: vnd.ccp.eve.TournamentCollection 
+# vnd.ccp.eve.TournamentCollection 
 
-* https://api-sisi.testeveonline.com/tournaments/ 
+### Description
+(TBD)
 
-* [tournament](tournaments/tournament.md) `application/vnd.ccp.eve.Tournament`
-* [teams](tournaments/teams.md) `application/vnd.ccp.eve.TournamentTeams2(TBD)`
+
+- **Route:** `(TBD)`
+- **Example URL:** `https://api-sisi.testeveonline.com/tournaments/`
+
+### Data
+
+- **Cache:** (TBD)
+- **Scope:** `(TBD)`
+
+### Model
+```
+(TBD)
+```
+
+#### Sample Response
+
+```json
+{
+  "(TBD)": "",
+}
+```
+
+#### Response Description
+
+- `(TBD)name`: .
+
+#### Notes
+
+- (TBD)
+
+### POST
+
+- **Scope:** `(TBD)`
+
+#### Sample Request
+
+```json
+{
+  "(TBD)": "",
+}
+```
+
+#### Notes
+
+- (TBD).
+
 

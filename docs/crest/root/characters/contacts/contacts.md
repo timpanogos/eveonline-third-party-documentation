@@ -1,11 +1,11 @@
-# vnd.ccp.eve.Stargates 
+# vnd.ccp.eve.CharacterContacts 
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `https://api-sisi.testeveonline.com/stargate/`
+- **Example URL:** `https://api-sisi.testeveonline.com/characters/0/contacts/`
 
 ### Data
 

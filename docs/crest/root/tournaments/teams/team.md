@@ -1,11 +1,11 @@
-# vnd.ccp.eve.TournamentTeam(TBD) 
+# vnd.ccp.eve.TournamentTeam2(TBD) 
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `https://api-sisi.testeveonline.com/tournaments/0/teams/0/`
+- **Example URL:** `https://api-sisi.testeveonline.com/tournaments/teams/0/`
 
 ### Data
 

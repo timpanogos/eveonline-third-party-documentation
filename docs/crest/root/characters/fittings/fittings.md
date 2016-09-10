@@ -1,11 +1,11 @@
-# vnd.ccp.eve.PlanetsGroup 
+# vnd.ccp.eve.CharacterFittings 
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `https://api-sisi.testeveonline.com/planets/`
+- **Example URL:** `https://api-sisi.testeveonline.com/characters/0/fittings/`
 
 ### Data
 

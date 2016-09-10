@@ -1,11 +1,11 @@
-# vnd.ccp.eve.PlanetsGroup 
+# vnd.ccp.eve.TournamentMatchRealtime(TBD) 
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `https://api-sisi.testeveonline.com/planets/`
+- **Example URL:** `https://api-sisi.testeveonline.com/tournaments/0/series/0/matches/0/realtime/`
 
 ### Data
 

@@ -1,7 +1,52 @@
-# Group: vnd.ccp.eve.Stargates 
+# vnd.ccp.eve.Stargates 
 
-* https://api-sisi.testeveonline.com/stargate/ 
+### Description
+(TBD)
 
-* [stargates](stargate/stargates.md) `application/vnd.ccp.eve.Stargates`
-* [stargate](stargate/stargate.md) `application/vnd.ccp.eve.Stargate`
+
+- **Route:** `(TBD)`
+- **Example URL:** `https://api-sisi.testeveonline.com/stargate/`
+
+### Data
+
+- **Cache:** (TBD)
+- **Scope:** `(TBD)`
+
+### Model
+```
+(TBD)
+```
+
+#### Sample Response
+
+```json
+{
+  "(TBD)": "",
+}
+```
+
+#### Response Description
+
+- `(TBD)name`: .
+
+#### Notes
+
+- (TBD)
+
+### POST
+
+- **Scope:** `(TBD)`
+
+#### Sample Request
+
+```json
+{
+  "(TBD)": "",
+}
+```
+
+#### Notes
+
+- (TBD).
+
 
