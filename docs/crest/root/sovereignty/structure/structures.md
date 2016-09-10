@@ -1,11 +1,11 @@
-# $title 
+# vnd.ccp.eve.SovStructureCollection 
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `$url`
+- **Example URL:** `https://api-sisi.testeveonline.com/sovereignty/structure/`
 
 ### Data
 
@@ -48,4 +48,5 @@
 #### Notes
 
 - (TBD).
+
 

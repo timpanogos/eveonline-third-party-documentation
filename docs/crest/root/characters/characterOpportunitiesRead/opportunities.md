@@ -1,11 +1,11 @@
-# $title 
+# vnd.ccp.eve.CharacterOpportunities 
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `$url`
+- **Example URL:** `https://api-sisi.testeveonline.com/characters/0/characterOpportunitiesRead/`
 
 ### Data
 
@@ -48,4 +48,5 @@
 #### Notes
 
 - (TBD).
+
 

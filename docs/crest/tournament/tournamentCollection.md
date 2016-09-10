@@ -1,15 +1,12 @@
-# application/vnd.ccp.eve.TournamentCollection-v1+json
+# vnd.ccp.eve.TournamentCollection-v1+json
 
 ## Description
-
->Back in the day (by which I mean late 2013), CCP provided a neat-o set of endpoints that allowed CREST developers to request tick-by-tick gameplay recordings of Alliance Tournament matches, and create visualisation tools to reconstruct and play back AT matches. This functionality broke in early 2014, and has been unusable for two years. They're now back online and ready for use in Alliance Tournament XIV! You can also retrieve the replay data from tournaments that ran while the endpoint was non-operational, for your viewing pleasure.
--CCP Bartender  
 
 This is the root-base endpoint for all Tournament functionality.  There are five nested endpoints under this root-base.
 
 ## Navigation
 
-* [group](trounamentGroup.md)
+* [group](tournamentGroup.md)
 * [TournamentCollection](tournamentCollection.md) → [Tournament](tournament.md)  → [TournamentSeriesCollection](tournamentSeriesCollection.md) → [TournamentSeries](tournamentSeries.md) → [TournamentMatchCollection](tournamentMatchCollection.md)  
 * next: tournaments[index].tournament.hrefWrapper.tournamentUrl
 * next: Use desired Array[Tournament] index + 1

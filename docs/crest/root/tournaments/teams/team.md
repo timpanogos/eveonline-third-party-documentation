@@ -1,11 +1,11 @@
-# $title 
+# vnd.ccp.eve.TournamentTeam(TBD) 
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `$url`
+- **Example URL:** `https://api-sisi.testeveonline.com/tournaments/0/teams/0/`
 
 ### Data
 
@@ -48,4 +48,5 @@
 #### Notes
 
 - (TBD).
+
 

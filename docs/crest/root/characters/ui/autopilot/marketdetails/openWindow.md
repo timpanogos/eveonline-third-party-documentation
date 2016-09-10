@@ -1,11 +1,11 @@
-# $title 
+# vnd.ccp.eve.CharacterOpenWindow 
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `$url`
+- **Example URL:** `https://api-sisi.testeveonline.com/characters/0/ui/openwindow/marketdetails/`
 
 ### Data
 
@@ -48,4 +48,5 @@
 #### Notes
 
 - (TBD).
+
 

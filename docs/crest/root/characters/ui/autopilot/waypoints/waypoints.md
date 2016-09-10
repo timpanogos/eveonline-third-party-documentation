@@ -1,11 +1,11 @@
-# $title 
+# vnd.ccp.eve.CharacterWaypoints 
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `$url`
+- **Example URL:** `https://api-sisi.testeveonline.com/characters/0/ui/autopilot/waypoints/`
 
 ### Data
 
@@ -48,4 +48,5 @@
 #### Notes
 
 - (TBD).
+
 

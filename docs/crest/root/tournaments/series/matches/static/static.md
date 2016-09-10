@@ -1,11 +1,11 @@
-# $title 
+# vnd.ccp.eve.TournamentMatchStatic(TBD) 
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `$url`
+- **Example URL:** `https://api-sisi.testeveonline.com/tournaments/0/series/0/matches/0/static/`
 
 ### Data
 
@@ -48,4 +48,5 @@
 #### Notes
 
 - (TBD).
+
 

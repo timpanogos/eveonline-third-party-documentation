@@ -1,11 +1,11 @@
-# $title 
+# vnd.ccp.eve.FleetSquads(TBD) 
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `$url`
+- **Example URL:** `https://api-sisi.testeveonline.com/fleets/0/wings/0/squads/`
 
 ### Data
 
@@ -48,4 +48,5 @@
 #### Notes
 
 - (TBD).
+
 
