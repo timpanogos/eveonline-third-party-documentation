@@ -1,32 +1,23 @@
+# vnd.ccp.eve.Tournament-v1+json
+
+## Description
+
+## Navigation
+
+* [group](tournamentGroup.md)
+* [Tournament](tournament.md)  → [TournamentSeriesCollection](tournamentSeriesCollection.md) → [TournamentSeries](tournamentSeries.md) → [TournamentMatchCollection](tournamentMatchCollection.md)  
+* next: tournaments[index].tournament.hrefWrapper.tournamentUrl
+* next: Use desired Array[Tournament] index + 1
+* here: https://crest-tq.eveonline.com/tournaments/
+* next: https://crest-tq.eveonline.com/tournaments/1/
 # application/vnd.ccp.eve.Tournament-v1+json
 
 (TBD)  
 This endpoint returns the tournament object for the requested TournamentId.
 
-### Accept
-
-
-(TBD) not obtained from schema
-
-### Version
-`v1`
-
-### Route
-`/tournaments/`
-
-### Inputs
-
-`/<Long:tournamentId>/`
-
-### Parent Endpoints
-[tournamentCollection](tournamentCollection.md)
-
-### Children Endpoints
-[tournamentGetSeries](tournamentGetSeries.md)
-
 ### Cache time
 
-300 seconds (5 minutes)
+* 300 seconds (5 minutes)
 
 ### Data
     Series
