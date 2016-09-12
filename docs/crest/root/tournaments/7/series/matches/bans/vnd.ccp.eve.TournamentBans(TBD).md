@@ -1,20 +1,20 @@
-# $title 
+# Bans 
 
-* post: $cuid  
-* get: $ruid  
-* put: $uuid  
-* delete: $duid  
+* post: n/a  
+* get: vnd.ccp.eve.TournamentBans(TBD)  
+* put: n/a  
+* delete: n/a  
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `$url`
+- **Example URL:** `https://api-sisi.testeveonline.com/tournaments/7/series/0/matches/0/bans/`
 
 ### Data
 
-- **Cache:** $cto
+- **Cache:** (TBD)
 - **Scope:** `(TBD)`
 
 ### Model
@@ -53,5 +53,6 @@
 #### Notes
 
 - (TBD).
+
 
 

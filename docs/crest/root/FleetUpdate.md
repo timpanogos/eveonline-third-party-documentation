@@ -1,20 +1,20 @@
-# $title 
+# Fleets 
 
-* post: $cuid  
-* get: $ruid  
-* put: $uuid  
-* delete: $duid  
+* post: n/a  
+* get: vnd.ccp.eve.Fleet-v1+json  
+* put: vnd.ccp.eve.FleetUpdate-v1+json  
+* delete: n/a  
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `$url`
+- **Example URL:** `https://api-sisi.testeveonline.com/fleets/0/`
 
 ### Data
 
-- **Cache:** $cto
+- **Cache:** (TBD)
 - **Scope:** `(TBD)`
 
 ### Model
@@ -53,5 +53,6 @@
 #### Notes
 
 - (TBD).
+
 
 

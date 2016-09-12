@@ -1,20 +1,20 @@
-# $title 
+# Fitting 
 
-* post: $cuid  
-* get: $ruid  
-* put: $uuid  
-* delete: $duid  
+* post: n/a  
+* get: vnd.ccp.eve.Fitting-v1+json  
+* put: n/a  
+* delete: vnd.ccp.eve.FittingDelete-v1+json  
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `$url`
+- **Example URL:** `https://api-sisi.testeveonline.com/characters/1364371482/fittings/0/`
 
 ### Data
 
-- **Cache:** $cto
+- **Cache:** (TBD)
 - **Scope:** `(TBD)`
 
 ### Model
@@ -53,5 +53,6 @@
 #### Notes
 
 - (TBD).
+
 
 

@@ -1,20 +1,20 @@
-# $title 
+# Facility 
 
-* post: $cuid  
-* get: $ruid  
-* put: $uuid  
-* delete: $duid  
+* post: n/a  
+* get: vnd.ccp.eve.IndustryFacilityCollection-v1+json  
+* put: n/a  
+* delete: n/a  
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `$url`
+- **Example URL:** `https://api-sisi.testeveonline.com/industry/facilities/`
 
 ### Data
 
-- **Cache:** $cto
+- **Cache:** (TBD)
 - **Scope:** `(TBD)`
 
 ### Model
@@ -53,5 +53,6 @@
 #### Notes
 
 - (TBD).
+
 
 

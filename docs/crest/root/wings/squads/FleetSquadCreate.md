@@ -1,20 +1,20 @@
-# $title 
+# Squads 
 
-* post: $cuid  
-* get: $ruid  
-* put: $uuid  
-* delete: $duid  
+* post: vnd.ccp.eve.FleetSquadCreate-v1+json  
+* get: n/a  
+* put: n/a  
+* delete: n/a  
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `$url`
+- **Example URL:** `https://api-sisi.testeveonline.com/fleets/0/wings/0/squads/`
 
 ### Data
 
-- **Cache:** $cto
+- **Cache:** (TBD)
 - **Scope:** `(TBD)`
 
 ### Model
@@ -53,5 +53,6 @@
 #### Notes
 
 - (TBD).
+
 
 
