@@ -630,6 +630,146 @@ Retrieve character notification headers.
             </td>
             <td>FacWar LP Disqualified Kill
             </td></tr>
+        <tr>
+            <td align="right">109
+            </td>
+            <td>Alliance Contract Cancelled
+            </td></tr>
+        <tr>
+            <td align="right">110
+            </td>
+            <td>War Ally Declined Offer
+            </td></tr>
+        <tr>
+            <td align="right">111
+            </td>
+            <td>Your Bounty Was Claimed
+            </td></tr>
+        <tr>
+            <td align="right">112
+            </td>
+            <td>Bounty placed (Char)
+            </td></tr>
+        <tr>
+            <td align="right">113
+            </td>
+            <td>Bounty Placed (Corp)
+            </td></tr>
+        <tr>
+            <td align="right">114
+            </td>
+            <td>Bounty Placed (Alliance)
+            </td></tr>
+        <tr>
+            <td align="right">115
+            </td>
+            <td>Kill Right Available
+            </td></tr>
+        <tr>
+            <td align="right">116
+            </td>
+            <td>Kill right Available Open
+            </td></tr>
+        <tr>
+            <td align="right">117
+            </td>
+            <td>Kill Right Earned
+            </td></tr>
+        <tr>
+            <td align="right">118
+            </td>
+            <td>Kill right Used
+            </td></tr>
+        <tr>
+            <td align="right">119
+            </td>
+            <td>Kill Right Unavailable
+            </td></tr>
+        <tr>
+            <td align="right">120
+            </td>
+            <td>Kill Right Unavailable Open
+            </td></tr>
+        <tr>
+            <td align="right">121
+            </td>
+            <td>Declare War
+            </td></tr>
+        <tr>
+            <td align="right">122
+            </td>
+            <td>Offered Surrender
+            </td></tr>
+        <tr>
+            <td align="right">123
+            </td>
+            <td>Accepted Surrender
+            </td></tr>
+        <tr>
+            <td align="right">124
+            </td>
+            <td>Made War Mutual
+            </td></tr>
+        <tr>
+            <td align="right">125
+            </td>
+            <td>Retracts War
+            </td></tr>
+        <tr>
+            <td align="right">126
+            </td>
+            <td>Offered To Ally
+            </td></tr>
+        <tr>
+            <td align="right">127
+            </td>
+            <td>Accepted Ally
+            </td></tr>
+        <tr>
+            <td align="right">128
+            </td>
+            <td>Character Application Accept
+            </td></tr>
+        <tr>
+            <td align="right">129
+            </td>
+            <td>Character Application Reject
+            </td></tr>
+        <tr>
+            <td align="right">130
+            </td>
+            <td>Character Application Withdraw
+            </td></tr>
+        <tr>
+            <td align="right">138
+            </td>
+            <td>Clone activated
+            </td></tr>   
+        <tr>
+            <td align="right">140
+            </td>
+            <td>Loss report available
+            </td></tr>     
+        <tr>
+            <td align="right">141
+            </td>
+            <td>Kill report available
+            </td></tr>
+        <tr>
+            <td align="right">147
+            </td>
+            <td>Entosis Link started
+            </td></tr>
+        <tr>
+            <td align="right">148
+            </td>
+            <td>Entosis Link enabled a module
+            </td></tr>
+        <tr>
+            <td align="right">149
+            </td>
+            <td>Entosis Link disabled a module
+            </td></tr>
     </tbody>
 </table>
 
