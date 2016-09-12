@@ -89,7 +89,7 @@ Retrieve skills portion of character sheet.
         <tr>
 	    <td></td>
             <td>published</td>
-            <td><strong>int</strong></td>
+            <td><strong>boolean</strong></td>
             <td>0 = unpublished, 1 = published</td>
         </tr>
     </tbody>
