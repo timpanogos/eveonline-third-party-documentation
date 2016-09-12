@@ -8,5 +8,5 @@
 * URL example: `https://api-sisi.testeveonline.com/tournaments/7/series/0/matches/` 
 
 
-* [Match](7/series/matches/0/TournamentMatch.md) `vnd.ccp.eve.TournamentMatch-v1+json`
+* [Match](tournaments/7/series/matches/0/TournamentMatch.md) `vnd.ccp.eve.TournamentMatch-v1+json`
 
