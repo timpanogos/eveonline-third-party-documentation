@@ -100,7 +100,7 @@ Returns available contracts to character.
         </tr>
         <tr>
             <td>forCorp</td>
-            <td>int</td>
+            <td>boolean</td>
             <td>1 if the contract was issued on behalf of the issuer's corporation, 0 otherwise</td>
         </tr>
         <tr>
