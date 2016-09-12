@@ -8,5 +8,5 @@
 * URL example: `https://api-sisi.testeveonline.com/wars/` 
 
 
-* [war](wars/wars/0/War.md) `vnd.ccp.eve.War-v1+json`
+* [war](wars/0/War.md) `vnd.ccp.eve.War-v1+json`
 

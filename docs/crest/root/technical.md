@@ -34,10 +34,6 @@ This section of the documentation is laid out based on the tree like URL structu
 * Fleets
 * ......[Fleet](fleets/id/Fleet.md) `vnd.ccp.eve.Fleet-v1+json`
 * ......[Fleet](fleets/id/FleetUpdate.md) `vnd.ccp.eve.FleetUpdate-v1+json`
-* ......[Fleet](fleets/id/Fleet.md) `vnd.ccp.eve.Fleet-v1+json`
-* ......[Fleet](fleets/id/FleetUpdate.md) `vnd.ccp.eve.FleetUpdate-v1+json`
-* ............[Wings](fleets/id/wings/FleetWingCreate.md) `vnd.ccp.eve.FleetWingCreate-v1+json`
-* ............[Wings](fleets/id/wings/FleetWings.md) `vnd.ccp.eve.FleetWings-v1+json`
 * ............[Wings](fleets/id/wings/FleetWingCreate.md) `vnd.ccp.eve.FleetWingCreate-v1+json`
 * ............[Wings](fleets/id/wings/FleetWings.md) `vnd.ccp.eve.FleetWings-v1+json`
 * ..................Wing
