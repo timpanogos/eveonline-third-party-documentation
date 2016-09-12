@@ -1,7 +1,7 @@
-# Contacts 
+# Frame 
 
-* post: vnd.ccp.eve.ContactCreate-v1+json  
-* get: vnd.ccp.eve.ContactCollection-v2+json  
+* post: n/a  
+* get: vnd.ccp.eve.TournamentRealtimeMatchFrame-v2+json  
 * put: n/a  
 * delete: n/a  
 
@@ -10,7 +10,7 @@
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `https://api-sisi.testeveonline.com/characters/1364371482/contacts/`
+- **Example URL:** `https://api-sisi.testeveonline.com/tournaments/7/series/0/matches/0/realtime/0/`
 
 ### Data
 

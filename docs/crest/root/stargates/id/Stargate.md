@@ -1,7 +1,7 @@
-# Contacts 
+# Stargate 
 
-* post: vnd.ccp.eve.ContactCreate-v1+json  
-* get: vnd.ccp.eve.ContactCollection-v2+json  
+* post: n/a  
+* get: vnd.ccp.eve.Stargate-v1+json  
 * put: n/a  
 * delete: n/a  
 
@@ -10,7 +10,7 @@
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `https://api-sisi.testeveonline.com/characters/1364371482/contacts/`
+- **Example URL:** `https://api-sisi.testeveonline.com/stargates/3875/`
 
 ### Data
 

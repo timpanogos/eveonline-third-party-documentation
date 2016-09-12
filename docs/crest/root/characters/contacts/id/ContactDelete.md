@@ -1,16 +1,16 @@
-# Contacts 
+# Contact 
 
-* post: vnd.ccp.eve.ContactCreate-v1+json  
-* get: vnd.ccp.eve.ContactCollection-v2+json  
-* put: n/a  
-* delete: n/a  
+* post: n/a  
+* get: n/a  
+* put: vnd.ccp.eve.ContactCreate-v1+json  
+* delete: vnd.ccp.eve.ContactDelete-v1+json  
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `https://api-sisi.testeveonline.com/characters/1364371482/contacts/`
+- **Example URL:** `https://api-sisi.testeveonline.com/characters/1364371482/contacts/0/`
 
 ### Data
 

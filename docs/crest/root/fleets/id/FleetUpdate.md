@@ -1,8 +1,8 @@
-# Contacts 
+# Fleet 
 
-* post: vnd.ccp.eve.ContactCreate-v1+json  
-* get: vnd.ccp.eve.ContactCollection-v2+json  
-* put: n/a  
+* post: n/a  
+* get: vnd.ccp.eve.Fleet-v1+json  
+* put: vnd.ccp.eve.FleetUpdate-v1+json  
 * delete: n/a  
 
 ### Description
@@ -10,7 +10,7 @@
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `https://api-sisi.testeveonline.com/characters/1364371482/contacts/`
+- **Example URL:** `https://api-sisi.testeveonline.com/fleets/0/`
 
 ### Data
 
