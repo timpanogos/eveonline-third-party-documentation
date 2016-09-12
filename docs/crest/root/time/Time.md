@@ -14,7 +14,7 @@
 
 ### Data
 
-- **Cache:** (TBD)
+- **Cache:** 10 seconds
 - **Scope:** `(TBD)`
 
 ### Model
