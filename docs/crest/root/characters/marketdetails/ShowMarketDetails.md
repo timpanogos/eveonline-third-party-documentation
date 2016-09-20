@@ -1,6 +1,7 @@
 # MarketDetails 
 
-* post: vnd.ccp.eve.ShowMarketDetails-v1+json  
+###Mime Types
+* post: application/vnd.ccp.eve.ShowMarketDetails-v1+json  
 * get: n/a  
 * put: n/a  
 * delete: n/a  

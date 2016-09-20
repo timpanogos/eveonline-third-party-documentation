@@ -1,7 +1,8 @@
 # Races 
 
+###Mime Types
 * post: n/a  
-* get: vnd.ccp.eve.RaceCollection-v3+json  
+* get: application/vnd.ccp.eve.RaceCollection-v3+json  
 * put: n/a  
 * delete: n/a  
 

@@ -1,7 +1,8 @@
 # Planet 
 
+###Mime Types
 * post: n/a  
-* get: vnd.ccp.eve.Planet-v2+json  
+* get: application/vnd.ccp.eve.Planet-v2+json  
 * put: n/a  
 * delete: n/a  
 

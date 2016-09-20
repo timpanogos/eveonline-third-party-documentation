@@ -1,8 +1,9 @@
 # Fleet 
 
+###Mime Types
 * post: n/a  
-* get: vnd.ccp.eve.Fleet-v1+json  
-* put: vnd.ccp.eve.FleetUpdate-v1+json  
+* get: application/vnd.ccp.eve.Fleet-v1+json  
+* put: application/vnd.ccp.eve.FleetUpdate-v1+json  
 * delete: n/a  
 
 ### Description

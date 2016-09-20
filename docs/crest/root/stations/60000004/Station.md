@@ -1,21 +1,21 @@
-# Contact 
+# Station 
 
 ###Mime Types
 * post: n/a  
-* get: n/a  
-* put: application/vnd.ccp.eve.ContactCreate-v1+json  
-* delete: application/vnd.ccp.eve.ContactDelete-v1+json  
+* get: application/vnd.ccp.eve.Station-v1+json  
+* put: n/a  
+* delete: n/a  
 
 ### Description
 (TBD)
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `https://api-sisi.testeveonline.com/characters/1364371482/contacts/0/`
+- **Example URL:** `https://api-sisi.testeveonline.com/stations/60000004/`
 
 ### Data
 
-- **Cache:** (TBD)
+- **Cache:** 300 seconds
 - **Scope:** `(TBD)`
 
 ### Model

@@ -1,7 +1,8 @@
 # Frame 
 
+###Mime Types
 * post: n/a  
-* get: vnd.ccp.eve.TournamentRealtimeMatchFrame-v2+json  
+* get: application/vnd.ccp.eve.TournamentRealtimeMatchFrame-v2+json  
 * put: n/a  
 * delete: n/a  
 

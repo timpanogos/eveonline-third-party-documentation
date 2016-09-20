@@ -1,7 +1,8 @@
 # Team 
 
+###Mime Types
 * post: n/a  
-* get: vnd.ccp.eve.TournamentTeam-v1+json  
+* get: application/vnd.ccp.eve.TournamentTeam-v1+json  
 * put: n/a  
 * delete: n/a  
 
@@ -10,7 +11,7 @@
 
 
 - **Route:** `(TBD)`
-- **Example URL:** `https://api-sisi.testeveonline.com/tournaments/teams/0/`
+- **Example URL:** `https://api-sisi.testeveonline.com/tournaments/7/teams/0/`
 
 ### Data
 

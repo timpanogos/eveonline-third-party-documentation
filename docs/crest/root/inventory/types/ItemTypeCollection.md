@@ -1,7 +1,8 @@
 # Types 
 
+###Mime Types
 * post: n/a  
-* get: vnd.ccp.eve.ItemTypeCollection-v1+json  
+* get: application/vnd.ccp.eve.ItemTypeCollection-v1+json  
 * put: n/a  
 * delete: n/a  
 

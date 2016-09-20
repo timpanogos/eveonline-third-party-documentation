@@ -1,7 +1,8 @@
 # Contacts 
 
-* post: vnd.ccp.eve.ContactCreate-v1+json  
-* get: vnd.ccp.eve.ContactCollection-v2+json  
+###Mime Types
+* post: application/vnd.ccp.eve.ContactCreate-v1+json  
+* get: application/vnd.ccp.eve.ContactCollection-v2+json  
 * put: n/a  
 * delete: n/a  
 

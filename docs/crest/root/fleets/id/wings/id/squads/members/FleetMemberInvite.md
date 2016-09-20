@@ -1,7 +1,8 @@
 # Members 
 
-* post: vnd.ccp.eve.FleetMemberInvite-v1+json  
-* get: vnd.ccp.eve.FleetMembers-v1+json  
+###Mime Types
+* post: application/vnd.ccp.eve.FleetMemberInvite-v1+json  
+* get: application/vnd.ccp.eve.FleetMembers-v1+json  
 * put: n/a  
 * delete: n/a  
 

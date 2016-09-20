@@ -1,7 +1,8 @@
 # Tournament 
 
+###Mime Types
 * post: n/a  
-* get: vnd.ccp.eve.Tournament-v1+json  
+* get: application/vnd.ccp.eve.Tournament-v1+json  
 * put: n/a  
 * delete: n/a  
 

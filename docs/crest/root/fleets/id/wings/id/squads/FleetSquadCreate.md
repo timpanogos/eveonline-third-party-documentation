@@ -1,6 +1,7 @@
 # Squads 
 
-* post: vnd.ccp.eve.FleetSquadCreate-v1+json  
+###Mime Types
+* post: application/vnd.ccp.eve.FleetSquadCreate-v1+json  
 * get: n/a  
 * put: n/a  
 * delete: n/a  

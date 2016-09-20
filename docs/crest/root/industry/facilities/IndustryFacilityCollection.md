@@ -1,7 +1,8 @@
 # Facility 
 
+###Mime Types
 * post: n/a  
-* get: vnd.ccp.eve.IndustryFacilityCollection-v1+json  
+* get: application/vnd.ccp.eve.IndustryFacilityCollection-v1+json  
 * put: n/a  
 * delete: n/a  
 

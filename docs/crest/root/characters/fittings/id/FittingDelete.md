@@ -1,9 +1,10 @@
 # Fitting 
 
+###Mime Types
 * post: n/a  
-* get: vnd.ccp.eve.Fitting-v1+json  
+* get: application/vnd.ccp.eve.Fitting-v1+json  
 * put: n/a  
-* delete: vnd.ccp.eve.FittingDelete-v1+json  
+* delete: application/vnd.ccp.eve.FittingDelete-v1+json  
 
 ### Description
 (TBD)

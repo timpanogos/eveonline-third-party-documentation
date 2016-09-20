@@ -1,7 +1,8 @@
 # Fittings 
 
-* post: vnd.ccp.eve.FittingCreate-v1+json  
-* get: vnd.ccp.eve.FittingCollection-v1+json  
+###Mime Types
+* post: application/vnd.ccp.eve.FittingCreate-v1+json  
+* get: application/vnd.ccp.eve.FittingCollection-v1+json  
 * put: n/a  
 * delete: n/a  
 

@@ -1,9 +1,10 @@
 # Contact 
 
+###Mime Types
 * post: n/a  
 * get: n/a  
-* put: vnd.ccp.eve.ContactCreate-v1+json  
-* delete: vnd.ccp.eve.ContactDelete-v1+json  
+* put: application/vnd.ccp.eve.ContactCreate-v1+json  
+* delete: application/vnd.ccp.eve.ContactDelete-v1+json  
 
 ### Description
 (TBD)

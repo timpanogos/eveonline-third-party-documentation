@@ -1,7 +1,8 @@
 # Wings 
 
-* post: vnd.ccp.eve.FleetWingCreate-v1+json  
-* get: vnd.ccp.eve.FleetWings-v1+json  
+###Mime Types
+* post: application/vnd.ccp.eve.FleetWingCreate-v1+json  
+* get: application/vnd.ccp.eve.FleetWings-v1+json  
 * put: n/a  
 * delete: n/a  
 

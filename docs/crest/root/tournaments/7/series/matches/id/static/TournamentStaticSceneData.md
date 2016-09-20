@@ -1,7 +1,9 @@
 # Group: Static
 
+###Mime Types
+
 * post: n/a  
-* get: vnd.ccp.eve.TournamentStaticSceneData-v2+json  
+* get: application/vnd.ccp.eve.TournamentStaticSceneData-v2+json  
 * put: n/a  
 * delete: n/a  
 

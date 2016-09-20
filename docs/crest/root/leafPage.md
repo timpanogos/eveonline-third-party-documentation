@@ -1,5 +1,6 @@
 # $title 
 
+###Mime Types
 * post: $cuid  
 * get: $ruid  
 * put: $uuid  

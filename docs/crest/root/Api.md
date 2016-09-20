@@ -1,7 +1,8 @@
 # Endpoints 
 
+###Mime Types
 * post: n/a  
-* get: vnd.ccp.eve.Api-v5+json  
+* get: application/vnd.ccp.eve.Api-v5+json  
 * put: n/a  
 * delete: n/a  
 

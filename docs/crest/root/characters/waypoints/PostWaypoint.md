@@ -1,6 +1,7 @@
 # Waypoints 
 
-* post: vnd.ccp.eve.PostWaypoint-v1+json  
+###Mime Types
+* post: application/vnd.ccp.eve.PostWaypoint-v1+json  
 * get: n/a  
 * put: n/a  
 * delete: n/a  
